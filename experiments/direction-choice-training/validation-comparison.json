@@ -1,0 +1,14 @@
+{
+  "existing_validation": {
+    "episodes": 27,
+    "scans": 7223,
+    "baseline_mae": 0.021820278838276863,
+    "paired_mae": 0.021942999213933945
+  },
+  "paired_validation": {
+    "episodes": 8,
+    "scans": 1621,
+    "baseline_mae": 0.03927876427769661,
+    "paired_mae": 0.01764274388551712
+  }
+}

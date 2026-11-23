@@ -1,0 +1,398 @@
+[
+  {
+    "seed": 1121,
+    "task": 0,
+    "family": "islands",
+    "room_m": [
+      8.11,
+      9.163
+    ],
+    "box_footprints_m": [
+      [
+        0.904,
+        0.643
+      ],
+      [
+        1.0,
+        0.758
+      ],
+      [
+        0.51,
+        0.618
+      ],
+      [
+        0.646,
+        1.048
+      ],
+      [
+        0.555,
+        1.066
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.394
+  },
+  {
+    "seed": 1121,
+    "task": 1,
+    "family": "staggered",
+    "room_m": [
+      7.995,
+      8.529
+    ],
+    "box_footprints_m": [
+      [
+        1.02,
+        0.787
+      ],
+      [
+        1.02,
+        0.527
+      ],
+      [
+        1.234,
+        0.569
+      ],
+      [
+        0.472,
+        0.734
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.378
+  },
+  {
+    "seed": 1121,
+    "task": 2,
+    "family": "furniture",
+    "room_m": [
+      8.317,
+      12.928
+    ],
+    "box_footprints_m": [
+      [
+        2.046,
+        0.502
+      ],
+      [
+        0.905,
+        0.788
+      ],
+      [
+        1.964,
+        1.061
+      ],
+      [
+        1.431,
+        0.839
+      ],
+      [
+        1.945,
+        1.079
+      ],
+      [
+        0.617,
+        0.58
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.367
+  },
+  {
+    "seed": 1121,
+    "task": 3,
+    "family": "islands",
+    "room_m": [
+      7.765,
+      12.084
+    ],
+    "box_footprints_m": [
+      [
+        1.252,
+        0.646
+      ],
+      [
+        0.733,
+        0.584
+      ],
+      [
+        1.136,
+        0.557
+      ],
+      [
+        0.424,
+        0.621
+      ],
+      [
+        0.522,
+        0.629
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.395
+  },
+  {
+    "seed": 1121,
+    "task": 4,
+    "family": "staggered",
+    "room_m": [
+      7.649,
+      8.429
+    ],
+    "box_footprints_m": [
+      [
+        0.568,
+        0.79
+      ],
+      [
+        0.782,
+        0.82
+      ],
+      [
+        1.088,
+        0.766
+      ],
+      [
+        0.936,
+        0.941
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.395
+  },
+  {
+    "seed": 1121,
+    "task": 5,
+    "family": "furniture",
+    "room_m": [
+      7.749,
+      9.596
+    ],
+    "box_footprints_m": [
+      [
+        1.51,
+        0.507
+      ],
+      [
+        1.416,
+        0.59
+      ],
+      [
+        1.449,
+        1.007
+      ],
+      [
+        0.488,
+        0.692
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.391
+  },
+  {
+    "seed": 1122,
+    "task": 0,
+    "family": "islands",
+    "room_m": [
+      7.959,
+      11.737
+    ],
+    "box_footprints_m": [
+      [
+        0.77,
+        0.568
+      ],
+      [
+        0.614,
+        0.702
+      ],
+      [
+        1.234,
+        0.543
+      ],
+      [
+        0.907,
+        0.86
+      ],
+      [
+        0.95,
+        0.859
+      ],
+      [
+        0.873,
+        0.764
+      ],
+      [
+        0.734,
+        0.609
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.393
+  },
+  {
+    "seed": 1122,
+    "task": 1,
+    "family": "staggered",
+    "room_m": [
+      7.844,
+      9.969
+    ],
+    "box_footprints_m": [
+      [
+        0.886,
+        0.712
+      ],
+      [
+        0.859,
+        0.946
+      ],
+      [
+        1.185,
+        0.752
+      ],
+      [
+        0.423,
+        0.606
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.388
+  },
+  {
+    "seed": 1122,
+    "task": 2,
+    "family": "furniture",
+    "room_m": [
+      8.069,
+      9.336
+    ],
+    "box_footprints_m": [
+      [
+        1.887,
+        1.039
+      ],
+      [
+        0.998,
+        0.717
+      ],
+      [
+        1.418,
+        0.991
+      ],
+      [
+        0.854,
+        0.61
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.366
+  },
+  {
+    "seed": 1122,
+    "task": 3,
+    "family": "islands",
+    "room_m": [
+      7.614,
+      11.604
+    ],
+    "box_footprints_m": [
+      [
+        1.118,
+        0.571
+      ],
+      [
+        1.147,
+        0.528
+      ],
+      [
+        1.088,
+        0.74
+      ],
+      [
+        0.733,
+        0.738
+      ],
+      [
+        0.769,
+        0.875
+      ],
+      [
+        0.758,
+        0.621
+      ],
+      [
+        0.802,
+        0.543
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.384
+  },
+  {
+    "seed": 1122,
+    "task": 4,
+    "family": "staggered",
+    "room_m": [
+      7.498,
+      13.159
+    ],
+    "box_footprints_m": [
+      [
+        1.234,
+        0.715
+      ],
+      [
+        0.93,
+        0.748
+      ],
+      [
+        1.039,
+        0.519
+      ],
+      [
+        0.606,
+        0.813
+      ],
+      [
+        1.35,
+        0.688
+      ],
+      [
+        0.651,
+        0.675
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.385
+  },
+  {
+    "seed": 1122,
+    "task": 5,
+    "family": "furniture",
+    "room_m": [
+      7.501,
+      9.236
+    ],
+    "box_footprints_m": [
+      [
+        1.35,
+        1.044
+      ],
+      [
+        0.576,
+        0.519
+      ],
+      [
+        1.853,
+        0.937
+      ],
+      [
+        0.916,
+        0.463
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.372
+  }
+]

@@ -1,0 +1,27 @@
+added 11 paired policy restarts
+large-arena data: 15 training and 3 validation runs
+large-arena data: 12 training and 2 validation runs
+matched 15 normal restarts: 1258 windows, per-run counts [46, 22, 114, 118, 21, 40, 110, 110, 60, 119, 110, 113, 115, 40, 120]
+scan history stride: 1
+train: 157 runs, 38761 samples
+validation: 27 runs, 7223 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [37898, 0, 0, 863]
+validation intent counts [follow, left, right, stop]: [7069, 0, 0, 154]
+repeat-previous-command validation MAE 0.0076
+epoch 01: validation MAE 0.0435, per intent {0: 0.042031340301036835, 3: 0.10999368876218796}
+epoch 02: validation MAE 0.0340, per intent {0: 0.03264175355434418, 3: 0.09568458795547485}
+epoch 03: validation MAE 0.0330, per intent {0: 0.03173748776316643, 3: 0.08958309143781662}
+epoch 04: validation MAE 0.0300, per intent {0: 0.02860242687165737, 3: 0.09181596338748932}
+epoch 05: validation MAE 0.0278, per intent {0: 0.02653566375374794, 3: 0.08591488748788834}
+epoch 06: validation MAE 0.0266, per intent {0: 0.02549297735095024, 3: 0.07938529551029205}
+epoch 07: validation MAE 0.0287, per intent {0: 0.02787959761917591, 3: 0.06682693958282471}
+epoch 08: validation MAE 0.0239, per intent {0: 0.023033147677779198, 3: 0.062157005071640015}
+epoch 09: validation MAE 0.0257, per intent {0: 0.02492625266313553, 3: 0.060145191848278046}
+epoch 10: validation MAE 0.0249, per intent {0: 0.02420041523873806, 3: 0.058553095906972885}
+epoch 11: validation MAE 0.0246, per intent {0: 0.023807227611541748, 3: 0.05984756723046303}
+epoch 12: validation MAE 0.0227, per intent {0: 0.021812884137034416, 3: 0.06339944899082184}
+epoch 13: validation MAE 0.0219, per intent {0: 0.021134324371814728, 3: 0.05516115948557854}
+epoch 14: validation MAE 0.0218, per intent {0: 0.021132931113243103, 3: 0.053371403366327286}
+epoch 15: validation MAE 0.0222, per intent {0: 0.021439265459775925, 3: 0.058707453310489655}
+saved ./experiments/exit-bearing-pilot/exit-model/lower-policy.pt; best teacher-forced validation MAE 0.0218

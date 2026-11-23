@@ -1,0 +1,14 @@
+{
+  "teacher_outcomes": {
+    "normal": {
+      "completed": 6
+    },
+    "policy": {
+      "completed": 6
+    }
+  },
+  "added_training_runs_per_model": 5,
+  "complete_pairs_by_family": {
+    "wall-side": 6
+  }
+}

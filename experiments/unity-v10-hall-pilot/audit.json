@@ -1,0 +1,151 @@
+{
+  "outcomes": {
+    "completed": 24
+  },
+  "placements": {
+    "clear": 12,
+    "clutter04": 6,
+    "clutter06": 2,
+    "clutter05": 2,
+    "clutter07": 2
+  },
+  "scans": 8559,
+  "usable_placements_by_family": {
+    "hall-furniture": {
+      "clear": 4,
+      "clutter04": 3,
+      "clutter06": 1
+    },
+    "hall-islands": {
+      "clear": 4,
+      "clutter05": 2,
+      "clutter07": 2
+    },
+    "hall-staggered": {
+      "clear": 4,
+      "clutter04": 3,
+      "clutter06": 1
+    }
+  },
+  "usable_seed_count": 2,
+  "irregular_intervals": 0,
+  "contact_runs": 0,
+  "invalid_files": [],
+  "complete_pairs": 12,
+  "unmatched_complete_runs": 0,
+  "max_deviation_from_clear_m": {
+    "min": 1.123,
+    "median": 1.4585,
+    "max": 1.6755
+  },
+  "pairs": [
+    {
+      "seed": 1121,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-islands",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 1.1229687276518576,
+      "finish_difference_m": 0.030425092188866694
+    },
+    {
+      "seed": 1121,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-staggered",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 1.6164511015389138,
+      "finish_difference_m": 0.04002984957000485
+    },
+    {
+      "seed": 1121,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-furniture",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 1.675531166276811,
+      "finish_difference_m": 0.04028405709397285
+    },
+    {
+      "seed": 1121,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-islands",
+      "start_difference_m": 1.6200027778774934e-05,
+      "max_deviation_from_clear_m": 1.2201431797408404,
+      "finish_difference_m": 0.029956154532079435
+    },
+    {
+      "seed": 1121,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-staggered",
+      "start_difference_m": 4.724274641624582e-05,
+      "max_deviation_from_clear_m": 1.4814518128643377,
+      "finish_difference_m": 0.03152017837640865
+    },
+    {
+      "seed": 1121,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-furniture",
+      "start_difference_m": 0.00015536096472751576,
+      "max_deviation_from_clear_m": 1.4355108996143415,
+      "finish_difference_m": 0.025358676158713025
+    },
+    {
+      "seed": 1122,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-islands",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 1.2504117929780767,
+      "finish_difference_m": 0.030131201350782903
+    },
+    {
+      "seed": 1122,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-staggered",
+      "start_difference_m": 9.300165185860872e-05,
+      "max_deviation_from_clear_m": 1.5598933655594849,
+      "finish_difference_m": 0.02443339228741888
+    },
+    {
+      "seed": 1122,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-furniture",
+      "start_difference_m": 6.340726003465642e-05,
+      "max_deviation_from_clear_m": 1.4221721592675303,
+      "finish_difference_m": 0.03366858285660527
+    },
+    {
+      "seed": 1122,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-islands",
+      "start_difference_m": 9.14554790541043e-05,
+      "max_deviation_from_clear_m": 1.2488747158778244,
+      "finish_difference_m": 0.033611629004306275
+    },
+    {
+      "seed": 1122,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-staggered",
+      "start_difference_m": 3.3390000000188547e-06,
+      "max_deviation_from_clear_m": 1.5793278901693701,
+      "finish_difference_m": 0.03144887534338967
+    },
+    {
+      "seed": 1122,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-furniture",
+      "start_difference_m": 0.00013828089765402727,
+      "max_deviation_from_clear_m": 1.5159002811560633,
+      "finish_difference_m": 0.03550033042071596
+    }
+  ]
+}

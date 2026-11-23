@@ -1,0 +1,28 @@
+added 11 paired policy restarts
+large-arena data: 15 training and 3 validation runs
+large-arena data: 12 training and 2 validation runs
+direction-choice data: 40 training and 8 validation runs
+matched 15 normal restarts: 1258 windows, per-run counts [46, 22, 114, 118, 21, 40, 110, 110, 60, 119, 110, 113, 115, 40, 120]
+scan history stride: 1
+train: 197 runs, 47165 samples
+validation: 35 runs, 8844 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [46092, 0, 0, 1073]
+validation intent counts [follow, left, right, stop]: [8649, 0, 0, 195]
+repeat-previous-command validation MAE 0.0079
+epoch 01: validation MAE 0.0402, per intent {0: 0.03869214281439781, 3: 0.10831095278263092}
+epoch 02: validation MAE 0.0435, per intent {0: 0.04219447448849678, 3: 0.09930526465177536}
+epoch 03: validation MAE 0.0283, per intent {0: 0.026795513927936554, 3: 0.09674268960952759}
+epoch 04: validation MAE 0.0281, per intent {0: 0.02655787765979767, 3: 0.0956881195306778}
+epoch 05: validation MAE 0.0264, per intent {0: 0.024772606790065765, 3: 0.09781641513109207}
+epoch 06: validation MAE 0.0250, per intent {0: 0.02321830578148365, 3: 0.10298404097557068}
+epoch 07: validation MAE 0.0223, per intent {0: 0.020983491092920303, 3: 0.08247381448745728}
+epoch 08: validation MAE 0.0249, per intent {0: 0.023693395778536797, 3: 0.07643759250640869}
+epoch 09: validation MAE 0.0229, per intent {0: 0.021745270118117332, 3: 0.07466959208250046}
+epoch 10: validation MAE 0.0221, per intent {0: 0.02094316855072975, 3: 0.07445351779460907}
+epoch 11: validation MAE 0.0213, per intent {0: 0.020187053829431534, 3: 0.07201994955539703}
+epoch 12: validation MAE 0.0220, per intent {0: 0.020802972838282585, 3: 0.07431885600090027}
+epoch 13: validation MAE 0.0217, per intent {0: 0.02073756605386734, 3: 0.0654408261179924}
+epoch 14: validation MAE 0.0221, per intent {0: 0.021081574261188507, 3: 0.06778022646903992}
+epoch 15: validation MAE 0.0212, per intent {0: 0.020210178568959236, 3: 0.06305419653654099}
+saved experiments/direction-choice-training/model/lower-policy.pt; best teacher-forced validation MAE 0.0212

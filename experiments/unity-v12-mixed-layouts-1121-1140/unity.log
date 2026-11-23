@@ -1,0 +1,599 @@
+Unity Editor version:    6000.3.27f1 (672d562a42a7)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #43~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Sat Oct 31 06:52:47 UTC 2
+Kernel version:          7.0.0-43-generic
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        31607 MB
+Date:                    2026-11-19T11:14:41Z
+VBCSCompilerServerWatchdog: watching VBCSCompiler (PID 104712)
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Initialize udev device monitor.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-airhood" at "2026-11-19T11:14:41.528108Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+
+COMMAND LINE ARGUMENTS:
+/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Unity
+-batchmode
+-nographics
+-disableAudio
+-projectPath
+/tmp/mini-lidar-unity-v9-paired.AsG0C7
+-logFile
+./experiments/unity-v12-mixed-layouts-1121-1140/unity.log
+-executeMethod
+TeacherBatch.Run
+-teacherCollect
+-teacherFirstSeed
+1121
+-teacherAuditMixed
+-teacherAuditLayouts
+140
+-teacherOutput
+./experiments/unity-v12-mixed-layouts-1121-1140
+Successfully changed project path to: /tmp/mini-lidar-unity-v9-paired.AsG0C7
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              [redacted]
+  Correlation Id:          [redacted]
+  External correlation Id: [redacted]
+  Machine Id:              [redacted]
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-airhood" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-airhood-notifications" at "2026-11-19T11:14:41.531897Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+/tmp/mini-lidar-unity-v9-paired.AsG0C7
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568838208150-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Player connection [130095446022976]  Target information:
+
+Player connection [130095446022976]  * "[IP] <internal-host> [Port] 55505 [Flags] 2 [Guid] 1863956948 [EditorId] 1863956948 [Version] 1048832 [Id] LinuxEditor(16,<internal-host>) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [130095446022976]  * "[IP] <internal-host> [Port] 55505 [Flags] 2 [Guid] 1863956948 [EditorId] 1863956948 [Version] 1048832 [Id] LinuxEditor(16,<internal-host>) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [130095446022976]  * "[IP] <internal-host> [Port] 55505 [Flags] 2 [Guid] 1863956948 [EditorId] 1863956948 [Version] 1048832 [Id] LinuxEditor(16,<internal-host>) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [130095446022976] Host joined multi-casting on [225.0.0.222:54997]...
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+Player connection [130095446022976] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.01s
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-104686" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.27f1 (672d562a42a7)
+[Subsystems] Discovering subsystems at path /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /tmp/mini-lidar-unity-v9-paired.AsG0C7/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = '/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Managed'
+Mono path[1] = '/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56686
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001243 seconds.
+- Loaded All Assemblies, in  0.530 seconds
+Native extension for LinuxStandalone target not found
+Package Manager log level set to [2]
+Native extension for WebGL target not found
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.802 seconds
+Domain Reload Profiling: 4333ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (255ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (155ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (3244ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 63 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.16 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.ai.navigation@d0cf77b009bb)
+    com.unity.collab-proxy@2.13.6 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.26 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.1 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.inputsystem@2436e68c60c4)
+    com.unity.pipeline@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.pipeline@178b93997022)
+    com.unity.sdk.linux-arm64@1.1.1 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.sdk.linux-arm64@5043731cb64f)
+    com.unity.sdk.linux-x86_64@1.1.1 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.sdk.linux-x86_64@920bc08129cd)
+    com.unity.timeline@1.8.13 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.timeline@3a22918286f5)
+    com.unity.toolchain.linux-x86_64-linux@1.1.1 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.toolchain.linux-x86_64-linux@95ffda8fe8d9)
+    com.unity.visualscripting@1.9.12 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.sysroot.base@1.1.1 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.sysroot.base@0a249da1e1ab)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.searcher@4.9.5 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.31 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.burst@bfa84123c21a)
+    com.unity.mathematics@1.3.3 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.7.1 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.collections@88d5bf65ce66)
+    com.unity.test-framework.performance@3.5.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.multiplayer.center@53ad5a5c2bfb)
+    com.unity.render-pipelines.universal@17.3.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.render-pipelines.universal@7a98a42f44e4)
+    com.unity.test-framework@1.6.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.test-framework@0bd5c5194236)
+    com.unity.ugui@2.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.ugui@913db5bdc09c)
+    com.unity.modules.accessibility@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.ext.nunit@ec2d0043d6fc)
+    com.unity.render-pipelines.core@17.3.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.render-pipelines.core@64078f80c815)
+    com.unity.shadergraph@17.3.0 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.shadergraph@6bd59085a05f)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/PackageCache/com.unity.render-pipelines.universal-config@dbe3fd082d8f)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-2345f4e7cfeee11b5b415792e51b1d83
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /tmp/mini-lidar-unity-v9-paired.AsG0C7/
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 58.2444ms
+Starting: /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /tmp/mini-lidar-unity-v9-paired.AsG0C7
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll" in favor of "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+DisplayProgressbar: Compiling Scripts
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@bfa84123c21a/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 55.1853ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 131 defines and 325 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library/Bee/artifacts/2400b0aE.dag/Unity.Collections.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll, with 129 defines and 350 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@bfa84123c21a/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 240.0324ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 536.9187ms
+ExitCode: 0 Duration: 2s67ms
+[703/919    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[911/919    1s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll (+2 others)
+[912/919    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[913/919    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll, with 129 defines and 350 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[914/919    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 131 defines and 325 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.MethodReloadInPlaceILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[915/919    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[916/919    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[917/919    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[918/919    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (2.00 seconds), 9 items updated, 919 evaluated
+AssetDatabase: script compilation time: 2.742116s
+Total cache size 37202816
+Total cache size after purge 37202816, took 00:00:00.0290210
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.012 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Start HTTP server: port:7801
+Pipeline: Descriptor written to /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/Pipeline/.unity-pipeline-port
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.439 seconds
+Domain Reload Profiling: 4450ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (405ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (296ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (3440ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3181ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (2468ms)
+			ProcessInitializeOnLoadMethodAttributes (431ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=061f9a458b307b82abbc6304253eb44f): Total: 8.800 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4700 ms
+		Asset DB Callback time: managed=271 ms, native=14 ms
+		Scripting: domain reloads=1, domain reload time=1012 ms, compile time=2744 ms, other=57 ms
+		Project Asset Count: scripts=1427, non-scripts=2431
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.003ms
+	InvokePackagesCallback: 8.915ms
+	ApplyChangesToAssetFolders: 0.519ms
+	Scan: 815.513ms
+	OnSourceAssetsModified: 1.030ms
+	CategorizeAssetsWithTransientArtifact: 65.774ms
+	ProcessAssetsWithTransientArtifactChanges: 89.955ms
+	CategorizeAssets: 63.004ms
+	ImportOutOfDateAssets: 3455.222ms (706.697ms without children)
+		CompileScripts: 2744.072ms
+		ReloadNativeAssets: 0.033ms
+		UnloadImportedAssets: 2.864ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.769ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.787ms
+	PostProcessAllAssets: 272.017ms
+	Hotreload: 3.716ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 1.235ms
+	PersistCurrentRevisions: 0.175ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 3.508ms
+	Untracked: 4023.365ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 1.849ms
+Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-mini_lidar_car-sim
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7046 unused Assets / (8.6 MB). Loaded Objects now: 7823.
+Memory consumption went from 211.2 MB to 202.6 MB.
+Total: 32.005774 ms (FindLiveObjects: 0.987105 ms CreateObjectMapping: 0.728921 ms MarkObjects: 17.518689 ms  DeleteObjects: 12.768318 ms)
+
+Opening scene 'Assets/Scenes/ManualDrive.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/ManualDrive.unity'
+	Deserialize:            15.174 ms
+	Integration:            281.578 ms
+	Integration of assets:  0.017 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   296.778 ms
+Unloading 2 unused Assets / (1.0 KB). Loaded Objects now: 7879.
+Memory consumption went from 189.1 MB to 189.1 MB.
+Total: 10.751150 ms (FindLiveObjects: 0.526985 ms CreateObjectMapping: 0.201866 ms MarkObjects: 9.988186 ms  DeleteObjects: 0.033386 ms)
+
+
+(process:104686): Gtk-CRITICAL **: 20:14:56.524: gtk_widget_hide: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(process:104686): Gtk-CRITICAL **: 20:14:56.525: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(process:104686): GLib-GObject-CRITICAL **: 20:14:56.525: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Disable old input system
+[Project] Loading completed in 15.018 seconds
+	Project init time: 				14.228 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.233 seconds
+		Asset Database init time: 		0.094 seconds
+		Global illumination init time: 	0.008 seconds
+		Assemblies load time: 			4.349 seconds
+		Unity extensions init time: 	0.012 seconds
+		Asset Database refresh time: 	8.801 seconds
+	Scene opening time: 			0.768 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1795086896526,"processId":104686,"projectLoad":15.017856701,"projectInit":14.227936035,"templateInit":0.0,"packageManagerInit":0.232900771,"assetDatabaseInit":0.093934642,"globalIlluminationInit":0.007578206,"assembliesLoad":4.348595604,"unityExtensionsInit":0.012069854,"assetDatabaseRefresh":8.800679183,"sceneOpening":0.767572195}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1795086896526,"processId":104686,"editorVersion":"6000.3.27f1 (672d562a42a7)","branch":"6000.3/staging","buildType":"Release","platform":"Linux"}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Pipeline Server stopped
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.239 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7801
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Pipeline: Descriptor written to /tmp/mini-lidar-unity-v9-paired.AsG0C7/Library/Pipeline/.unity-pipeline-port
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+- Finished resetting the current domain, in  2.968 seconds
+Domain Reload Profiling: 4213ms
+	BeginReloadAssembly (655ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (460ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (411ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (380ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2969ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (198ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (494ms)
+			ProcessInitializeOnLoadAttributes (1612ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Asset Pipeline Refresh (id=b61a46ba8994a1ee1ab8c2e4eba35543): Total: 4.375 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3078 ms
+		Asset DB Callback time: managed=38 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1256 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1427, non-scripts=2431
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.401ms
+	ApplyChangesToAssetFolders: 0.353ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	CategorizeAssetsWithTransientArtifact: 0.003ms
+	ProcessAssetsWithTransientArtifactChanges: 7.464ms
+	CategorizeAssets: 62.816ms
+	ImportOutOfDateAssets: 2978.517ms (2973.129ms without children)
+		CompileScripts: 1.461ms
+		CollectScriptTypesHashes: 1.456ms
+		ReloadNativeAssets: 1.116ms
+		UnloadImportedAssets: 0.062ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.761ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.532ms
+	PostProcessAllAssets: 38.552ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.229ms
+	UnloadStreamsBegin: 0.083ms
+	PersistCurrentRevisions: 0.179ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 4.735ms
+	Untracked: 1286.221ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            12.302 ms
+	Integration:            631.600 ms
+	Integration of assets:  1.101 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   645.009 ms
+Layout audit finished: 140 accepted, 0 skipped.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+ObstacleTeacher:ExportLayoutAudit (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:169)
+ObstacleTeacher:Start () (at Assets/Scripts/ObstacleTeacher.cs:119)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 169)
+
+[Licensing::Client] Successfully resolved entitlement details
+Pipeline Server stopped
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-airhood-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-airhood channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 1 is unloading
+Cleanup mono
+debugger-agent: Unable to listen on 29
+[Package Manager] Server process was shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795086957563,"processId":104686,"allocatedMemory":11349216,"memoryLabels":[{"Default":24121},{"Permanent":15960},{"Thread":1084616},{"Manager":30381},{"VertexData":8},{"Geometry":408},{"Texture":296},{"Shader":79896},{"Material":24},{"GfxDevice":36040},{"Animation":456},{"Audio":2656},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":264},{"Input":26888},{"JobScheduler":33024},{"TextLib":280},{"Mono":32},{"MonoCode":96},{"ScriptingNativeRuntime":155096},{"BaseObject":1623048},{"Resource":1064},{"Renderer":3000},{"Transform":4717},{"File":3753},{"WebCam":80},{"Culling":32},{"Terrain":11298},{"Wind":24},{"String":24301},{"DynamicArray":113530},{"HashMap":92658},{"Utility":2665952},{"Curl":2511},{"PoolAlloc":1952},{"AI":80},{"TypeTree":14861},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7384},{"Director":8208},{"CloudService":10632},{"WebRequest":9092},{"VR":47754},{"SceneManager":536},{"Video":64},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":17},{"Secure":10161},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57552},{"StaticSafetyDebugInfo":278528},{"Analytics":464},{"Hierarchy":1416},{"CoreStats":13112},{"Identifiers":6480},{"Gui":128},{"EditorUtility":85465},{"VersionControl":4},{"Undo":979},{"AssetDatabase":4696690},{"EditorGi":328},{"UnityConnect":29432},{"Upm":1744},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":202},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2387},{"Licensing":990},{"AssetReference":32},{"IPCStream":32}]}

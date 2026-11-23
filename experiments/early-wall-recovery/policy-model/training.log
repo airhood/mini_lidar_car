@@ -1,0 +1,25 @@
+added 11 paired policy restarts
+matched 15 normal restarts: 1258 windows, per-run counts [46, 22, 114, 118, 21, 40, 110, 110, 60, 119, 110, 113, 115, 40, 120]
+matched 5 policy restarts: 1058 windows, per-run counts [204, 217, 209, 219, 209]
+train: 135 runs, 25133 samples
+validation: 22 runs, 4464 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [24396, 0, 0, 737]
+validation intent counts [follow, left, right, stop]: [4340, 0, 0, 124]
+repeat-previous-command validation MAE 0.0095
+epoch 01: validation MAE 0.0552, per intent {0: 0.05399583280086517, 3: 0.09855678677558899}
+epoch 02: validation MAE 0.0413, per intent {0: 0.0401773601770401, 3: 0.07883460819721222}
+epoch 03: validation MAE 0.0360, per intent {0: 0.03503613919019699, 3: 0.07017848640680313}
+epoch 04: validation MAE 0.0312, per intent {0: 0.030239200219511986, 3: 0.06530138850212097}
+epoch 05: validation MAE 0.0301, per intent {0: 0.028965361416339874, 3: 0.06998027116060257}
+epoch 06: validation MAE 0.0343, per intent {0: 0.03379811346530914, 3: 0.051675643771886826}
+epoch 07: validation MAE 0.0276, per intent {0: 0.026816627010703087, 3: 0.05670144036412239}
+epoch 08: validation MAE 0.0254, per intent {0: 0.024909520521759987, 3: 0.04270922392606735}
+epoch 09: validation MAE 0.0268, per intent {0: 0.026180574670433998, 3: 0.04999365657567978}
+epoch 10: validation MAE 0.0243, per intent {0: 0.02383776195347309, 3: 0.04014802724123001}
+epoch 11: validation MAE 0.0250, per intent {0: 0.02465362846851349, 3: 0.03865775838494301}
+epoch 12: validation MAE 0.0237, per intent {0: 0.023084767162799835, 3: 0.04542969912290573}
+epoch 13: validation MAE 0.0228, per intent {0: 0.02220427431166172, 3: 0.04534049332141876}
+epoch 14: validation MAE 0.0230, per intent {0: 0.02264118194580078, 3: 0.03692181035876274}
+epoch 15: validation MAE 0.0244, per intent {0: 0.024023067206144333, 3: 0.035911284387111664}
+saved ./experiments/early-wall-recovery/policy-model/lower-policy.pt; best teacher-forced validation MAE 0.0228

@@ -1,0 +1,8 @@
+{
+  "source": "mini_lidar_car-sim/Assets/Scripts/GraphFloorPlan.cs",
+  "seed": 1001,
+  "route_clearance_m": 0.4,
+  "geometry_check_only": true,
+  "cases": ["clear corridor", "same corridor with a box on the reference route", "right turn with a box in the exit branch", "fully blocked corridor"],
+  "unity_session_modified": false
+}

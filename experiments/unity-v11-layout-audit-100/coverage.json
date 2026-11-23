@@ -1,0 +1,45 @@
+{
+  "layouts": 100,
+  "skipped_cases": [],
+  "families": {
+    "hall-wings": 34,
+    "hall-partitions": 33,
+    "hall-atrium": 33
+  },
+  "doors": {
+    "2": 34,
+    "3": 33,
+    "4": 33
+  },
+  "initial_detour_heading": {
+    "east": 31,
+    "south": 21,
+    "west": 29,
+    "north": 19
+  },
+  "boxes_per_layout": {
+    "min": 7.0,
+    "median": 10.0,
+    "max": 13.0
+  },
+  "nearest_box_gap_m": {
+    "min": 0.181,
+    "median": 0.525,
+    "max": 3.146
+  },
+  "extra_detour_length_m": {
+    "min": 0.381,
+    "median": 1.19,
+    "max": 5.717
+  },
+  "detour_turns_over_35_deg": {
+    "0": 10,
+    "1": 23,
+    "2": 18,
+    "3": 19,
+    "4": 16,
+    "5": 8,
+    "6": 5,
+    "7": 1
+  }
+}

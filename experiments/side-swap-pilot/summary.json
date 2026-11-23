@@ -1,0 +1,416 @@
+{
+  "teacher-heldout": {
+    "outcomes": {
+      "completed": 20
+    },
+    "passed_box": 20,
+    "correct_side_at_box": 20,
+    "both_runs_completed": 10,
+    "per_side": {
+      "left": {
+        "completed": 10
+      },
+      "right": {
+        "completed": 10
+      }
+    },
+    "cases": {
+      "2550/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.6536864
+      },
+      "2550/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.6536618
+      },
+      "2551/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.543757558
+      },
+      "2551/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.5427084
+      },
+      "2552/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.585300267
+      },
+      "2552/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.584923267
+      },
+      "2553/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.6044923
+      },
+      "2553/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.6046487
+      },
+      "2554/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.6544453
+      },
+      "2554/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.6547302
+      },
+      "2555/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.690112531
+      },
+      "2555/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.688609362
+      },
+      "2556/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.5546734
+      },
+      "2556/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.554227531
+      },
+      "2557/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.5894712
+      },
+      "2557/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.5884588
+      },
+      "2558/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.63127476
+      },
+      "2558/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.633964956
+      },
+      "2559/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.6543953
+      },
+      "2559/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.6544422
+      }
+    }
+  },
+  "lidar": {
+    "outcomes": {
+      "completed": 20
+    },
+    "passed_box": 20,
+    "correct_side_at_box": 20,
+    "both_runs_completed": 10,
+    "per_side": {
+      "left": {
+        "completed": 10
+      },
+      "right": {
+        "completed": 10
+      }
+    },
+    "cases": {
+      "2550/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.639897346
+      },
+      "2550/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.6998475
+      },
+      "2551/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.5113522
+      },
+      "2551/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.615590453
+      },
+      "2552/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.621729553
+      },
+      "2552/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.670794368
+      },
+      "2553/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.5528697
+      },
+      "2553/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.678450942
+      },
+      "2554/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.613639057
+      },
+      "2554/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.635813951
+      },
+      "2555/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.648967147
+      },
+      "2555/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.7320751
+      },
+      "2556/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.5668392
+      },
+      "2556/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.5376941
+      },
+      "2557/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.560987353
+      },
+      "2557/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.6241331
+      },
+      "2558/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.599699557
+      },
+      "2558/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.5850009
+      },
+      "2559/left": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": 0.6281569
+      },
+      "2559/right": {
+        "outcome": "completed",
+        "passed_box": true,
+        "correct_side_at_box": true,
+        "x_at_box_m": -0.677795053
+      }
+    }
+  },
+  "blind": {
+    "outcomes": {
+      "collision": 20
+    },
+    "passed_box": 0,
+    "correct_side_at_box": 0,
+    "both_runs_completed": 0,
+    "per_side": {
+      "left": {
+        "collision": 10
+      },
+      "right": {
+        "collision": 10
+      }
+    },
+    "cases": {
+      "2550/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2550/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2551/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2551/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2552/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2552/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2553/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2553/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2554/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2554/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2555/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2555/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2556/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2556/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2557/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2557/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2558/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2558/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2559/left": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      },
+      "2559/right": {
+        "outcome": "collision",
+        "passed_box": false,
+        "correct_side_at_box": false,
+        "x_at_box_m": null
+      }
+    }
+  }
+}

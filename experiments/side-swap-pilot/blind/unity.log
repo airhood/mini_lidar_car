@@ -1,0 +1,1509 @@
+Unity Editor version:    6000.3.27f1 (672d562a42a7)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #43~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Sat Oct 31 06:52:47 UTC 2
+Kernel version:          7.0.0-43-generic
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        31607 MB
+Date:                    2026-11-20T01:29:28Z
+VBCSCompilerServerWatchdog: watching VBCSCompiler (PID 221446)
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Initialize udev device monitor.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-airhood" at "2026-11-20T01:29:28.246708Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+
+COMMAND LINE ARGUMENTS:
+/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Unity
+-batchmode
+-nographics
+-disableAudio
+-projectPath
+/tmp/mini-lidar-unity-v10-mixed.XJigDX
+-logFile
+./experiments/side-swap-pilot/blind/unity.log
+-executeMethod
+TeacherBatch.RunEvaluation
+-teacherCollect
+-teacherInference
+-teacherSideSwap
+-teacherFirstSeed
+2550
+-teacherSeedCount
+10
+-teacherPolicyName
+blind
+-teacherPolicyWeights
+./experiments/side-swap-pilot/blind/LowerPolicy.bytes
+-teacherOutput
+./experiments/side-swap-pilot/blind/recordings
+-teacherWaypointBlind
+Successfully changed project path to: /tmp/mini-lidar-unity-v10-mixed.XJigDX
+/tmp/mini-lidar-unity-v10-mixed.XJigDX
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              [redacted]
+  Correlation Id:          [redacted]
+  External correlation Id: [redacted]
+  Machine Id:              [redacted]
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-airhood" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-airhood-notifications" at "2026-11-20T01:29:28.250077Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+[Licensing::Client] Successfully resolved entitlement details
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+[Licensing::Module] License group:
+  Id: 14568838208150-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Player connection [124308582648640]  Target information:
+
+Player connection [124308582648640]  * "[IP] <internal-host> [Port] 55506 [Flags] 2 [Guid] 3711533937 [EditorId] 3711533937 [Version] 1048832 [Id] LinuxEditor(16,<internal-host>) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [124308582648640]  * "[IP] <internal-host> [Port] 55506 [Flags] 2 [Guid] 3711533937 [EditorId] 3711533937 [Version] 1048832 [Id] LinuxEditor(16,<internal-host>) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [124308582648640]  * "[IP] <internal-host> [Port] 55506 [Flags] 2 [Guid] 3711533937 [EditorId] 3711533937 [Version] 1048832 [Id] LinuxEditor(16,<internal-host>) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+Player connection [124308582648640] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [124308582648640] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.01s
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-221397" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.27f1 (672d562a42a7)
+[Subsystems] Discovering subsystems at path /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /tmp/mini-lidar-unity-v10-mixed.XJigDX/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = '/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Managed'
+Mono path[1] = '/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56397
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001169 seconds.
+- Loaded All Assemblies, in  0.366 seconds
+Native extension for LinuxStandalone target not found
+Package Manager log level set to [2]
+Native extension for WebGL target not found
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.604 seconds
+Domain Reload Profiling: 4971ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (154ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (4605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (91ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (4233ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 63 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.16 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.ai.navigation@d0cf77b009bb)
+    com.unity.collab-proxy@2.13.6 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.26 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.1 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.inputsystem@2436e68c60c4)
+    com.unity.pipeline@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.pipeline@178b93997022)
+    com.unity.sdk.linux-arm64@1.1.1 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.sdk.linux-arm64@5043731cb64f)
+    com.unity.sdk.linux-x86_64@1.1.1 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.sdk.linux-x86_64@920bc08129cd)
+    com.unity.timeline@1.8.13 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.timeline@3a22918286f5)
+    com.unity.toolchain.linux-x86_64-linux@1.1.1 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.toolchain.linux-x86_64-linux@95ffda8fe8d9)
+    com.unity.visualscripting@1.9.12 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.sysroot.base@1.1.1 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.sysroot.base@0a249da1e1ab)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.searcher@4.9.5 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.31 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.burst@bfa84123c21a)
+    com.unity.mathematics@1.3.3 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.7.1 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.collections@88d5bf65ce66)
+    com.unity.test-framework.performance@3.5.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.multiplayer.center@53ad5a5c2bfb)
+    com.unity.render-pipelines.universal@17.3.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.render-pipelines.universal@7a98a42f44e4)
+    com.unity.test-framework@1.6.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.test-framework@0bd5c5194236)
+    com.unity.ugui@2.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.ugui@913db5bdc09c)
+    com.unity.modules.accessibility@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.ext.nunit@ec2d0043d6fc)
+    com.unity.render-pipelines.core@17.3.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.render-pipelines.core@64078f80c815)
+    com.unity.shadergraph@17.3.0 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.shadergraph@6bd59085a05f)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/PackageCache/com.unity.render-pipelines.universal-config@dbe3fd082d8f)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-96ed9b8dfda0483ef3ce303731d09f17
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /tmp/mini-lidar-unity-v10-mixed.XJigDX/
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 38.1827ms
+Starting: /media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /tmp/mini-lidar-unity-v10-mixed.XJigDX
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll" in favor of "/media/airhood/storage/Unity/Editors/6000.3.27f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@bfa84123c21a/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 38.4819ms
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s222ms
+[705/919    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.19 seconds), 1 items updated, 919 evaluated
+Total cache size 37202816
+AssetDatabase: script compilation time: 0.725029s
+Total cache size after purge 37202816, took 00:00:00.0134736
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.956 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Start HTTP server: port:7801
+Pipeline: Descriptor written to /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/Pipeline/.unity-pipeline-port
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.878 seconds
+Domain Reload Profiling: 4832ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (619ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (264ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (2836ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Asset Pipeline Refresh (id=bb6ecce61819ec419bb62efba4bfd6cb): Total: 6.826 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5002 ms
+		Asset DB Callback time: managed=56 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=956 ms, compile time=727 ms, other=76 ms
+		Project Asset Count: scripts=1427, non-scripts=2432
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.003ms
+	InvokePackagesCallback: 7.340ms
+	ApplyChangesToAssetFolders: 0.594ms
+	Scan: 733.687ms
+	OnSourceAssetsModified: 0.001ms
+	CategorizeAssetsWithTransientArtifact: 53.431ms
+	ProcessAssetsWithTransientArtifactChanges: 75.627ms
+	CategorizeAssets: 52.322ms
+	ImportOutOfDateAssets: 3894.416ms (3163.705ms without children)
+		CompileScripts: 726.514ms
+		ReloadNativeAssets: 0.029ms
+		UnloadImportedAssets: 2.874ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.743ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.551ms
+	PostProcessAllAssets: 57.044ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 1.642ms
+	PersistCurrentRevisions: 0.131ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 2.186ms
+	Untracked: 1949.874ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 2.704ms
+Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-mini_lidar_car-sim
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7046 unused Assets / (8.9 MB). Loaded Objects now: 7831.
+Memory consumption went from 198.3 MB to 189.3 MB.
+Total: 13.156570 ms (FindLiveObjects: 0.445756 ms CreateObjectMapping: 0.308199 ms MarkObjects: 6.909903 ms  DeleteObjects: 5.491744 ms)
+
+Opening scene 'Assets/Scenes/PolicyEvaluation.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/PolicyEvaluation.unity'
+	Deserialize:            19.769 ms
+	Integration:            322.375 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       -0.000 ms
+	Total Operation Time:   342.155 ms
+Unloading 2 unused Assets / (3.6 MB). Loaded Objects now: 7887.
+Memory consumption went from 176.6 MB to 173.0 MB.
+Total: 11.494225 ms (FindLiveObjects: 0.309771 ms CreateObjectMapping: 0.135992 ms MarkObjects: 11.006338 ms  DeleteObjects: 0.041378 ms)
+
+
+(process:221397): Gtk-CRITICAL **: 10:29:41.543: gtk_widget_hide: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(process:221397): Gtk-CRITICAL **: 10:29:41.543: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(process:221397): GLib-GObject-CRITICAL **: 10:29:41.543: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Disable old input system
+[Project] Loading completed in 13.352 seconds
+	Project init time: 				12.718 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.171 seconds
+		Asset Database init time: 		0.083 seconds
+		Global illumination init time: 	0.007 seconds
+		Assemblies load time: 			4.983 seconds
+		Unity extensions init time: 	0.068 seconds
+		Asset Database refresh time: 	6.828 seconds
+	Scene opening time: 			0.578 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1795138181544,"processId":221397,"projectLoad":13.352180807,"projectInit":12.718139728,"templateInit":0.0,"packageManagerInit":0.17103195,"assetDatabaseInit":0.083478437,"globalIlluminationInit":0.007218396,"assembliesLoad":4.983200455,"unityExtensionsInit":0.068081697,"assetDatabaseRefresh":6.828139506,"sceneOpening":0.578146199}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1795138181545,"processId":221397,"editorVersion":"6000.3.27f1 (672d562a42a7)","branch":"6000.3/staging","buildType":"Release","platform":"Linux"}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Pipeline Server stopped
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.056 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7801
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Pipeline: Descriptor written to /tmp/mini-lidar-unity-v10-mixed.XJigDX/Library/Pipeline/.unity-pipeline-port
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+- Finished resetting the current domain, in  2.079 seconds
+Domain Reload Profiling: 3140ms
+	BeginReloadAssembly (544ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (53ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (397ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (301ms)
+			ResolveRequiredComponents (50ms)
+	FinalizeReload (2080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (22ms)
+			BeforeProcessingInitializeOnLoad (406ms)
+			ProcessInitializeOnLoadAttributes (907ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Asset Pipeline Refresh (id=03699bf1d563ebdadba0e7a6d6b4125a): Total: 3.309 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2204 ms
+		Asset DB Callback time: managed=33 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1070 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1427, non-scripts=2432
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.355ms
+	ApplyChangesToAssetFolders: 0.327ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.002ms
+	CategorizeAssetsWithTransientArtifact: 0.002ms
+	ProcessAssetsWithTransientArtifactChanges: 8.446ms
+	CategorizeAssets: 78.698ms
+	ImportOutOfDateAssets: 2088.389ms (2083.448ms without children)
+		CompileScripts: 1.180ms
+		CollectScriptTypesHashes: 1.446ms
+		ReloadNativeAssets: 0.906ms
+		UnloadImportedAssets: 0.086ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.843ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.479ms
+	PostProcessAllAssets: 33.425ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.185ms
+	UnloadStreamsBegin: 0.068ms
+	PersistCurrentRevisions: 0.218ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 4.241ms
+	Untracked: 1099.361ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.968 ms
+	Integration:            622.801 ms
+	Integration of assets:  0.034 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   624.810 ms
+Policy checkpoint: blind (./experiments/side-swap-pilot/blind/LowerPolicy.bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+ObstacleTeacher:LoadPolicy (string,string) (at Assets/Scripts/ObstacleTeacher.cs:350)
+ObstacleTeacher:Start () (at Assets/Scripts/ObstacleTeacher.cs:146)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 350)
+
+Starting 20 teacher episodes. CSV directory: ./experiments/side-swap-pilot/blind/recordings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+ObstacleTeacher:StartCollection (bool) (at Assets/Scripts/ObstacleTeacher.cs:409)
+ObstacleTeacher:Start () (at Assets/Scripts/ObstacleTeacher.cs:171)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 409)
+
+Side swap 2550/left: -1.852,-0.650,3.704,5.354 | -1.852,1.373,2.097,0.562 | exit_z=3.98377824
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:StartCollection (bool) (at Assets/Scripts/ObstacleTeacher.cs:410)
+ObstacleTeacher:Start () (at Assets/Scripts/ObstacleTeacher.cs:171)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[1/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02550-20261120-012945-ed3c281dcb614707a16b8b1b7241150d.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:StartCollection (bool) (at Assets/Scripts/ObstacleTeacher.cs:410)
+ObstacleTeacher:Start () (at Assets/Scripts/ObstacleTeacher.cs:171)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <c43bb38a33aa4619855b7e0f832e798f>:0 
+  at UnityEditor.Search.SearchDatabase+<EnumerateAll>d__83.MoveNext () [0x00106] in /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchDatabase.cs:453 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Boolean& found) [0x00045] in <ac395718a2b54104828026fbc7873d51>:0 
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00000] in <ac395718a2b54104828026fbc7873d51>:0 
+  at UnityEditor.Search.SearchDatabase.GetDefaultSearchDatabase () [0x00001] in /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchDatabase.cs:428 
+  at UnityEditor.Search.SearchInit.IndexationOnStartup () [0x0000c] in /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchInit.cs:109 
+  at UnityEditor.EditorApplication.Internal_CallDelayFunctions () [0x0002c] in /home/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:407 
+
+(Filename: /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchDatabase.cs Line: 453)
+
+Created GICache directory at ~/.cache/unity3d/GiCache. Took: 0.001s, timestamps: [17.423 - 17.424]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[1/20] Saved 43 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02550-20261120-012945-ed3c281dcb614707a16b8b1b7241150d.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2550/right: -1.852,-0.650,3.704,5.354 | -0.246,1.373,2.097,0.562 | exit_z=3.98377824
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[2/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02550-20261120-012946-283d7cd52a7848d6be2252a5def34780.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[2/20] Saved 43 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02550-20261120-012946-283d7cd52a7848d6be2252a5def34780.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2551/left: -1.594,-0.650,3.188,5.725 | -1.594,1.563,1.722,0.793 | exit_z=4.354726
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[3/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02551-20261120-012946-098d571846ba4f329ef42aef5edb9189.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[3/20] Saved 49 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02551-20261120-012946-098d571846ba4f329ef42aef5edb9189.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2551/right: -1.594,-0.650,3.188,5.725 | -0.128,1.563,1.722,0.793 | exit_z=4.354726
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[4/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02551-20261120-012947-07fb5f3c33ba4700a37e74fdd7c687ed.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[4/20] Saved 49 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02551-20261120-012947-07fb5f3c33ba4700a37e74fdd7c687ed.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2552/left: -1.876,-0.650,3.752,5.766 | -1.876,1.754,2.036,0.693 | exit_z=4.395673
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[5/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02552-20261120-012948-a04eb2ecded646cdad4be2d444355981.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[5/20] Saved 56 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02552-20261120-012948-a04eb2ecded646cdad4be2d444355981.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2552/right: -1.876,-0.650,3.752,5.766 | -0.160,1.754,2.036,0.693 | exit_z=4.395673
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[6/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02552-20261120-012948-34b1c238e2e646beae2f83267ce51596.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[6/20] Saved 56 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02552-20261120-012948-34b1c238e2e646beae2f83267ce51596.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2553/left: -1.618,-0.650,3.236,5.807 | -1.618,1.945,1.810,0.594 | exit_z=4.43661976
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[7/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02553-20261120-012949-ed96416dd6b94f50875939b6486a5a16.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[7/20] Saved 63 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02553-20261120-012949-ed96416dd6b94f50875939b6486a5a16.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2553/right: -1.618,-0.650,3.236,5.807 | -0.192,1.945,1.810,0.594 | exit_z=4.43661976
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[8/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02553-20261120-012950-a37bdf3aba5642d89d5dfe77c843e9ab.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[8/20] Saved 63 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02553-20261120-012950-a37bdf3aba5642d89d5dfe77c843e9ab.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2554/left: -1.360,-0.650,2.721,5.528 | -1.360,1.486,1.584,0.825 | exit_z=4.1575675
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[9/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02554-20261120-012951-aab1f9cdcc2a487c9092086941171601.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[9/20] Saved 47 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02554-20261120-012951-aab1f9cdcc2a487c9092086941171601.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2554/right: -1.360,-0.650,2.721,5.528 | -0.224,1.486,1.584,0.825 | exit_z=4.1575675
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[10/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02554-20261120-012951-ad1799cfe928461283ebe4a81648e725.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[10/20] Saved 47 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02554-20261120-012951-ad1799cfe928461283ebe4a81648e725.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2555/left: -1.642,-0.650,3.285,5.569 | -1.642,1.676,1.898,0.725 | exit_z=4.19851446
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[11/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02555-20261120-012952-93b58f95a63e4db585684445655a5175.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[11/20] Saved 53 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02555-20261120-012952-93b58f95a63e4db585684445655a5175.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2555/right: -1.642,-0.650,3.285,5.569 | -0.256,1.676,1.898,0.725 | exit_z=4.19851446
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[12/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02555-20261120-012952-ccd1ac3184ac447cab8baf21b80225c1.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[12/20] Saved 53 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02555-20261120-012952-ccd1ac3184ac447cab8baf21b80225c1.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2556/left: -1.384,-0.650,2.769,5.609 | -1.384,1.867,1.522,0.626 | exit_z=4.239462
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[13/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02556-20261120-012953-30be44dc51b14ec6b60a72ce2bf8ab54.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[13/20] Saved 60 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02556-20261120-012953-30be44dc51b14ec6b60a72ce2bf8ab54.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2556/right: -1.384,-0.650,2.769,5.609 | -0.138,1.867,1.522,0.626 | exit_z=4.239462
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[14/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02556-20261120-012954-bfe615a896384919b60c67132fbdd9c4.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[14/20] Saved 60 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02556-20261120-012954-bfe615a896384919b60c67132fbdd9c4.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2557/left: -1.667,-0.650,3.333,5.000 | -1.667,1.408,1.836,0.527 | exit_z=3.63040924
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[15/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02557-20261120-012955-a0790c382ca442588e9b1fa88d65d934.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[15/20] Saved 44 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02557-20261120-012955-a0790c382ca442588e9b1fa88d65d934.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2557/right: -1.667,-0.650,3.333,5.000 | -0.170,1.408,1.836,0.527 | exit_z=3.63040924
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[16/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02557-20261120-012955-b55b20e274134260940c857358032366.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[16/20] Saved 44 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02557-20261120-012955-b55b20e274134260940c857358032366.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2558/left: -1.409,-0.650,2.817,5.771 | -1.409,1.598,1.610,0.757 | exit_z=4.4013567
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[17/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02558-20261120-012956-07bf7dfd156946ffbee5e94bf3e430fb.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[17/20] Saved 51 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02558-20261120-012956-07bf7dfd156946ffbee5e94bf3e430fb.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2558/right: -1.409,-0.650,2.817,5.771 | -0.202,1.598,1.610,0.757 | exit_z=4.4013567
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[18/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02558-20261120-012956-e1b3e34a7cab450388f379123266942e.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[18/20] Saved 51 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02558-20261120-012956-e1b3e34a7cab450388f379123266942e.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2559/left: -1.691,-0.650,3.382,5.812 | -1.691,1.789,1.925,0.658 | exit_z=4.44230366
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[19/20] Recording drive: policy-blind-sideswap-follow-swapleft-task00-seed02559-20261120-012957-000deef51897410ba7581ed098a32b5a.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[19/20] Saved 57 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapleft-task00-seed02559-20261120-012957-000deef51897410ba7581ed098a32b5a.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Side swap 2559/right: -1.691,-0.650,3.382,5.812 | -0.234,1.789,1.925,0.658 | exit_z=4.44230366
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:590)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 590)
+
+[20/20] Recording drive: policy-blind-sideswap-follow-swapright-task00-seed02559-20261120-012958-a2560a0221ea487a9d5706548302cc97.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StartRecording (string,bool,string,string,System.Func`1<System.ValueTuple`4<UnityEngine.Vector2, UnityEngine.Vector2, bool, bool>>) (at Assets/Scripts/DriveRecorder.cs:94)
+ObstacleTeacher:StartEpisodeRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:736)
+ObstacleTeacher:StartProceduralRecording (string) (at Assets/Scripts/ObstacleTeacher.cs:731)
+ObstacleTeacher:BeginSideSwapEpisode (int,bool) (at Assets/Scripts/ObstacleTeacher.cs:592)
+ObstacleTeacher:TryBeginEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:463)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:417)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 94)
+
+[20/20] Saved 57 scans, 1 collision entries: collision-policy-blind-sideswap-follow-swapright-task00-seed02559-20261120-012958-a2560a0221ea487a9d5706548302cc97.csv
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+DriveRecorder:StopRecording (string) (at Assets/Scripts/DriveRecorder.cs:190)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1003)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/DriveRecorder.cs Line: 190)
+
+Teacher batch finished: 0 saved, 0 skipped, 20 failed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+ObstacleTeacher:AdvanceEpisode (int) (at Assets/Scripts/ObstacleTeacher.cs:424)
+ObstacleTeacher:FinishEpisode (string) (at Assets/Scripts/ObstacleTeacher.cs:1008)
+ObstacleTeacher:FixedUpdate () (at Assets/Scripts/ObstacleTeacher.cs:906)
+
+(Filename: Assets/Scripts/ObstacleTeacher.cs Line: 424)
+
+Pipeline Server stopped
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-airhood-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-airhood channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 1 is unloading
+Cleanup mono
+debugger-agent: Unable to listen on 39
+[Package Manager] Server process was shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795138204645,"processId":221397,"allocatedMemory":11341255,"memoryLabels":[{"Default":24121},{"Permanent":15960},{"Thread":1084616},{"Manager":30413},{"VertexData":8},{"Geometry":408},{"Texture":296},{"Shader":79896},{"Material":24},{"GfxDevice":36040},{"Animation":456},{"Audio":2656},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":264},{"Input":26888},{"JobScheduler":33024},{"TextLib":280},{"Mono":32},{"MonoCode":96},{"ScriptingNativeRuntime":155096},{"BaseObject":1623048},{"Resource":1064},{"Renderer":3000},{"Transform":4717},{"File":3757},{"WebCam":80},{"Culling":32},{"Terrain":11298},{"Wind":24},{"String":24273},{"DynamicArray":113406},{"HashMap":92698},{"Utility":2665952},{"Curl":2511},{"PoolAlloc":1952},{"AI":80},{"TypeTree":5341},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7384},{"Director":8208},{"CloudService":10632},{"WebRequest":9092},{"VR":47754},{"SceneManager":536},{"Video":64},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":17},{"Secure":10161},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57552},{"StaticSafetyDebugInfo":278528},{"Analytics":464},{"Hierarchy":1416},{"CoreStats":13112},{"Identifiers":6480},{"Gui":128},{"EditorUtility":86868},{"VersionControl":4},{"Undo":979},{"AssetDatabase":4696690},{"EditorGi":328},{"UnityConnect":29432},{"Upm":1744},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":202},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2387},{"Licensing":1222},{"AssetReference":32},{"IPCStream":32}]}

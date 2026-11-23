@@ -1,0 +1,7 @@
+train: 27 runs, 10240 samples
+validation: 13 runs, 4542 samples
+train intent counts [follow, left, right, stop]: [7177, 0, 2948, 115]
+validation intent counts [follow, left, right, stop]: [4489, 0, 0, 53]
+repeat-previous-command validation MAE 0.0066
+epoch 01: validation MAE 0.0515, per intent {0: 0.05126512795686722, 3: 0.07334395498037338}
+saved experiments/unity-v12-wall-outline-smoke/lower-policy-smoke.pt; best teacher-forced validation MAE 0.0515

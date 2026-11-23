@@ -1,0 +1,1303 @@
+{
+  "original": {
+    "totals": {
+      "requested": 35,
+      "teacher_completed": 35,
+      "previous": {
+        "completed": 35
+      },
+      "candidate": {
+        "completed": 34,
+        "timeout": 1
+      },
+      "candidate_only_completed": 0,
+      "previous_only_completed": 1
+    },
+    "by_family": {
+      "clear": {
+        "requested": 5,
+        "teacher_completed": 5,
+        "previous": {
+          "completed": 5
+        },
+        "candidate": {
+          "completed": 5
+        }
+      },
+      "corridor-hall": {
+        "requested": 10,
+        "teacher_completed": 10,
+        "previous": {
+          "completed": 10
+        },
+        "candidate": {
+          "completed": 10
+        }
+      },
+      "freestanding": {
+        "requested": 10,
+        "teacher_completed": 10,
+        "previous": {
+          "completed": 10
+        },
+        "candidate": {
+          "completed": 10
+        }
+      },
+      "staggered": {
+        "requested": 10,
+        "teacher_completed": 10,
+        "previous": {
+          "completed": 10
+        },
+        "candidate": {
+          "completed": 9,
+          "timeout": 1
+        }
+      }
+    },
+    "cases": {
+      "3100/6": {
+        "family": "clear",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.081,
+          "last_10s_distance_m": 2.849,
+          "last_10s_mean_forward_command": 0.6272,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.083,
+          "last_10s_distance_m": 2.885,
+          "last_10s_mean_forward_command": 0.6368,
+          "start_heading": 0.0
+        }
+      },
+      "3101/6": {
+        "family": "clear",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.774,
+          "last_10s_distance_m": 2.876,
+          "last_10s_mean_forward_command": 0.6333,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.771,
+          "last_10s_distance_m": 2.892,
+          "last_10s_mean_forward_command": 0.6345,
+          "start_heading": 0.0
+        }
+      },
+      "3102/6": {
+        "family": "clear",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.265,
+          "last_10s_distance_m": 2.868,
+          "last_10s_mean_forward_command": 0.6317,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.266,
+          "last_10s_distance_m": 2.869,
+          "last_10s_mean_forward_command": 0.6295,
+          "start_heading": 0.0
+        }
+      },
+      "3103/6": {
+        "family": "clear",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 3.754,
+          "last_10s_distance_m": 2.814,
+          "last_10s_mean_forward_command": 0.6159,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 3.753,
+          "last_10s_distance_m": 2.85,
+          "last_10s_mean_forward_command": 0.6286,
+          "start_heading": 0.0
+        }
+      },
+      "3104/6": {
+        "family": "clear",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.446,
+          "last_10s_distance_m": 2.826,
+          "last_10s_mean_forward_command": 0.6187,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 0,
+          "furthest_z_m": 4.448,
+          "last_10s_distance_m": 2.875,
+          "last_10s_mean_forward_command": 0.6297,
+          "start_heading": 0.0
+        }
+      },
+      "3100/4": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.571,
+          "last_10s_distance_m": 2.634,
+          "last_10s_mean_forward_command": 0.5761,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.579,
+          "last_10s_distance_m": 2.714,
+          "last_10s_mean_forward_command": 0.5938,
+          "start_heading": 0.0
+        }
+      },
+      "3100/5": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.578,
+          "last_10s_distance_m": 2.672,
+          "last_10s_mean_forward_command": 0.5879,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.579,
+          "last_10s_distance_m": 2.712,
+          "last_10s_mean_forward_command": 0.5977,
+          "start_heading": 0.0
+        }
+      },
+      "3101/4": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.711,
+          "last_10s_distance_m": 2.649,
+          "last_10s_mean_forward_command": 0.581,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.715,
+          "last_10s_distance_m": 2.806,
+          "last_10s_mean_forward_command": 0.6157,
+          "start_heading": 0.0
+        }
+      },
+      "3101/5": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.718,
+          "last_10s_distance_m": 2.618,
+          "last_10s_mean_forward_command": 0.5744,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.719,
+          "last_10s_distance_m": 2.637,
+          "last_10s_mean_forward_command": 0.58,
+          "start_heading": 0.0
+        }
+      },
+      "3102/4": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.114,
+          "last_10s_distance_m": 2.748,
+          "last_10s_mean_forward_command": 0.6053,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.111,
+          "last_10s_distance_m": 2.736,
+          "last_10s_mean_forward_command": 0.5979,
+          "start_heading": 0.0
+        }
+      },
+      "3102/5": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.112,
+          "last_10s_distance_m": 2.708,
+          "last_10s_mean_forward_command": 0.5959,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.112,
+          "last_10s_distance_m": 2.781,
+          "last_10s_mean_forward_command": 0.6087,
+          "start_heading": 0.0
+        }
+      },
+      "3103/4": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.667,
+          "last_10s_distance_m": 2.689,
+          "last_10s_mean_forward_command": 0.5901,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.669,
+          "last_10s_distance_m": 2.774,
+          "last_10s_mean_forward_command": 0.6092,
+          "start_heading": 0.0
+        }
+      },
+      "3103/5": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.671,
+          "last_10s_distance_m": 2.614,
+          "last_10s_mean_forward_command": 0.5726,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.672,
+          "last_10s_distance_m": 2.751,
+          "last_10s_mean_forward_command": 0.6031,
+          "start_heading": 0.0
+        }
+      },
+      "3104/4": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.066,
+          "last_10s_distance_m": 2.641,
+          "last_10s_mean_forward_command": 0.5801,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.064,
+          "last_10s_distance_m": 2.689,
+          "last_10s_mean_forward_command": 0.5899,
+          "start_heading": 0.0
+        }
+      },
+      "3104/5": {
+        "family": "corridor-hall",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.064,
+          "last_10s_distance_m": 2.693,
+          "last_10s_mean_forward_command": 0.5897,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.068,
+          "last_10s_distance_m": 2.818,
+          "last_10s_mean_forward_command": 0.6212,
+          "start_heading": 0.0
+        }
+      },
+      "3100/0": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.879,
+          "last_10s_distance_m": 2.631,
+          "last_10s_mean_forward_command": 0.5752,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.876,
+          "last_10s_distance_m": 2.703,
+          "last_10s_mean_forward_command": 0.5921,
+          "start_heading": 0.0
+        }
+      },
+      "3100/1": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.876,
+          "last_10s_distance_m": 2.673,
+          "last_10s_mean_forward_command": 0.5887,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.876,
+          "last_10s_distance_m": 2.705,
+          "last_10s_mean_forward_command": 0.5927,
+          "start_heading": 0.0
+        }
+      },
+      "3101/0": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.588,
+          "last_10s_distance_m": 2.673,
+          "last_10s_mean_forward_command": 0.588,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.587,
+          "last_10s_distance_m": 2.646,
+          "last_10s_mean_forward_command": 0.5836,
+          "start_heading": 0.0
+        }
+      },
+      "3101/1": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.588,
+          "last_10s_distance_m": 2.595,
+          "last_10s_mean_forward_command": 0.5713,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.586,
+          "last_10s_distance_m": 2.587,
+          "last_10s_mean_forward_command": 0.5698,
+          "start_heading": 0.0
+        }
+      },
+      "3102/0": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.698,
+          "last_10s_distance_m": 2.619,
+          "last_10s_mean_forward_command": 0.5725,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.699,
+          "last_10s_distance_m": 2.682,
+          "last_10s_mean_forward_command": 0.5863,
+          "start_heading": 0.0
+        }
+      },
+      "3102/1": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.698,
+          "last_10s_distance_m": 2.602,
+          "last_10s_mean_forward_command": 0.5698,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.696,
+          "last_10s_distance_m": 2.588,
+          "last_10s_mean_forward_command": 0.569,
+          "start_heading": 0.0
+        }
+      },
+      "3103/0": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.009,
+          "last_10s_distance_m": 2.459,
+          "last_10s_mean_forward_command": 0.5389,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.005,
+          "last_10s_distance_m": 2.678,
+          "last_10s_mean_forward_command": 0.5877,
+          "start_heading": 0.0
+        }
+      },
+      "3103/1": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.004,
+          "last_10s_distance_m": 2.695,
+          "last_10s_mean_forward_command": 0.5921,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.006,
+          "last_10s_distance_m": 2.642,
+          "last_10s_mean_forward_command": 0.5786,
+          "start_heading": 0.0
+        }
+      },
+      "3104/0": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.838,
+          "last_10s_distance_m": 2.632,
+          "last_10s_mean_forward_command": 0.5755,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.838,
+          "last_10s_distance_m": 2.641,
+          "last_10s_mean_forward_command": 0.5775,
+          "start_heading": 0.0
+        }
+      },
+      "3104/1": {
+        "family": "freestanding",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.837,
+          "last_10s_distance_m": 2.629,
+          "last_10s_mean_forward_command": 0.5749,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.838,
+          "last_10s_distance_m": 2.617,
+          "last_10s_mean_forward_command": 0.5764,
+          "start_heading": 0.0
+        }
+      },
+      "3100/2": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 7.108,
+          "last_10s_distance_m": 2.586,
+          "last_10s_mean_forward_command": 0.5704,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 7.112,
+          "last_10s_distance_m": 2.662,
+          "last_10s_mean_forward_command": 0.5873,
+          "start_heading": 0.0
+        }
+      },
+      "3100/3": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 7.111,
+          "last_10s_distance_m": 2.619,
+          "last_10s_mean_forward_command": 0.5768,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "timeout",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.986,
+          "last_10s_distance_m": 0.124,
+          "last_10s_mean_forward_command": -0.0017,
+          "start_heading": 0.0
+        }
+      },
+      "3101/2": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.801,
+          "last_10s_distance_m": 2.567,
+          "last_10s_mean_forward_command": 0.5658,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.802,
+          "last_10s_distance_m": 2.541,
+          "last_10s_mean_forward_command": 0.559,
+          "start_heading": 0.0
+        }
+      },
+      "3101/3": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.8,
+          "last_10s_distance_m": 2.53,
+          "last_10s_mean_forward_command": 0.5581,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.799,
+          "last_10s_distance_m": 2.547,
+          "last_10s_mean_forward_command": 0.5565,
+          "start_heading": 0.0
+        }
+      },
+      "3102/2": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 7.053,
+          "last_10s_distance_m": 2.521,
+          "last_10s_mean_forward_command": 0.5523,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 7.051,
+          "last_10s_distance_m": 2.626,
+          "last_10s_mean_forward_command": 0.5744,
+          "start_heading": 0.0
+        }
+      },
+      "3102/3": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 7.055,
+          "last_10s_distance_m": 2.653,
+          "last_10s_mean_forward_command": 0.5831,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 7.055,
+          "last_10s_distance_m": 2.647,
+          "last_10s_mean_forward_command": 0.583,
+          "start_heading": 0.0
+        }
+      },
+      "3103/2": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.746,
+          "last_10s_distance_m": 2.562,
+          "last_10s_mean_forward_command": 0.5603,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.745,
+          "last_10s_distance_m": 2.765,
+          "last_10s_mean_forward_command": 0.6118,
+          "start_heading": 0.0
+        }
+      },
+      "3103/3": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.744,
+          "last_10s_distance_m": 2.536,
+          "last_10s_mean_forward_command": 0.5554,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.744,
+          "last_10s_distance_m": 2.562,
+          "last_10s_mean_forward_command": 0.5621,
+          "start_heading": 0.0
+        }
+      },
+      "3104/2": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.756,
+          "last_10s_distance_m": 2.569,
+          "last_10s_mean_forward_command": 0.5654,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.756,
+          "last_10s_distance_m": 2.69,
+          "last_10s_mean_forward_command": 0.59,
+          "start_heading": 0.0
+        }
+      },
+      "3104/3": {
+        "family": "staggered",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.758,
+          "last_10s_distance_m": 2.617,
+          "last_10s_mean_forward_command": 0.573,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.752,
+          "last_10s_distance_m": 2.684,
+          "last_10s_mean_forward_command": 0.5893,
+          "start_heading": 0.0
+        }
+      }
+    }
+  },
+  "new": {
+    "totals": {
+      "requested": 24,
+      "teacher_completed": 24,
+      "previous": {
+        "timeout": 7,
+        "collision": 6,
+        "completed": 11
+      },
+      "candidate": {
+        "completed": 17,
+        "collision": 5,
+        "timeout": 2
+      },
+      "candidate_only_completed": 8,
+      "previous_only_completed": 2
+    },
+    "by_family": {
+      "angled-entry": {
+        "requested": 8,
+        "teacher_completed": 8,
+        "previous": {
+          "collision": 1,
+          "timeout": 3,
+          "completed": 4
+        },
+        "candidate": {
+          "completed": 8
+        }
+      },
+      "short-gap": {
+        "requested": 8,
+        "teacher_completed": 8,
+        "previous": {
+          "completed": 4,
+          "collision": 3,
+          "timeout": 1
+        },
+        "candidate": {
+          "completed": 7,
+          "collision": 1
+        }
+      },
+      "wall-side": {
+        "requested": 8,
+        "teacher_completed": 8,
+        "previous": {
+          "completed": 3,
+          "collision": 2,
+          "timeout": 3
+        },
+        "candidate": {
+          "completed": 2,
+          "collision": 4,
+          "timeout": 2
+        }
+      }
+    },
+    "cases": {
+      "4500/2": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "collision",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.402,
+          "last_10s_distance_m": 2.02,
+          "last_10s_mean_forward_command": 0.446,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.026,
+          "last_10s_distance_m": 2.464,
+          "last_10s_mean_forward_command": 0.5398,
+          "start_heading": 0.0
+        }
+      },
+      "4500/3": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "timeout",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.368,
+          "last_10s_distance_m": 1.163,
+          "last_10s_mean_forward_command": 0.2447,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 7.031,
+          "last_10s_distance_m": 2.731,
+          "last_10s_mean_forward_command": 0.5978,
+          "start_heading": 0.0
+        }
+      },
+      "4501/2": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "timeout",
+          "boxes_cleared": 2,
+          "furthest_z_m": 5.943,
+          "last_10s_distance_m": 1.532,
+          "last_10s_mean_forward_command": 0.3328,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.708,
+          "last_10s_distance_m": 2.57,
+          "last_10s_mean_forward_command": 0.5608,
+          "start_heading": 0.0
+        }
+      },
+      "4501/3": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.706,
+          "last_10s_distance_m": 2.515,
+          "last_10s_mean_forward_command": 0.55,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.709,
+          "last_10s_distance_m": 2.553,
+          "last_10s_mean_forward_command": 0.5611,
+          "start_heading": 0.0
+        }
+      },
+      "4502/2": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.723,
+          "last_10s_distance_m": 2.712,
+          "last_10s_mean_forward_command": 0.5949,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.721,
+          "last_10s_distance_m": 2.46,
+          "last_10s_mean_forward_command": 0.5394,
+          "start_heading": 0.0
+        }
+      },
+      "4502/3": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.722,
+          "last_10s_distance_m": 2.703,
+          "last_10s_mean_forward_command": 0.5933,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.724,
+          "last_10s_distance_m": 2.637,
+          "last_10s_mean_forward_command": 0.5796,
+          "start_heading": 0.0
+        }
+      },
+      "4503/2": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.399,
+          "last_10s_distance_m": 2.678,
+          "last_10s_mean_forward_command": 0.5906,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.397,
+          "last_10s_distance_m": 2.768,
+          "last_10s_mean_forward_command": 0.6081,
+          "start_heading": 0.0
+        }
+      },
+      "4503/3": {
+        "family": "angled-entry",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "timeout",
+          "boxes_cleared": 2,
+          "furthest_z_m": 5.605,
+          "last_10s_distance_m": 1.041,
+          "last_10s_mean_forward_command": 0.2144,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 2,
+          "furthest_z_m": 6.402,
+          "last_10s_distance_m": 2.573,
+          "last_10s_mean_forward_command": 0.5655,
+          "start_heading": 0.0
+        }
+      },
+      "4500/0": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.973,
+          "last_10s_distance_m": 2.56,
+          "last_10s_mean_forward_command": 0.5614,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.972,
+          "last_10s_distance_m": 2.497,
+          "last_10s_mean_forward_command": 0.5475,
+          "start_heading": 0.0
+        }
+      },
+      "4500/1": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "collision",
+          "boxes_cleared": 3,
+          "furthest_z_m": 5.668,
+          "last_10s_distance_m": 1.927,
+          "last_10s_mean_forward_command": 0.4029,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.967,
+          "last_10s_distance_m": 2.544,
+          "last_10s_mean_forward_command": 0.5555,
+          "start_heading": 0.0
+        }
+      },
+      "4501/0": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.612,
+          "last_10s_distance_m": 2.68,
+          "last_10s_mean_forward_command": 0.5913,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.615,
+          "last_10s_distance_m": 2.473,
+          "last_10s_mean_forward_command": 0.5434,
+          "start_heading": 0.0
+        }
+      },
+      "4501/1": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.767,
+          "last_10s_distance_m": 1.929,
+          "last_10s_mean_forward_command": 0.4162,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.613,
+          "last_10s_distance_m": 2.777,
+          "last_10s_mean_forward_command": 0.6139,
+          "start_heading": 0.0
+        }
+      },
+      "4502/0": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "collision",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.703,
+          "last_10s_distance_m": 1.71,
+          "last_10s_mean_forward_command": 0.3682,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.821,
+          "last_10s_distance_m": 2.508,
+          "last_10s_mean_forward_command": 0.5481,
+          "start_heading": 0.0
+        }
+      },
+      "4502/1": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "collision",
+          "boxes_cleared": 3,
+          "furthest_z_m": 5.435,
+          "last_10s_distance_m": 1.839,
+          "last_10s_mean_forward_command": 0.3816,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.818,
+          "last_10s_distance_m": 2.557,
+          "last_10s_mean_forward_command": 0.5607,
+          "start_heading": 0.0
+        }
+      },
+      "4503/0": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "timeout",
+          "boxes_cleared": 2,
+          "furthest_z_m": 4.39,
+          "last_10s_distance_m": 0.946,
+          "last_10s_mean_forward_command": 0.1931,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.82,
+          "last_10s_distance_m": 2.434,
+          "last_10s_mean_forward_command": 0.5357,
+          "start_heading": 0.0
+        }
+      },
+      "4503/1": {
+        "family": "short-gap",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 4,
+          "furthest_z_m": 7.816,
+          "last_10s_distance_m": 2.335,
+          "last_10s_mean_forward_command": 0.5106,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.754,
+          "last_10s_distance_m": 1.699,
+          "last_10s_mean_forward_command": 0.3494,
+          "start_heading": 0.0
+        }
+      },
+      "4500/4": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.935,
+          "last_10s_distance_m": 2.457,
+          "last_10s_mean_forward_command": 0.541,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.93,
+          "last_10s_distance_m": 2.484,
+          "last_10s_mean_forward_command": 0.5436,
+          "start_heading": 0.0
+        }
+      },
+      "4500/5": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.938,
+          "last_10s_distance_m": 2.536,
+          "last_10s_mean_forward_command": 0.5582,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.936,
+          "last_10s_distance_m": 2.511,
+          "last_10s_mean_forward_command": 0.5512,
+          "start_heading": 0.0
+        }
+      },
+      "4501/4": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.635,
+          "last_10s_distance_m": 1.797,
+          "last_10s_mean_forward_command": 0.3868,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.726,
+          "last_10s_distance_m": 0.844,
+          "last_10s_mean_forward_command": 0.1701,
+          "start_heading": 0.0
+        }
+      },
+      "4501/5": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "timeout",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.649,
+          "last_10s_distance_m": 0.425,
+          "last_10s_mean_forward_command": -0.0425,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.558,
+          "last_10s_distance_m": 1.833,
+          "last_10s_mean_forward_command": 0.3965,
+          "start_heading": 0.0
+        }
+      },
+      "4502/4": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.609,
+          "last_10s_distance_m": 1.805,
+          "last_10s_mean_forward_command": 0.3896,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "timeout",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.7,
+          "last_10s_distance_m": 0.118,
+          "last_10s_mean_forward_command": -0.0007,
+          "start_heading": 0.0
+        }
+      },
+      "4502/5": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "completed",
+          "boxes_cleared": 3,
+          "furthest_z_m": 6.955,
+          "last_10s_distance_m": 1.294,
+          "last_10s_mean_forward_command": 0.2746,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.615,
+          "last_10s_distance_m": 1.853,
+          "last_10s_mean_forward_command": 0.4011,
+          "start_heading": 0.0
+        }
+      },
+      "4503/4": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "timeout",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.696,
+          "last_10s_distance_m": 0.155,
+          "last_10s_mean_forward_command": 0.0031,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "timeout",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.604,
+          "last_10s_distance_m": 0.826,
+          "last_10s_mean_forward_command": 0.1768,
+          "start_heading": 0.0
+        }
+      },
+      "4503/5": {
+        "family": "wall-side",
+        "teacher": "completed",
+        "previous": {
+          "outcome": "timeout",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.7,
+          "last_10s_distance_m": 0.224,
+          "last_10s_mean_forward_command": -0.0373,
+          "start_heading": 0.0
+        },
+        "candidate": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 2.662,
+          "last_10s_distance_m": 0.758,
+          "last_10s_mean_forward_command": 0.1543,
+          "start_heading": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "previous": {
+    "teacher_completed": 10,
+    "forward_after_door": {
+      "outcomes": {
+        "collision": 3,
+        "completed": 7
+      },
+      "doors_cleared": [
+        9,
+        8
+      ],
+      "completed_after_second_door": 7,
+      "cases": {
+        "6400/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 12.661,
+          "last_10s_distance_m": 2.769,
+          "last_10s_mean_forward_command": 0.6081,
+          "start_heading": -13.2391663
+        },
+        "6400/1": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 5.144,
+          "last_10s_distance_m": 1.51,
+          "last_10s_mean_forward_command": 0.3162,
+          "start_heading": -23.5862522
+        },
+        "6401/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.938,
+          "last_10s_distance_m": 2.87,
+          "last_10s_mean_forward_command": 0.6297,
+          "start_heading": 28.8001347
+        },
+        "6401/1": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 15.351,
+          "last_10s_distance_m": 2.876,
+          "last_10s_mean_forward_command": 0.6299,
+          "start_heading": 18.8419838
+        },
+        "6401/2": {
+          "outcome": "collision",
+          "boxes_cleared": 6,
+          "furthest_z_m": 8.474,
+          "last_10s_distance_m": 1.739,
+          "last_10s_mean_forward_command": 0.3705,
+          "start_heading": 30.0000076
+        },
+        "6402/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.709,
+          "last_10s_distance_m": 2.886,
+          "last_10s_mean_forward_command": 0.6362,
+          "start_heading": -17.5433578
+        },
+        "6402/1": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.132,
+          "last_10s_distance_m": 2.843,
+          "last_10s_mean_forward_command": 0.6237,
+          "start_heading": -27.8666763
+        },
+        "6402/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.549,
+          "last_10s_distance_m": 2.668,
+          "last_10s_mean_forward_command": 0.5857,
+          "start_heading": -20.1812725
+        },
+        "6403/0": {
+          "outcome": "collision",
+          "boxes_cleared": 4,
+          "furthest_z_m": 10.018,
+          "last_10s_distance_m": 1.893,
+          "last_10s_mean_forward_command": 0.4114,
+          "start_heading": 24.66422
+        },
+        "6403/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.328,
+          "last_10s_distance_m": 2.908,
+          "last_10s_mean_forward_command": 0.6423,
+          "start_heading": 27.94863
+        }
+      }
+    },
+    "exit_bearing_after_door": {
+      "outcomes": {
+        "collision": 4,
+        "completed": 6
+      },
+      "doors_cleared": [
+        9,
+        8
+      ],
+      "completed_after_second_door": 6,
+      "cases": {
+        "6400/0": {
+          "outcome": "collision",
+          "boxes_cleared": 6,
+          "furthest_z_m": 9.342,
+          "last_10s_distance_m": 1.664,
+          "last_10s_mean_forward_command": 0.2346,
+          "start_heading": -13.2391663
+        },
+        "6400/1": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 5.144,
+          "last_10s_distance_m": 1.51,
+          "last_10s_mean_forward_command": 0.3162,
+          "start_heading": -23.5862522
+        },
+        "6401/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.938,
+          "last_10s_distance_m": 2.846,
+          "last_10s_mean_forward_command": 0.6235,
+          "start_heading": 28.8001347
+        },
+        "6401/1": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 15.359,
+          "last_10s_distance_m": 2.704,
+          "last_10s_mean_forward_command": 0.596,
+          "start_heading": 18.8419838
+        },
+        "6401/2": {
+          "outcome": "collision",
+          "boxes_cleared": 6,
+          "furthest_z_m": 8.474,
+          "last_10s_distance_m": 1.739,
+          "last_10s_mean_forward_command": 0.3705,
+          "start_heading": 30.0000076
+        },
+        "6402/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.711,
+          "last_10s_distance_m": 2.797,
+          "last_10s_mean_forward_command": 0.6138,
+          "start_heading": -17.5433578
+        },
+        "6402/1": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.132,
+          "last_10s_distance_m": 2.848,
+          "last_10s_mean_forward_command": 0.6247,
+          "start_heading": -27.8666763
+        },
+        "6402/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.548,
+          "last_10s_distance_m": 2.717,
+          "last_10s_mean_forward_command": 0.5967,
+          "start_heading": -20.1812725
+        },
+        "6403/0": {
+          "outcome": "collision",
+          "boxes_cleared": 4,
+          "furthest_z_m": 10.043,
+          "last_10s_distance_m": 1.899,
+          "last_10s_mean_forward_command": 0.4131,
+          "start_heading": 24.66422
+        },
+        "6403/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.328,
+          "last_10s_distance_m": 2.927,
+          "last_10s_mean_forward_command": 0.6463,
+          "start_heading": 27.94863
+        }
+      }
+    },
+    "forward_bearing_audit": {
+      "scans": 8205,
+      "max_world_vector_difference": 0.0009025289025854468
+    },
+    "pre_switch_comparison": {
+      "matched_runs": 10,
+      "eligible_runs": 10,
+      "matched_scans": 4940,
+      "differences_before_switch": []
+    },
+    "only_forward_completed": 1,
+    "only_exit_completed": 0
+  },
+  "new": {
+    "teacher_completed": 11,
+    "forward_after_door": {
+      "outcomes": {
+        "completed": 8,
+        "timeout": 2,
+        "collision": 1
+      },
+      "doors_cleared": [
+        10,
+        8
+      ],
+      "completed_after_second_door": 8,
+      "cases": {
+        "6500/0": {
+          "outcome": "collision",
+          "boxes_cleared": 3,
+          "furthest_z_m": 5.935,
+          "last_10s_distance_m": 1.599,
+          "last_10s_mean_forward_command": 0.332,
+          "start_heading": -15.4999037
+        },
+        "6500/1": {
+          "outcome": "timeout",
+          "boxes_cleared": 0,
+          "furthest_z_m": 3.918,
+          "last_10s_distance_m": 2.414,
+          "last_10s_mean_forward_command": 0.5362,
+          "start_heading": -25.8505325
+        },
+        "6500/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.513,
+          "last_10s_distance_m": 2.502,
+          "last_10s_mean_forward_command": 0.5488,
+          "start_heading": -18.19232
+        },
+        "6501/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.952,
+          "last_10s_distance_m": 2.808,
+          "last_10s_mean_forward_command": 0.6162,
+          "start_heading": 25.731163
+        },
+        "6501/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 15.79,
+          "last_10s_distance_m": 2.62,
+          "last_10s_mean_forward_command": 0.5737,
+          "start_heading": 23.82352
+        },
+        "6502/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.728,
+          "last_10s_distance_m": 2.762,
+          "last_10s_mean_forward_command": 0.607,
+          "start_heading": -19.7525311
+        },
+        "6502/1": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.145,
+          "last_10s_distance_m": 2.81,
+          "last_10s_mean_forward_command": 0.6197,
+          "start_heading": -12.0809345
+        },
+        "6502/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.561,
+          "last_10s_distance_m": 2.886,
+          "last_10s_mean_forward_command": 0.6358,
+          "start_heading": -22.4005356
+        },
+        "6503/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 16.004,
+          "last_10s_distance_m": 2.686,
+          "last_10s_mean_forward_command": 0.5905,
+          "start_heading": 26.8372955
+        },
+        "6503/1": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 12.922,
+          "last_10s_distance_m": 2.687,
+          "last_10s_mean_forward_command": 0.5913,
+          "start_heading": 29.7293282
+        },
+        "6503/2": {
+          "outcome": "timeout",
+          "boxes_cleared": 4,
+          "furthest_z_m": 8.268,
+          "last_10s_distance_m": 2.545,
+          "last_10s_mean_forward_command": 0.558,
+          "start_heading": 24.8421936
+        }
+      }
+    },
+    "exit_bearing_after_door": {
+      "outcomes": {
+        "completed": 6,
+        "timeout": 4,
+        "collision": 1
+      },
+      "doors_cleared": [
+        10,
+        8
+      ],
+      "completed_after_second_door": 6,
+      "cases": {
+        "6500/0": {
+          "outcome": "collision",
+          "boxes_cleared": 3,
+          "furthest_z_m": 5.935,
+          "last_10s_distance_m": 1.599,
+          "last_10s_mean_forward_command": 0.332,
+          "start_heading": -15.4999037
+        },
+        "6500/1": {
+          "outcome": "timeout",
+          "boxes_cleared": 0,
+          "furthest_z_m": 3.918,
+          "last_10s_distance_m": 2.414,
+          "last_10s_mean_forward_command": 0.5362,
+          "start_heading": -25.8505325
+        },
+        "6500/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.517,
+          "last_10s_distance_m": 2.547,
+          "last_10s_mean_forward_command": 0.5556,
+          "start_heading": -18.19232
+        },
+        "6501/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.951,
+          "last_10s_distance_m": 2.875,
+          "last_10s_mean_forward_command": 0.6334,
+          "start_heading": 25.731163
+        },
+        "6501/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 15.791,
+          "last_10s_distance_m": 2.713,
+          "last_10s_mean_forward_command": 0.5972,
+          "start_heading": 23.82352
+        },
+        "6502/0": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 13.728,
+          "last_10s_distance_m": 2.64,
+          "last_10s_mean_forward_command": 0.583,
+          "start_heading": -19.7525311
+        },
+        "6502/1": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.143,
+          "last_10s_distance_m": 2.707,
+          "last_10s_mean_forward_command": 0.5967,
+          "start_heading": -12.0809345
+        },
+        "6502/2": {
+          "outcome": "completed",
+          "boxes_cleared": 12,
+          "furthest_z_m": 14.564,
+          "last_10s_distance_m": 2.812,
+          "last_10s_mean_forward_command": 0.6203,
+          "start_heading": -22.4005356
+        },
+        "6503/0": {
+          "outcome": "timeout",
+          "boxes_cleared": 11,
+          "furthest_z_m": 13.798,
+          "last_10s_distance_m": 2.875,
+          "last_10s_mean_forward_command": 0.6389,
+          "start_heading": 26.8372955
+        },
+        "6503/1": {
+          "outcome": "timeout",
+          "boxes_cleared": 12,
+          "furthest_z_m": 12.454,
+          "last_10s_distance_m": 1.981,
+          "last_10s_mean_forward_command": 0.4246,
+          "start_heading": 29.7293282
+        },
+        "6503/2": {
+          "outcome": "timeout",
+          "boxes_cleared": 4,
+          "furthest_z_m": 8.268,
+          "last_10s_distance_m": 2.545,
+          "last_10s_mean_forward_command": 0.558,
+          "start_heading": 24.8421936
+        }
+      }
+    },
+    "forward_bearing_audit": {
+      "scans": 9307,
+      "max_world_vector_difference": 0.001149905133728494
+    },
+    "pre_switch_comparison": {
+      "matched_runs": 11,
+      "eligible_runs": 11,
+      "matched_scans": 6495,
+      "differences_before_switch": []
+    },
+    "only_forward_completed": 2,
+    "only_exit_completed": 0
+  }
+}

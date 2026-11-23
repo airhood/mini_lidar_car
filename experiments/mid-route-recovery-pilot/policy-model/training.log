@@ -1,0 +1,23 @@
+added 11 paired policy restarts
+train: 115 runs, 22817 samples
+validation: 22 runs, 4464 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [22196, 0, 0, 621]
+validation intent counts [follow, left, right, stop]: [4340, 0, 0, 124]
+repeat-previous-command validation MAE 0.0095
+epoch 01: validation MAE 0.0466, per intent {0: 0.0449315570294857, 3: 0.10374575108289719}
+epoch 02: validation MAE 0.0396, per intent {0: 0.03844118490815163, 3: 0.07972966134548187}
+epoch 03: validation MAE 0.0348, per intent {0: 0.03377816081047058, 3: 0.07018262892961502}
+epoch 04: validation MAE 0.0329, per intent {0: 0.03221837431192398, 3: 0.055904559791088104}
+epoch 05: validation MAE 0.0351, per intent {0: 0.03448304533958435, 3: 0.055709484964609146}
+epoch 06: validation MAE 0.0300, per intent {0: 0.0291903093457222, 3: 0.056572332978248596}
+epoch 07: validation MAE 0.0274, per intent {0: 0.026726264506578445, 3: 0.04925965890288353}
+epoch 08: validation MAE 0.0276, per intent {0: 0.02699892595410347, 3: 0.049056779593229294}
+epoch 09: validation MAE 0.0276, per intent {0: 0.026735084131360054, 3: 0.05662817507982254}
+epoch 10: validation MAE 0.0255, per intent {0: 0.02502995729446411, 3: 0.04254046455025673}
+epoch 11: validation MAE 0.0259, per intent {0: 0.025428958237171173, 3: 0.04214559867978096}
+epoch 12: validation MAE 0.0275, per intent {0: 0.02694409154355526, 3: 0.04680185765028}
+epoch 13: validation MAE 0.0284, per intent {0: 0.027680207043886185, 3: 0.053799670189619064}
+epoch 14: validation MAE 0.0243, per intent {0: 0.023713456466794014, 3: 0.04606498405337334}
+epoch 15: validation MAE 0.0249, per intent {0: 0.024505585432052612, 3: 0.03789572790265083}
+saved ./experiments/mid-route-recovery-pilot/policy-model/lower-policy.pt; best teacher-forced validation MAE 0.0243

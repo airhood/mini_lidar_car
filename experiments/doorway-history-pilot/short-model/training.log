@@ -1,0 +1,27 @@
+added 11 paired policy restarts
+large-arena data: 15 training and 3 validation runs
+large-arena data: 12 training and 2 validation runs
+matched 15 normal restarts: 1258 windows, per-run counts [46, 22, 114, 118, 21, 40, 110, 110, 60, 119, 110, 113, 115, 40, 120]
+scan history stride: 1
+train: 157 runs, 38761 samples
+validation: 27 runs, 7223 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [37898, 0, 0, 863]
+validation intent counts [follow, left, right, stop]: [7069, 0, 0, 154]
+repeat-previous-command validation MAE 0.0076
+epoch 01: validation MAE 0.0438, per intent {0: 0.04254963994026184, 3: 0.10272695124149323}
+epoch 02: validation MAE 0.0363, per intent {0: 0.035079874098300934, 3: 0.09217984974384308}
+epoch 03: validation MAE 0.0316, per intent {0: 0.030513012781739235, 3: 0.08254450559616089}
+epoch 04: validation MAE 0.0320, per intent {0: 0.030919697135686874, 3: 0.08327819406986237}
+epoch 05: validation MAE 0.0253, per intent {0: 0.024245088919997215, 3: 0.07369828224182129}
+epoch 06: validation MAE 0.0259, per intent {0: 0.025060458108782768, 3: 0.06502525508403778}
+epoch 07: validation MAE 0.0264, per intent {0: 0.025478599593043327, 3: 0.0686124861240387}
+epoch 08: validation MAE 0.0244, per intent {0: 0.023299889639019966, 3: 0.0747079849243164}
+epoch 09: validation MAE 0.0237, per intent {0: 0.022803641855716705, 3: 0.06460941582918167}
+epoch 10: validation MAE 0.0253, per intent {0: 0.02461516298353672, 3: 0.055692534893751144}
+epoch 11: validation MAE 0.0216, per intent {0: 0.02078619785606861, 3: 0.060035340487957}
+epoch 12: validation MAE 0.0217, per intent {0: 0.020675793290138245, 3: 0.07082662731409073}
+epoch 13: validation MAE 0.0212, per intent {0: 0.020452996715903282, 3: 0.056436650454998016}
+epoch 14: validation MAE 0.0225, per intent {0: 0.021408041939139366, 3: 0.07453658431768417}
+epoch 15: validation MAE 0.0215, per intent {0: 0.020641667768359184, 3: 0.062368541955947876}
+saved ./experiments/doorway-history-pilot/short-model/lower-policy.pt; best teacher-forced validation MAE 0.0212

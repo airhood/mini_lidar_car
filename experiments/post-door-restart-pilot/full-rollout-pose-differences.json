@@ -1,0 +1,58 @@
+[
+  {
+    "case": "6403/0",
+    "arm": "door_only",
+    "outcome": "collision",
+    "lateral_offset_m": 0.087,
+    "heading_difference_deg": 12.12
+  },
+  {
+    "case": "6400/0",
+    "arm": "door_and_exit",
+    "outcome": "collision",
+    "lateral_offset_m": 1.114,
+    "heading_difference_deg": 62.84
+  },
+  {
+    "case": "6403/0",
+    "arm": "door_and_exit",
+    "outcome": "collision",
+    "lateral_offset_m": 0.155,
+    "heading_difference_deg": 25.05
+  },
+  {
+    "case": "6501/2",
+    "arm": "door_only",
+    "outcome": "timeout",
+    "lateral_offset_m": 0.021,
+    "heading_difference_deg": 40.85
+  },
+  {
+    "case": "6502/1",
+    "arm": "door_only",
+    "outcome": "timeout",
+    "lateral_offset_m": 0.203,
+    "heading_difference_deg": 6.27
+  },
+  {
+    "case": "6503/0",
+    "arm": "door_only",
+    "outcome": "timeout",
+    "lateral_offset_m": 0.383,
+    "heading_difference_deg": 0.38
+  },
+  {
+    "case": "6503/0",
+    "arm": "door_and_exit",
+    "outcome": "timeout",
+    "lateral_offset_m": 1.64,
+    "heading_difference_deg": 41.47
+  },
+  {
+    "case": "6503/1",
+    "arm": "door_and_exit",
+    "outcome": "timeout",
+    "lateral_offset_m": 1.795,
+    "heading_difference_deg": 21.45
+  }
+]

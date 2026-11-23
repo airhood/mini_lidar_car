@@ -1,0 +1,1422 @@
+{
+  "teacher-heldout": {
+    "by_family": {
+      "freestanding": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 10
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 10
+      },
+      "staggered": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 10
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 10
+      },
+      "corridor-hall": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 10
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 10
+      },
+      "clear": {
+        "attempted": 5,
+        "outcomes": {
+          "completed": 5
+        },
+        "first_box_cleared": 0,
+        "all_boxes_cleared": 0
+      }
+    },
+    "cases": {
+      "3100/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.953,
+        "last_10s_distance_m": 2.713,
+        "last_10s_mean_forward_command": 0.5912,
+        "start_heading": 0.0
+      },
+      "3100/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.953,
+        "last_10s_distance_m": 2.73,
+        "last_10s_mean_forward_command": 0.5951,
+        "start_heading": 0.0
+      },
+      "3100/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.162,
+        "last_10s_distance_m": 2.65,
+        "last_10s_mean_forward_command": 0.5774,
+        "start_heading": 0.0
+      },
+      "3100/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.164,
+        "last_10s_distance_m": 2.647,
+        "last_10s_mean_forward_command": 0.576,
+        "start_heading": 0.0
+      },
+      "3100/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.647,
+        "last_10s_distance_m": 2.716,
+        "last_10s_mean_forward_command": 0.5943,
+        "start_heading": 0.0
+      },
+      "3100/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.648,
+        "last_10s_distance_m": 2.714,
+        "last_10s_mean_forward_command": 0.5935,
+        "start_heading": 0.0
+      },
+      "3100/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.148,
+        "last_10s_distance_m": 2.918,
+        "last_10s_mean_forward_command": 0.6378,
+        "start_heading": 0.0
+      },
+      "3101/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.667,
+        "last_10s_distance_m": 2.717,
+        "last_10s_mean_forward_command": 0.5912,
+        "start_heading": 0.0
+      },
+      "3101/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.66,
+        "last_10s_distance_m": 2.759,
+        "last_10s_mean_forward_command": 0.6023,
+        "start_heading": 0.0
+      },
+      "3101/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.856,
+        "last_10s_distance_m": 2.574,
+        "last_10s_mean_forward_command": 0.5608,
+        "start_heading": 0.0
+      },
+      "3101/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.853,
+        "last_10s_distance_m": 2.577,
+        "last_10s_mean_forward_command": 0.5618,
+        "start_heading": 0.0
+      },
+      "3101/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.79,
+        "last_10s_distance_m": 2.675,
+        "last_10s_mean_forward_command": 0.5823,
+        "start_heading": 0.0
+      },
+      "3101/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.766,
+        "last_10s_distance_m": 2.673,
+        "last_10s_mean_forward_command": 0.5831,
+        "start_heading": 0.0
+      },
+      "3101/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.845,
+        "last_10s_distance_m": 2.904,
+        "last_10s_mean_forward_command": 0.6331,
+        "start_heading": 0.0
+      },
+      "3102/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.775,
+        "last_10s_distance_m": 2.713,
+        "last_10s_mean_forward_command": 0.5906,
+        "start_heading": 0.0
+      },
+      "3102/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.77,
+        "last_10s_distance_m": 2.704,
+        "last_10s_mean_forward_command": 0.5898,
+        "start_heading": 0.0
+      },
+      "3102/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.127,
+        "last_10s_distance_m": 2.744,
+        "last_10s_mean_forward_command": 0.5968,
+        "start_heading": 0.0
+      },
+      "3102/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.101,
+        "last_10s_distance_m": 2.692,
+        "last_10s_mean_forward_command": 0.5856,
+        "start_heading": 0.0
+      },
+      "3102/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.183,
+        "last_10s_distance_m": 2.912,
+        "last_10s_mean_forward_command": 0.636,
+        "start_heading": 0.0
+      },
+      "3102/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.18,
+        "last_10s_distance_m": 2.917,
+        "last_10s_mean_forward_command": 0.6376,
+        "start_heading": 0.0
+      },
+      "3102/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.337,
+        "last_10s_distance_m": 2.902,
+        "last_10s_mean_forward_command": 0.6327,
+        "start_heading": 0.0
+      },
+      "3103/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.08,
+        "last_10s_distance_m": 2.745,
+        "last_10s_mean_forward_command": 0.5989,
+        "start_heading": 0.0
+      },
+      "3103/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.085,
+        "last_10s_distance_m": 2.73,
+        "last_10s_mean_forward_command": 0.5944,
+        "start_heading": 0.0
+      },
+      "3103/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.8,
+        "last_10s_distance_m": 2.607,
+        "last_10s_mean_forward_command": 0.5676,
+        "start_heading": 0.0
+      },
+      "3103/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.799,
+        "last_10s_distance_m": 2.608,
+        "last_10s_mean_forward_command": 0.5678,
+        "start_heading": 0.0
+      },
+      "3103/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.743,
+        "last_10s_distance_m": 2.683,
+        "last_10s_mean_forward_command": 0.5846,
+        "start_heading": 0.0
+      },
+      "3103/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.737,
+        "last_10s_distance_m": 2.693,
+        "last_10s_mean_forward_command": 0.5877,
+        "start_heading": 0.0
+      },
+      "3103/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 3.821,
+        "last_10s_distance_m": 2.919,
+        "last_10s_mean_forward_command": 0.6379,
+        "start_heading": 0.0
+      },
+      "3104/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.909,
+        "last_10s_distance_m": 2.709,
+        "last_10s_mean_forward_command": 0.5909,
+        "start_heading": 0.0
+      },
+      "3104/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.913,
+        "last_10s_distance_m": 2.711,
+        "last_10s_mean_forward_command": 0.5903,
+        "start_heading": 0.0
+      },
+      "3104/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.827,
+        "last_10s_distance_m": 2.632,
+        "last_10s_mean_forward_command": 0.5751,
+        "start_heading": 0.0
+      },
+      "3104/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.83,
+        "last_10s_distance_m": 2.626,
+        "last_10s_mean_forward_command": 0.5729,
+        "start_heading": 0.0
+      },
+      "3104/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.138,
+        "last_10s_distance_m": 2.716,
+        "last_10s_mean_forward_command": 0.5929,
+        "start_heading": 0.0
+      },
+      "3104/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.136,
+        "last_10s_distance_m": 2.72,
+        "last_10s_mean_forward_command": 0.5945,
+        "start_heading": 0.0
+      },
+      "3104/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.519,
+        "last_10s_distance_m": 2.903,
+        "last_10s_mean_forward_command": 0.6328,
+        "start_heading": 0.0
+      }
+    }
+  },
+  "frozen-lidar": {
+    "by_family": {
+      "freestanding": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 9,
+          "collision": 1
+        },
+        "first_box_cleared": 9,
+        "all_boxes_cleared": 9
+      },
+      "staggered": {
+        "attempted": 10,
+        "outcomes": {
+          "timeout": 8,
+          "collision": 2
+        },
+        "first_box_cleared": 7,
+        "all_boxes_cleared": 2
+      },
+      "corridor-hall": {
+        "attempted": 10,
+        "outcomes": {
+          "collision": 5,
+          "completed": 4,
+          "timeout": 1
+        },
+        "first_box_cleared": 4,
+        "all_boxes_cleared": 4
+      },
+      "clear": {
+        "attempted": 5,
+        "outcomes": {
+          "completed": 5
+        },
+        "first_box_cleared": 0,
+        "all_boxes_cleared": 0
+      }
+    },
+    "cases": {
+      "3100/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.881,
+        "last_10s_distance_m": 2.386,
+        "last_10s_mean_forward_command": 0.5239,
+        "start_heading": 0.0
+      },
+      "3100/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.878,
+        "last_10s_distance_m": 2.577,
+        "last_10s_mean_forward_command": 0.5674,
+        "start_heading": 0.0
+      },
+      "3100/2": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 1,
+        "furthest_z_m": 2.944,
+        "last_10s_distance_m": 0.201,
+        "last_10s_mean_forward_command": 0.0059,
+        "start_heading": 0.0
+      },
+      "3100/3": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 0,
+        "furthest_z_m": 2.569,
+        "last_10s_distance_m": 0.111,
+        "last_10s_mean_forward_command": 0.0013,
+        "start_heading": 0.0
+      },
+      "3100/4": {
+        "family": "corridor-hall",
+        "outcome": "collision",
+        "boxes_cleared": 0,
+        "furthest_z_m": 2.814,
+        "last_10s_distance_m": 1.908,
+        "last_10s_mean_forward_command": 0.4212,
+        "start_heading": 0.0
+      },
+      "3100/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.574,
+        "last_10s_distance_m": 2.25,
+        "last_10s_mean_forward_command": 0.4922,
+        "start_heading": 0.0
+      },
+      "3100/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.081,
+        "last_10s_distance_m": 2.697,
+        "last_10s_mean_forward_command": 0.5931,
+        "start_heading": 0.0
+      },
+      "3101/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.588,
+        "last_10s_distance_m": 2.539,
+        "last_10s_mean_forward_command": 0.5566,
+        "start_heading": 0.0
+      },
+      "3101/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.588,
+        "last_10s_distance_m": 2.621,
+        "last_10s_mean_forward_command": 0.5763,
+        "start_heading": 0.0
+      },
+      "3101/2": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.014,
+        "last_10s_distance_m": 0.161,
+        "last_10s_mean_forward_command": 0.0018,
+        "start_heading": 0.0
+      },
+      "3101/3": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.101,
+        "last_10s_distance_m": 0.185,
+        "last_10s_mean_forward_command": 0.0086,
+        "start_heading": 0.0
+      },
+      "3101/4": {
+        "family": "corridor-hall",
+        "outcome": "collision",
+        "boxes_cleared": 0,
+        "furthest_z_m": 3.022,
+        "last_10s_distance_m": 0.244,
+        "last_10s_mean_forward_command": 0.019,
+        "start_heading": 0.0
+      },
+      "3101/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.71,
+        "last_10s_distance_m": 2.168,
+        "last_10s_mean_forward_command": 0.4737,
+        "start_heading": 0.0
+      },
+      "3101/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.776,
+        "last_10s_distance_m": 2.722,
+        "last_10s_mean_forward_command": 0.6014,
+        "start_heading": 0.0
+      },
+      "3102/0": {
+        "family": "freestanding",
+        "outcome": "collision",
+        "boxes_cleared": 0,
+        "furthest_z_m": 1.54,
+        "last_10s_distance_m": 1.561,
+        "last_10s_mean_forward_command": 0.5209,
+        "start_heading": 0.0
+      },
+      "3102/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.692,
+        "last_10s_distance_m": 2.455,
+        "last_10s_mean_forward_command": 0.5365,
+        "start_heading": 0.0
+      },
+      "3102/2": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 0,
+        "furthest_z_m": 1.513,
+        "last_10s_distance_m": 0.108,
+        "last_10s_mean_forward_command": 0.0015,
+        "start_heading": 0.0
+      },
+      "3102/3": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 1,
+        "furthest_z_m": 2.943,
+        "last_10s_distance_m": 0.075,
+        "last_10s_mean_forward_command": -0.0001,
+        "start_heading": 0.0
+      },
+      "3102/4": {
+        "family": "corridor-hall",
+        "outcome": "collision",
+        "boxes_cleared": 0,
+        "furthest_z_m": 3.249,
+        "last_10s_distance_m": 2.423,
+        "last_10s_mean_forward_command": 0.5325,
+        "start_heading": 0.0
+      },
+      "3102/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.115,
+        "last_10s_distance_m": 2.551,
+        "last_10s_mean_forward_command": 0.5609,
+        "start_heading": 0.0
+      },
+      "3102/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.261,
+        "last_10s_distance_m": 2.619,
+        "last_10s_mean_forward_command": 0.5785,
+        "start_heading": 0.0
+      },
+      "3103/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.008,
+        "last_10s_distance_m": 2.414,
+        "last_10s_mean_forward_command": 0.5291,
+        "start_heading": 0.0
+      },
+      "3103/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.008,
+        "last_10s_distance_m": 2.656,
+        "last_10s_mean_forward_command": 0.5854,
+        "start_heading": 0.0
+      },
+      "3103/2": {
+        "family": "staggered",
+        "outcome": "collision",
+        "boxes_cleared": 1,
+        "furthest_z_m": 2.863,
+        "last_10s_distance_m": 0.691,
+        "last_10s_mean_forward_command": 0.0378,
+        "start_heading": 0.0
+      },
+      "3103/3": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.127,
+        "last_10s_distance_m": 0.15,
+        "last_10s_mean_forward_command": -0.003,
+        "start_heading": 0.0
+      },
+      "3103/4": {
+        "family": "corridor-hall",
+        "outcome": "collision",
+        "boxes_cleared": 0,
+        "furthest_z_m": 2.745,
+        "last_10s_distance_m": 2.072,
+        "last_10s_mean_forward_command": 0.4581,
+        "start_heading": 0.0
+      },
+      "3103/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.658,
+        "last_10s_distance_m": 2.449,
+        "last_10s_mean_forward_command": 0.5385,
+        "start_heading": 0.0
+      },
+      "3103/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 3.756,
+        "last_10s_distance_m": 2.787,
+        "last_10s_mean_forward_command": 0.6139,
+        "start_heading": 0.0
+      },
+      "3104/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.838,
+        "last_10s_distance_m": 2.463,
+        "last_10s_mean_forward_command": 0.5407,
+        "start_heading": 0.0
+      },
+      "3104/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.838,
+        "last_10s_distance_m": 2.577,
+        "last_10s_mean_forward_command": 0.5635,
+        "start_heading": 0.0
+      },
+      "3104/2": {
+        "family": "staggered",
+        "outcome": "collision",
+        "boxes_cleared": 0,
+        "furthest_z_m": 1.495,
+        "last_10s_distance_m": 1.502,
+        "last_10s_mean_forward_command": 0.4621,
+        "start_heading": 0.0
+      },
+      "3104/3": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.083,
+        "last_10s_distance_m": 0.205,
+        "last_10s_mean_forward_command": 0.0186,
+        "start_heading": 0.0
+      },
+      "3104/4": {
+        "family": "corridor-hall",
+        "outcome": "timeout",
+        "boxes_cleared": 0,
+        "furthest_z_m": 2.771,
+        "last_10s_distance_m": 0.12,
+        "last_10s_mean_forward_command": 0.0004,
+        "start_heading": 0.0
+      },
+      "3104/5": {
+        "family": "corridor-hall",
+        "outcome": "collision",
+        "boxes_cleared": 0,
+        "furthest_z_m": 3.428,
+        "last_10s_distance_m": 2.217,
+        "last_10s_mean_forward_command": 0.4857,
+        "start_heading": 0.0
+      },
+      "3104/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.448,
+        "last_10s_distance_m": 2.786,
+        "last_10s_mean_forward_command": 0.6127,
+        "start_heading": 0.0
+      }
+    }
+  },
+  "mixed-lidar": {
+    "by_family": {
+      "freestanding": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 10
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 10
+      },
+      "staggered": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 3,
+          "collision": 5,
+          "timeout": 2
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 5
+      },
+      "corridor-hall": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 8,
+          "collision": 1,
+          "timeout": 1
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 8
+      },
+      "clear": {
+        "attempted": 5,
+        "outcomes": {
+          "completed": 5
+        },
+        "first_box_cleared": 0,
+        "all_boxes_cleared": 0
+      }
+    },
+    "cases": {
+      "3100/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.88,
+        "last_10s_distance_m": 2.716,
+        "last_10s_mean_forward_command": 0.5978,
+        "start_heading": 0.0
+      },
+      "3100/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.879,
+        "last_10s_distance_m": 2.698,
+        "last_10s_mean_forward_command": 0.5922,
+        "start_heading": 0.0
+      },
+      "3100/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.106,
+        "last_10s_distance_m": 2.605,
+        "last_10s_mean_forward_command": 0.5747,
+        "start_heading": 0.0
+      },
+      "3100/3": {
+        "family": "staggered",
+        "outcome": "collision",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.182,
+        "last_10s_distance_m": 0.892,
+        "last_10s_mean_forward_command": 0.0664,
+        "start_heading": 0.0
+      },
+      "3100/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.579,
+        "last_10s_distance_m": 2.78,
+        "last_10s_mean_forward_command": 0.6128,
+        "start_heading": 0.0
+      },
+      "3100/5": {
+        "family": "corridor-hall",
+        "outcome": "collision",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.307,
+        "last_10s_distance_m": 2.389,
+        "last_10s_mean_forward_command": 0.5322,
+        "start_heading": 0.0
+      },
+      "3100/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.083,
+        "last_10s_distance_m": 2.842,
+        "last_10s_mean_forward_command": 0.6224,
+        "start_heading": 0.0
+      },
+      "3101/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.589,
+        "last_10s_distance_m": 2.687,
+        "last_10s_mean_forward_command": 0.5891,
+        "start_heading": 0.0
+      },
+      "3101/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.587,
+        "last_10s_distance_m": 2.653,
+        "last_10s_mean_forward_command": 0.5823,
+        "start_heading": 0.0
+      },
+      "3101/2": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 2,
+        "furthest_z_m": 5.368,
+        "last_10s_distance_m": 0.201,
+        "last_10s_mean_forward_command": 0.0055,
+        "start_heading": 0.0
+      },
+      "3101/3": {
+        "family": "staggered",
+        "outcome": "timeout",
+        "boxes_cleared": 2,
+        "furthest_z_m": 5.186,
+        "last_10s_distance_m": 0.753,
+        "last_10s_mean_forward_command": 0.1599,
+        "start_heading": 0.0
+      },
+      "3101/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.716,
+        "last_10s_distance_m": 2.742,
+        "last_10s_mean_forward_command": 0.603,
+        "start_heading": 0.0
+      },
+      "3101/5": {
+        "family": "corridor-hall",
+        "outcome": "timeout",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.911,
+        "last_10s_distance_m": 1.566,
+        "last_10s_mean_forward_command": 0.3433,
+        "start_heading": 0.0
+      },
+      "3101/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.774,
+        "last_10s_distance_m": 2.861,
+        "last_10s_mean_forward_command": 0.6298,
+        "start_heading": 0.0
+      },
+      "3102/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.699,
+        "last_10s_distance_m": 2.696,
+        "last_10s_mean_forward_command": 0.5927,
+        "start_heading": 0.0
+      },
+      "3102/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.699,
+        "last_10s_distance_m": 2.622,
+        "last_10s_mean_forward_command": 0.5751,
+        "start_heading": 0.0
+      },
+      "3102/2": {
+        "family": "staggered",
+        "outcome": "collision",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.054,
+        "last_10s_distance_m": 2.355,
+        "last_10s_mean_forward_command": 0.5121,
+        "start_heading": 0.0
+      },
+      "3102/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.051,
+        "last_10s_distance_m": 2.553,
+        "last_10s_mean_forward_command": 0.5595,
+        "start_heading": 0.0
+      },
+      "3102/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.112,
+        "last_10s_distance_m": 2.727,
+        "last_10s_mean_forward_command": 0.6004,
+        "start_heading": 0.0
+      },
+      "3102/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.114,
+        "last_10s_distance_m": 2.728,
+        "last_10s_mean_forward_command": 0.5988,
+        "start_heading": 0.0
+      },
+      "3102/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.262,
+        "last_10s_distance_m": 2.85,
+        "last_10s_mean_forward_command": 0.6241,
+        "start_heading": 0.0
+      },
+      "3103/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.008,
+        "last_10s_distance_m": 2.671,
+        "last_10s_mean_forward_command": 0.5861,
+        "start_heading": 0.0
+      },
+      "3103/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.005,
+        "last_10s_distance_m": 2.704,
+        "last_10s_mean_forward_command": 0.5954,
+        "start_heading": 0.0
+      },
+      "3103/2": {
+        "family": "staggered",
+        "outcome": "collision",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.145,
+        "last_10s_distance_m": 1.595,
+        "last_10s_mean_forward_command": 0.3425,
+        "start_heading": 0.0
+      },
+      "3103/3": {
+        "family": "staggered",
+        "outcome": "collision",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.87,
+        "last_10s_distance_m": 2.39,
+        "last_10s_mean_forward_command": 0.5223,
+        "start_heading": 0.0
+      },
+      "3103/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.672,
+        "last_10s_distance_m": 2.671,
+        "last_10s_mean_forward_command": 0.59,
+        "start_heading": 0.0
+      },
+      "3103/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.668,
+        "last_10s_distance_m": 2.779,
+        "last_10s_mean_forward_command": 0.6124,
+        "start_heading": 0.0
+      },
+      "3103/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 3.757,
+        "last_10s_distance_m": 2.798,
+        "last_10s_mean_forward_command": 0.6137,
+        "start_heading": 0.0
+      },
+      "3104/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.84,
+        "last_10s_distance_m": 2.684,
+        "last_10s_mean_forward_command": 0.5871,
+        "start_heading": 0.0
+      },
+      "3104/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.838,
+        "last_10s_distance_m": 2.659,
+        "last_10s_mean_forward_command": 0.5815,
+        "start_heading": 0.0
+      },
+      "3104/2": {
+        "family": "staggered",
+        "outcome": "collision",
+        "boxes_cleared": 3,
+        "furthest_z_m": 5.859,
+        "last_10s_distance_m": 0.788,
+        "last_10s_mean_forward_command": 0.0536,
+        "start_heading": 0.0
+      },
+      "3104/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.761,
+        "last_10s_distance_m": 2.523,
+        "last_10s_mean_forward_command": 0.5567,
+        "start_heading": 0.0
+      },
+      "3104/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.067,
+        "last_10s_distance_m": 2.652,
+        "last_10s_mean_forward_command": 0.5833,
+        "start_heading": 0.0
+      },
+      "3104/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.066,
+        "last_10s_distance_m": 2.715,
+        "last_10s_mean_forward_command": 0.5988,
+        "start_heading": 0.0
+      },
+      "3104/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.446,
+        "last_10s_distance_m": 2.819,
+        "last_10s_mean_forward_command": 0.6182,
+        "start_heading": 0.0
+      }
+    }
+  },
+  "recovery-lidar": {
+    "by_family": {
+      "freestanding": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 10
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 10
+      },
+      "staggered": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 10
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 10
+      },
+      "corridor-hall": {
+        "attempted": 10,
+        "outcomes": {
+          "completed": 10
+        },
+        "first_box_cleared": 10,
+        "all_boxes_cleared": 10
+      },
+      "clear": {
+        "attempted": 5,
+        "outcomes": {
+          "completed": 5
+        },
+        "first_box_cleared": 0,
+        "all_boxes_cleared": 0
+      }
+    },
+    "cases": {
+      "3100/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.879,
+        "last_10s_distance_m": 2.631,
+        "last_10s_mean_forward_command": 0.5752,
+        "start_heading": 0.0
+      },
+      "3100/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.876,
+        "last_10s_distance_m": 2.673,
+        "last_10s_mean_forward_command": 0.5887,
+        "start_heading": 0.0
+      },
+      "3100/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.108,
+        "last_10s_distance_m": 2.586,
+        "last_10s_mean_forward_command": 0.5704,
+        "start_heading": 0.0
+      },
+      "3100/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.111,
+        "last_10s_distance_m": 2.619,
+        "last_10s_mean_forward_command": 0.5768,
+        "start_heading": 0.0
+      },
+      "3100/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.571,
+        "last_10s_distance_m": 2.634,
+        "last_10s_mean_forward_command": 0.5761,
+        "start_heading": 0.0
+      },
+      "3100/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.578,
+        "last_10s_distance_m": 2.672,
+        "last_10s_mean_forward_command": 0.5879,
+        "start_heading": 0.0
+      },
+      "3100/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.081,
+        "last_10s_distance_m": 2.849,
+        "last_10s_mean_forward_command": 0.6272,
+        "start_heading": 0.0
+      },
+      "3101/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.588,
+        "last_10s_distance_m": 2.673,
+        "last_10s_mean_forward_command": 0.588,
+        "start_heading": 0.0
+      },
+      "3101/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.588,
+        "last_10s_distance_m": 2.595,
+        "last_10s_mean_forward_command": 0.5713,
+        "start_heading": 0.0
+      },
+      "3101/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.801,
+        "last_10s_distance_m": 2.567,
+        "last_10s_mean_forward_command": 0.5658,
+        "start_heading": 0.0
+      },
+      "3101/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.8,
+        "last_10s_distance_m": 2.53,
+        "last_10s_mean_forward_command": 0.5581,
+        "start_heading": 0.0
+      },
+      "3101/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.711,
+        "last_10s_distance_m": 2.649,
+        "last_10s_mean_forward_command": 0.581,
+        "start_heading": 0.0
+      },
+      "3101/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.718,
+        "last_10s_distance_m": 2.618,
+        "last_10s_mean_forward_command": 0.5744,
+        "start_heading": 0.0
+      },
+      "3101/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.774,
+        "last_10s_distance_m": 2.876,
+        "last_10s_mean_forward_command": 0.6333,
+        "start_heading": 0.0
+      },
+      "3102/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.698,
+        "last_10s_distance_m": 2.619,
+        "last_10s_mean_forward_command": 0.5725,
+        "start_heading": 0.0
+      },
+      "3102/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.698,
+        "last_10s_distance_m": 2.602,
+        "last_10s_mean_forward_command": 0.5698,
+        "start_heading": 0.0
+      },
+      "3102/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.053,
+        "last_10s_distance_m": 2.521,
+        "last_10s_mean_forward_command": 0.5523,
+        "start_heading": 0.0
+      },
+      "3102/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.055,
+        "last_10s_distance_m": 2.653,
+        "last_10s_mean_forward_command": 0.5831,
+        "start_heading": 0.0
+      },
+      "3102/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.114,
+        "last_10s_distance_m": 2.748,
+        "last_10s_mean_forward_command": 0.6053,
+        "start_heading": 0.0
+      },
+      "3102/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.112,
+        "last_10s_distance_m": 2.708,
+        "last_10s_mean_forward_command": 0.5959,
+        "start_heading": 0.0
+      },
+      "3102/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.265,
+        "last_10s_distance_m": 2.868,
+        "last_10s_mean_forward_command": 0.6317,
+        "start_heading": 0.0
+      },
+      "3103/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.009,
+        "last_10s_distance_m": 2.459,
+        "last_10s_mean_forward_command": 0.5389,
+        "start_heading": 0.0
+      },
+      "3103/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 4.004,
+        "last_10s_distance_m": 2.695,
+        "last_10s_mean_forward_command": 0.5921,
+        "start_heading": 0.0
+      },
+      "3103/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.746,
+        "last_10s_distance_m": 2.562,
+        "last_10s_mean_forward_command": 0.5603,
+        "start_heading": 0.0
+      },
+      "3103/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.744,
+        "last_10s_distance_m": 2.536,
+        "last_10s_mean_forward_command": 0.5554,
+        "start_heading": 0.0
+      },
+      "3103/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.667,
+        "last_10s_distance_m": 2.689,
+        "last_10s_mean_forward_command": 0.5901,
+        "start_heading": 0.0
+      },
+      "3103/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.671,
+        "last_10s_distance_m": 2.614,
+        "last_10s_mean_forward_command": 0.5726,
+        "start_heading": 0.0
+      },
+      "3103/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 3.754,
+        "last_10s_distance_m": 2.814,
+        "last_10s_mean_forward_command": 0.6159,
+        "start_heading": 0.0
+      },
+      "3104/0": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.838,
+        "last_10s_distance_m": 2.632,
+        "last_10s_mean_forward_command": 0.5755,
+        "start_heading": 0.0
+      },
+      "3104/1": {
+        "family": "freestanding",
+        "outcome": "completed",
+        "boxes_cleared": 1,
+        "furthest_z_m": 3.837,
+        "last_10s_distance_m": 2.629,
+        "last_10s_mean_forward_command": 0.5749,
+        "start_heading": 0.0
+      },
+      "3104/2": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.756,
+        "last_10s_distance_m": 2.569,
+        "last_10s_mean_forward_command": 0.5654,
+        "start_heading": 0.0
+      },
+      "3104/3": {
+        "family": "staggered",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.758,
+        "last_10s_distance_m": 2.617,
+        "last_10s_mean_forward_command": 0.573,
+        "start_heading": 0.0
+      },
+      "3104/4": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.066,
+        "last_10s_distance_m": 2.641,
+        "last_10s_mean_forward_command": 0.5801,
+        "start_heading": 0.0
+      },
+      "3104/5": {
+        "family": "corridor-hall",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 7.064,
+        "last_10s_distance_m": 2.693,
+        "last_10s_mean_forward_command": 0.5897,
+        "start_heading": 0.0
+      },
+      "3104/6": {
+        "family": "clear",
+        "outcome": "completed",
+        "boxes_cleared": 0,
+        "furthest_z_m": 4.446,
+        "last_10s_distance_m": 2.826,
+        "last_10s_mean_forward_command": 0.6187,
+        "start_heading": 0.0
+      }
+    }
+  }
+}

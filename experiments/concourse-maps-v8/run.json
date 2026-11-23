@@ -1,0 +1,10 @@
+{
+  "generator": "mini_lidar_car-sim/Assets/Scripts/GraphFloorPlan.cs",
+  "version": "teacher-v8",
+  "preview_seeds_inclusive": [1000, 1007],
+  "main_concourse_width_m": [2.35, 3.10],
+  "side_corridor_width_m": [1.28, 2.10],
+  "check_seeds_inclusive": [1000, 1011],
+  "check": {"missions": 120, "planar_completed": 118, "no_path": 2, "contacts": 0, "timeouts": 0},
+  "unity_rollouts_verified": false
+}

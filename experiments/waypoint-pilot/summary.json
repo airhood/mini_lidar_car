@@ -1,0 +1,2296 @@
+{
+  "teacher-heldout": {
+    "nominal": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 4.0
+    },
+    "yaw": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 4.4
+    },
+    "cases": {
+      "01129/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.103,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.103,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.896,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.898,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.15,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.151,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.18,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.182,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.534,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.538,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.5
+      },
+      "01129/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.54,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.544,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.6
+      },
+      "01129/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.642,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.643,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01128/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.815,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.818,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.899,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.902,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.365,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 6.1
+      },
+      "01129/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.363,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.3
+      },
+      "01129/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.562,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.563,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.643,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.643,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.949,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.951,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.103,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.105,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.01,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.012,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 14.018,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 14.022,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.6
+      },
+      "01129/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 9.694,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 9.697,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.5
+      },
+      "01128/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.812,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.812,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.943,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.944,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.45,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.452,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.117,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.117,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.917,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.917,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.19,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.191,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.487,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.487,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      }
+    }
+  },
+  "final-goal": {
+    "nominal": {
+      "runs": 24,
+      "outcomes": {
+        "collision": 18,
+        "completed": 1,
+        "timeout": 5
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 6,
+      "realigns_and_advances_within_10s": 16,
+      "median_recovery_seconds_among_realigned": 3.9
+    },
+    "yaw": {
+      "runs": 24,
+      "outcomes": {
+        "collision": 11,
+        "completed": 2,
+        "timeout": 11
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 3,
+      "realigns_and_advances_within_10s": 8,
+      "median_recovery_seconds_among_realigned": 5.2
+    },
+    "cases": {
+      "01129/01/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.968,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01129/01/clear/yaw": {
+        "outcome": "collision",
+        "travelled_m": 11.622,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/02/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 13.691,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/05/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 12.249,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01129/05/clear/yaw": {
+        "outcome": "collision",
+        "travelled_m": 12.367,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/02/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.354,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/05/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.745,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 8.4
+      },
+      "01129/05/clutter/yaw": {
+        "outcome": "collision",
+        "travelled_m": 11.614,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 8.4
+      },
+      "01128/03/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.234,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.6
+      },
+      "01128/03/clutter/yaw": {
+        "outcome": "collision",
+        "travelled_m": 11.563,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/02/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 3.207,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/00/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 4.575,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/01/clear/yaw": {
+        "outcome": "collision",
+        "travelled_m": 13.333,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/04/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 10.672,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/05/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.203,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/05/clear/yaw": {
+        "outcome": "collision",
+        "travelled_m": 10.333,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/05/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.174,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/05/clutter/yaw": {
+        "outcome": "collision",
+        "travelled_m": 11.382,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/00/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 9.709,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/01/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 7.406,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/01/clutter/yaw": {
+        "outcome": "collision",
+        "travelled_m": 7.536,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/00/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.652,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/00/clear/yaw": {
+        "outcome": "collision",
+        "travelled_m": 12.012,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/03/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.203,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/04/clear/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.144,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01129/03/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 10.375,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01129/03/clutter/yaw": {
+        "outcome": "collision",
+        "travelled_m": 10.141,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 7.6
+      },
+      "01128/00/clutter/nominal": {
+        "outcome": "collision",
+        "travelled_m": 11.741,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/00/clutter/yaw": {
+        "outcome": "collision",
+        "travelled_m": 6.967,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.971,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 13.295,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.243,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/02/clear/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 17.721,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/02/clutter/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 14.661,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/01/clutter/nominal": {
+        "outcome": "timeout",
+        "travelled_m": 16.492,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/02/clear/nominal": {
+        "outcome": "timeout",
+        "travelled_m": 16.313,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01129/02/clear/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 16.636,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/03/clear/nominal": {
+        "outcome": "timeout",
+        "travelled_m": 16.541,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.6
+      },
+      "01128/03/clear/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 16.112,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/02/clutter/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 16.357,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/00/clear/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 15.833,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01128/01/clear/nominal": {
+        "outcome": "timeout",
+        "travelled_m": 16.497,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/04/clear/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 15.992,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/00/clutter/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 15.205,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/04/clutter/nominal": {
+        "outcome": "timeout",
+        "travelled_m": 16.569,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": false,
+        "recovery_seconds": null
+      },
+      "01129/03/clear/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 15.862,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 7.9
+      },
+      "01128/04/clear/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 15.859,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.0
+      },
+      "01128/04/clutter/yaw": {
+        "outcome": "timeout",
+        "travelled_m": 15.737,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.4
+      }
+    }
+  },
+  "waypoint": {
+    "nominal": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 4.0
+    },
+    "yaw": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 4.2
+    },
+    "cases": {
+      "01129/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.027,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.03,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.824,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.826,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.099,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.098,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.122,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.127,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.477,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.477,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.465,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.476,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.565,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01129/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.575,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.739,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01128/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.748,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.838,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01128/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.848,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.337,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.4
+      },
+      "01129/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.329,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.9
+      },
+      "01129/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.507,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.51,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.577,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.577,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.88,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.884,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.037,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.04,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.995,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.0,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 13.987,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.5
+      },
+      "01129/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 13.984,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.7
+      },
+      "01129/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 9.632,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 9.633,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.8,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01128/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.801,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.6
+      },
+      "01128/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.866,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.87,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.385,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.388,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.053,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.057,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.859,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.86,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.154,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.155,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.432,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.434,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      }
+    }
+  },
+  "waypoint-mixed": {
+    "nominal": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 4.0
+    },
+    "yaw": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 4.3
+    },
+    "cases": {
+      "01129/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.026,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.026,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.829,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.828,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01129/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.102,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.107,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.131,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.13,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01129/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.472,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.477,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.464,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01129/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.466,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01129/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.564,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01129/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.574,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.739,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.748,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.843,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.853,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.319,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.6
+      },
+      "01129/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.308,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.2
+      },
+      "01129/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.518,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.52,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.5
+      },
+      "01128/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.576,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.584,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.887,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01129/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.892,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01128/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.042,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.044,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.98,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.982,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01129/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 13.957,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01129/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 13.958,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.7
+      },
+      "01129/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 9.633,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 9.641,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.5
+      },
+      "01128/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.782,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.773,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.4
+      },
+      "01128/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.867,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.869,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.379,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.381,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.051,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.053,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      },
+      "01129/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.863,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.865,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.138,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01128/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.137,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.446,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.443,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.3
+      }
+    }
+  },
+  "waypoint-blind": {
+    "nominal": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 3.8
+    },
+    "yaw": {
+      "runs": 24,
+      "outcomes": {
+        "completed": 24
+      },
+      "collision_before_1_m": 0,
+      "with_box_checkpoint": 12,
+      "passes_box_checkpoint": 12,
+      "realigns_and_advances_within_10s": 24,
+      "median_recovery_seconds_among_realigned": 4.1
+    },
+    "cases": {
+      "01129/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.02,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01129/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.022,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.818,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.819,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.076,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01129/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.08,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.107,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.106,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.465,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01129/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.465,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.464,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01129/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.463,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/02/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.563,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01129/02/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.562,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.737,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.735,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.822,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.823,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/02/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.301,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.5
+      },
+      "01129/02/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.293,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 5.2
+      },
+      "01129/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.485,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01129/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.487,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/01/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.563,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/01/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.567,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 8.869,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01129/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 8.87,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/05/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.024,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/05/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.024,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01128/05/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.94,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/05/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.943,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.1
+      },
+      "01129/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 13.945,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.9
+      },
+      "01129/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 13.949,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01129/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 9.617,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01129/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 9.618,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.2
+      },
+      "01128/01/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.745,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/01/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.745,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/00/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.866,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.7
+      },
+      "01128/00/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.866,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/03/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.374,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01129/03/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.376,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/04/clear/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.04,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/04/clear/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.041,
+        "collision_before_1_m": false,
+        "has_checkpoint": false,
+        "passes_checkpoint": false,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01129/03/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 10.845,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01129/03/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 10.846,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/04/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 11.121,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/04/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 11.122,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      },
+      "01128/00/clutter/nominal": {
+        "outcome": "completed",
+        "travelled_m": 12.415,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 3.8
+      },
+      "01128/00/clutter/yaw": {
+        "outcome": "completed",
+        "travelled_m": 12.412,
+        "collision_before_1_m": false,
+        "has_checkpoint": true,
+        "passes_checkpoint": true,
+        "realigns_and_advances_within_10s": true,
+        "recovery_seconds": 4.0
+      }
+    }
+  }
+}

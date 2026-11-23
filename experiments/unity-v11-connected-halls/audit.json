@@ -1,0 +1,157 @@
+{
+  "outcomes": {
+    "completed": 24
+  },
+  "placements": {
+    "clear": 12,
+    "clutter07": 2,
+    "clutter09": 2,
+    "clutter11": 3,
+    "clutter13": 2,
+    "clutter08": 2,
+    "clutter12": 1
+  },
+  "scans": 9337,
+  "usable_placements_by_family": {
+    "hall-atrium": {
+      "clear": 4,
+      "clutter07": 1,
+      "clutter09": 1,
+      "clutter11": 1,
+      "clutter13": 1
+    },
+    "hall-partitions": {
+      "clear": 4,
+      "clutter08": 2,
+      "clutter12": 1,
+      "clutter13": 1
+    },
+    "hall-wings": {
+      "clear": 4,
+      "clutter07": 1,
+      "clutter09": 1,
+      "clutter11": 2
+    }
+  },
+  "usable_seed_count": 2,
+  "irregular_intervals": 0,
+  "contact_runs": 0,
+  "invalid_files": [],
+  "complete_pairs": 12,
+  "unmatched_complete_runs": 0,
+  "max_deviation_from_clear_m": {
+    "min": 0.7309,
+    "median": 1.5673,
+    "max": 3.8674
+  },
+  "pairs": [
+    {
+      "seed": 1121,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 2.1929991409909717,
+      "finish_difference_m": 0.008806340198544416
+    },
+    {
+      "seed": 1121,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00015479649798668432,
+      "max_deviation_from_clear_m": 0.730869355917775,
+      "finish_difference_m": 0.008085961774340698
+    },
+    {
+      "seed": 1121,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 1.613978004833902e-05,
+      "max_deviation_from_clear_m": 2.280617919192912,
+      "finish_difference_m": 0.017825849465091914
+    },
+    {
+      "seed": 1121,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 6.344415260681695e-05,
+      "max_deviation_from_clear_m": 0.7425262917471472,
+      "finish_difference_m": 0.012731486043742033
+    },
+    {
+      "seed": 1121,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00013835373726793265,
+      "max_deviation_from_clear_m": 1.876306190073773,
+      "finish_difference_m": 0.011067955059540177
+    },
+    {
+      "seed": 1121,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 0.00013807732804801723,
+      "max_deviation_from_clear_m": 1.0435067732397219,
+      "finish_difference_m": 0.001316170370195782
+    },
+    {
+      "seed": 1122,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.00015437224425327066,
+      "max_deviation_from_clear_m": 1.2583711087534615,
+      "finish_difference_m": 0.008492888381051542
+    },
+    {
+      "seed": 1122,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00013791754783196852,
+      "max_deviation_from_clear_m": 2.6618338452279717,
+      "finish_difference_m": 0.01878904947926844
+    },
+    {
+      "seed": 1122,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 1.000847490695023,
+      "finish_difference_m": 0.003233253626725851
+    },
+    {
+      "seed": 1122,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.0001544298190114431,
+      "max_deviation_from_clear_m": 3.867350669622394,
+      "finish_difference_m": 0.0006446449919142237
+    },
+    {
+      "seed": 1122,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00015432159307498974,
+      "max_deviation_from_clear_m": 2.064575745383007,
+      "finish_difference_m": 0.004935601329483604
+    },
+    {
+      "seed": 1122,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 6.317474606404731e-05,
+      "max_deviation_from_clear_m": 0.8628251058706143,
+      "finish_difference_m": 0.0010561430596749994
+    }
+  ]
+}

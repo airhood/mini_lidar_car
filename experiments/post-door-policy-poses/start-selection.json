@@ -1,0 +1,333 @@
+{
+  "selected": {
+    "6400/0": {
+      "family": "variable-width-doors",
+      "pose": [
+        0.773815036,
+        9.256402,
+        -67.6898956
+      ],
+      "distance_past_door_m": 0.42,
+      "source": "exit-previous",
+      "source_rollout_outcome": "collision",
+      "teacher_pose": [
+        -0.411102235,
+        9.280062,
+        -1.50551772
+      ],
+      "lateral_offset_m": 1.185,
+      "heading_difference_deg": 66.18
+    },
+    "6400/1": {
+      "family": "offset-doors",
+      "pose": [
+        -0.1381292,
+        9.108504,
+        1.01303279
+      ],
+      "distance_past_door_m": 0.424,
+      "source": "bearing-previous",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -0.0485166423,
+        9.110457,
+        0.0568311624
+      ],
+      "lateral_offset_m": 0.09,
+      "heading_difference_deg": 0.96
+    },
+    "6401/0": {
+      "family": "variable-width-doors",
+      "pose": [
+        1.22919941,
+        8.771195,
+        -20.5883827
+      ],
+      "distance_past_door_m": 0.436,
+      "source": "bearing-previous",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -0.0191016477,
+        8.767327,
+        -1.91871309
+      ],
+      "lateral_offset_m": 1.248,
+      "heading_difference_deg": 18.67
+    },
+    "6401/1": {
+      "family": "offset-doors",
+      "pose": [
+        0.6085858,
+        9.516698,
+        -9.410859
+      ],
+      "distance_past_door_m": 0.433,
+      "source": "bearing-previous",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        0.214966372,
+        9.51415348,
+        10.2133684
+      ],
+      "lateral_offset_m": 0.394,
+      "heading_difference_deg": 19.62
+    },
+    "6402/0": {
+      "family": "variable-width-doors",
+      "pose": [
+        -1.036173,
+        9.156535,
+        33.2932739
+      ],
+      "distance_past_door_m": 0.423,
+      "source": "bearing-previous",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -0.466959685,
+        9.167972,
+        7.570945
+      ],
+      "lateral_offset_m": 0.569,
+      "heading_difference_deg": 25.72
+    },
+    "6402/1": {
+      "family": "offset-doors",
+      "pose": [
+        -0.7109277,
+        9.009888,
+        -5.313491
+      ],
+      "distance_past_door_m": 0.427,
+      "source": "exit-previous",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -0.5198936,
+        9.010995,
+        -2.97004771
+      ],
+      "lateral_offset_m": 0.191,
+      "heading_difference_deg": 2.34
+    },
+    "6402/2": {
+      "family": "post-door-clutter",
+      "pose": [
+        -0.8605406,
+        9.482025,
+        -37.910614
+      ],
+      "distance_past_door_m": 0.42,
+      "source": "exit-previous",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -1.19780111,
+        9.488839,
+        4.729694
+      ],
+      "lateral_offset_m": 0.337,
+      "heading_difference_deg": 42.64
+    },
+    "6403/0": {
+      "family": "variable-width-doors",
+      "pose": [
+        0.523007035,
+        9.557377,
+        16.4541187
+      ],
+      "distance_past_door_m": 0.424,
+      "source": "exit-previous",
+      "source_rollout_outcome": "collision",
+      "teacher_pose": [
+        0.3707886,
+        9.570092,
+        -4.38809
+      ],
+      "lateral_offset_m": 0.152,
+      "heading_difference_deg": 20.84
+    },
+    "6403/2": {
+      "family": "post-door-clutter",
+      "pose": [
+        2.300957,
+        8.925531,
+        -19.8872223
+      ],
+      "distance_past_door_m": 0.446,
+      "source": "exit-previous",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        2.05931878,
+        8.911199,
+        6.099924
+      ],
+      "lateral_offset_m": 0.242,
+      "heading_difference_deg": 25.99
+    },
+    "6500/2": {
+      "family": "post-door-clutter",
+      "pose": [
+        -1.27699661,
+        9.181922,
+        -20.8914318
+      ],
+      "distance_past_door_m": 0.439,
+      "source": "exit-new",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -0.661195457,
+        9.176913,
+        -2.51338148
+      ],
+      "lateral_offset_m": 0.616,
+      "heading_difference_deg": 18.38
+    },
+    "6501/0": {
+      "family": "variable-width-doors",
+      "pose": [
+        0.353870928,
+        9.04364,
+        -19.4577026
+      ],
+      "distance_past_door_m": 0.427,
+      "source": "exit-new",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        0.273453534,
+        9.042572,
+        -0.316218138
+      ],
+      "lateral_offset_m": 0.08,
+      "heading_difference_deg": 19.14
+    },
+    "6501/2": {
+      "family": "post-door-clutter",
+      "pose": [
+        2.5162487,
+        9.506188,
+        26.5551167
+      ],
+      "distance_past_door_m": 0.445,
+      "source": "exit-new",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        2.85348654,
+        9.482924,
+        1.92896438
+      ],
+      "lateral_offset_m": 0.337,
+      "heading_difference_deg": 24.63
+    },
+    "6502/0": {
+      "family": "variable-width-doors",
+      "pose": [
+        -1.97159648,
+        9.450442,
+        17.5211258
+      ],
+      "distance_past_door_m": 0.435,
+      "source": "bearing-new",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -0.161536962,
+        9.454566,
+        1.0096612
+      ],
+      "lateral_offset_m": 1.81,
+      "heading_difference_deg": 16.51
+    },
+    "6502/1": {
+      "family": "offset-doors",
+      "pose": [
+        -2.13099957,
+        9.298256,
+        28.5478458
+      ],
+      "distance_past_door_m": 0.434,
+      "source": "bearing-new",
+      "source_rollout_outcome": "timeout",
+      "teacher_pose": [
+        -1.91998827,
+        9.307497,
+        23.96145
+      ],
+      "lateral_offset_m": 0.211,
+      "heading_difference_deg": 4.59
+    },
+    "6502/2": {
+      "family": "post-door-clutter",
+      "pose": [
+        -0.610779941,
+        8.902357,
+        -42.58038
+      ],
+      "distance_past_door_m": 0.423,
+      "source": "bearing-new",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        -0.571260154,
+        8.902047,
+        -1.79392171
+      ],
+      "lateral_offset_m": 0.04,
+      "heading_difference_deg": 40.79
+    },
+    "6503/0": {
+      "family": "variable-width-doors",
+      "pose": [
+        1.996428,
+        8.941069,
+        -43.163475
+      ],
+      "distance_past_door_m": 0.427,
+      "source": "exit-new",
+      "source_rollout_outcome": "timeout",
+      "teacher_pose": [
+        0.320062816,
+        8.959193,
+        1.78054953
+      ],
+      "lateral_offset_m": 1.676,
+      "heading_difference_deg": 44.94
+    },
+    "6503/1": {
+      "family": "offset-doors",
+      "pose": [
+        3.01400924,
+        8.884014,
+        -34.4593468
+      ],
+      "distance_past_door_m": 0.521,
+      "source": "exit-new",
+      "source_rollout_outcome": "timeout",
+      "teacher_pose": [
+        1.12960529,
+        8.805357,
+        5.92090368
+      ],
+      "lateral_offset_m": 1.884,
+      "heading_difference_deg": 40.38
+    },
+    "6503/2": {
+      "family": "post-door-clutter",
+      "pose": [
+        2.138829,
+        9.220349,
+        62.22224
+      ],
+      "distance_past_door_m": 0.423,
+      "source": "bearing-new",
+      "source_rollout_outcome": "completed",
+      "teacher_pose": [
+        2.02961254,
+        9.226255,
+        -2.01552272
+      ],
+      "lateral_offset_m": 0.109,
+      "heading_difference_deg": 64.24
+    }
+  },
+  "excluded": {
+    "6401/2": "neither policy supplied an eligible start",
+    "6500/0": "neither policy supplied an eligible start",
+    "6500/1": "neither policy supplied an eligible start"
+  }
+}

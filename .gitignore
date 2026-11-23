@@ -1,0 +1,17 @@
+/data/
+/experiments/
+__pycache__/
+*.py[cod]
+.venv/
+
+/mini_lidar_car-sim/[Ll]ibrary/
+/mini_lidar_car-sim/[Tt]emp/
+/mini_lidar_car-sim/[Oo]bj/
+/mini_lidar_car-sim/[Ll]ogs/
+/mini_lidar_car-sim/[Uu]ser[Ss]ettings/
+/mini_lidar_car-sim/[Bb]uild/
+/mini_lidar_car-sim/[Bb]uilds/
+/mini_lidar_car-sim/*.sln
+/mini_lidar_car-sim/*.csproj
+/mini_lidar_car-sim/*.slnx
+/mini_lidar_car-sim/.vscode/

@@ -1,0 +1,238 @@
+{
+  "outcomes": {
+    "completed": 38,
+    "stopped": 2
+  },
+  "placements": {
+    "clear": 19,
+    "clutter12": 3,
+    "clutter07": 1,
+    "clutter08": 3,
+    "clutter10": 1,
+    "clutter11": 1,
+    "clutter13": 2,
+    "clutter09": 1,
+    "box-approach": 5,
+    "box-exit": 2,
+    "blocked": 2
+  },
+  "scans": 14782,
+  "usable_placements_by_family": {
+    "hall-atrium": {
+      "clear": 2,
+      "clutter12": 2
+    },
+    "hall-chain": {
+      "clear": 3,
+      "clutter07": 1,
+      "clutter08": 1,
+      "clutter10": 1
+    },
+    "hall-partitions": {
+      "clear": 3,
+      "clutter08": 1,
+      "clutter11": 1,
+      "clutter13": 1
+    },
+    "hall-wings": {
+      "clear": 4,
+      "clutter08": 1,
+      "clutter09": 1,
+      "clutter12": 1,
+      "clutter13": 1
+    },
+    "network": {
+      "box-approach": 5,
+      "clear": 7,
+      "box-exit": 2,
+      "blocked": 1
+    },
+    "rooms": {
+      "blocked": 1
+    }
+  },
+  "usable_seed_count": 2,
+  "irregular_intervals": 0,
+  "contact_runs": 0,
+  "invalid_files": [],
+  "complete_pairs": 19,
+  "unmatched_complete_runs": 0,
+  "max_deviation_from_clear_m": {
+    "min": 0.5801,
+    "median": 0.8403,
+    "max": 4.3848
+  },
+  "pairs": [
+    {
+      "seed": 1123,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 0.00013800336807486186,
+      "max_deviation_from_clear_m": 0.9594879004487246,
+      "finish_difference_m": 0.045373161034520715
+    },
+    {
+      "seed": 1123,
+      "task": 0,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 1.625079690361122e-05,
+      "max_deviation_from_clear_m": 0.5813677052935005,
+      "finish_difference_m": 0.000128837058333449
+    },
+    {
+      "seed": 1123,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 1.2182607433352746,
+      "finish_difference_m": 0.0031773349626731794
+    },
+    {
+      "seed": 1123,
+      "task": 1,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.00013848029498816867,
+      "max_deviation_from_clear_m": 0.6489613870000592,
+      "finish_difference_m": 2.398862071911001e-05
+    },
+    {
+      "seed": 1123,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 6.373206728165997e-05,
+      "max_deviation_from_clear_m": 1.3755112401551641,
+      "finish_difference_m": 0.013300685730367445
+    },
+    {
+      "seed": 1123,
+      "task": 2,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.5801146184649165,
+      "finish_difference_m": 0.0011536209942612488
+    },
+    {
+      "seed": 1123,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 9.211843735086581e-05,
+      "max_deviation_from_clear_m": 1.5276533889788715,
+      "finish_difference_m": 0.005793191393247846
+    },
+    {
+      "seed": 1123,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 1.5981702036956775e-05,
+      "max_deviation_from_clear_m": 2.4638443460714567,
+      "finish_difference_m": 0.01400389979078679
+    },
+    {
+      "seed": 1123,
+      "task": 4,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6509249262507819,
+      "finish_difference_m": 0.00011657715728169822
+    },
+    {
+      "seed": 1123,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 4.3847721896976735,
+      "finish_difference_m": 0.0154634619377411
+    },
+    {
+      "seed": 1123,
+      "task": 5,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 6.334824385846255e-05,
+      "max_deviation_from_clear_m": 0.6088138024495947,
+      "finish_difference_m": 2.78156190543183e-05
+    },
+    {
+      "seed": 1123,
+      "task": 6,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.00013821514141314854,
+      "max_deviation_from_clear_m": 0.6606917040962981,
+      "finish_difference_m": 0.0008163584681376301
+    },
+    {
+      "seed": 1123,
+      "task": 8,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 1.6194969620265532e-05,
+      "max_deviation_from_clear_m": 0.7726647307903998,
+      "finish_difference_m": 0.00025280197784053227
+    },
+    {
+      "seed": 1124,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.00013829743923909833,
+      "max_deviation_from_clear_m": 3.4517451600648914,
+      "finish_difference_m": 0.011330029196361361
+    },
+    {
+      "seed": 1124,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 6.345252162089875e-05,
+      "max_deviation_from_clear_m": 0.6190937977196896,
+      "finish_difference_m": 0.0034147955374367674
+    },
+    {
+      "seed": 1124,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 0.00015440673560369937,
+      "max_deviation_from_clear_m": 0.8262294145267429,
+      "finish_difference_m": 0.0006713992817989628
+    },
+    {
+      "seed": 1124,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 1.630194899398678e-05,
+      "max_deviation_from_clear_m": 0.840289823430308,
+      "finish_difference_m": 0.01619629452068904
+    },
+    {
+      "seed": 1124,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 6.296301215771075e-05,
+      "max_deviation_from_clear_m": 1.685815092099858,
+      "finish_difference_m": 0.03540920591212682
+    },
+    {
+      "seed": 1124,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00013830582362686454,
+      "max_deviation_from_clear_m": 1.5833256392171666,
+      "finish_difference_m": 0.0017672091176766784
+    }
+  ]
+}

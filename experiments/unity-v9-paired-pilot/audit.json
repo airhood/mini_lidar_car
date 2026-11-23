@@ -1,0 +1,178 @@
+{
+  "outcomes": {
+    "completed": 36,
+    "stopped": 3
+  },
+  "placements": {
+    "box-approach": 14,
+    "box-exit": 4,
+    "clear": 18,
+    "blocked": 3
+  },
+  "scans": 14154,
+  "usable_placements_by_family": {
+    "network": {
+      "box-approach": 14,
+      "box-exit": 4,
+      "clear": 18,
+      "blocked": 3
+    }
+  },
+  "usable_seed_count": 3,
+  "irregular_intervals": 0,
+  "contact_runs": 0,
+  "invalid_files": [],
+  "complete_pairs": 18,
+  "unmatched_complete_runs": 0,
+  "max_deviation_from_clear_m": {
+    "min": 0.6001,
+    "median": 0.6733,
+    "max": 0.8333
+  },
+  "pairs": [
+    {
+      "seed": 1001,
+      "task": 0,
+      "intent": "left",
+      "start_difference_m": 0.0001539480029100526,
+      "max_deviation_from_clear_m": 0.7090121072281163,
+      "finish_difference_m": 0.00023463409811940098
+    },
+    {
+      "seed": 1001,
+      "task": 1,
+      "intent": "right",
+      "start_difference_m": 6.304998096740134e-05,
+      "max_deviation_from_clear_m": 0.6660991220475816,
+      "finish_difference_m": 0.007316169765505473
+    },
+    {
+      "seed": 1001,
+      "task": 4,
+      "intent": "follow",
+      "start_difference_m": 9.108238029405714e-05,
+      "max_deviation_from_clear_m": 0.8332932189087139,
+      "finish_difference_m": 0.00011390755945059001
+    },
+    {
+      "seed": 1001,
+      "task": 5,
+      "intent": "right",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6109981255817301,
+      "finish_difference_m": 0.01462329000473219
+    },
+    {
+      "seed": 1001,
+      "task": 8,
+      "intent": "follow",
+      "start_difference_m": 4.709564735714502e-05,
+      "max_deviation_from_clear_m": 0.7964437455867049,
+      "finish_difference_m": 0.00034753179768126554
+    },
+    {
+      "seed": 1002,
+      "task": 2,
+      "intent": "follow",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6573530055604693,
+      "finish_difference_m": 0.0006747410926421337
+    },
+    {
+      "seed": 1002,
+      "task": 3,
+      "intent": "right",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.710957877086011,
+      "finish_difference_m": 0.0003815377781566162
+    },
+    {
+      "seed": 1002,
+      "task": 6,
+      "intent": "follow",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6193098857510178,
+      "finish_difference_m": 7.304354865975683e-06
+    },
+    {
+      "seed": 1002,
+      "task": 7,
+      "intent": "left",
+      "start_difference_m": 0.00015416565895175533,
+      "max_deviation_from_clear_m": 0.68047071554558,
+      "finish_difference_m": 0.0004883960571059597
+    },
+    {
+      "seed": 1003,
+      "task": 0,
+      "intent": "left",
+      "start_difference_m": 0.00015436518260238157,
+      "max_deviation_from_clear_m": 0.733322002316608,
+      "finish_difference_m": 0.0008840567628832676
+    },
+    {
+      "seed": 1003,
+      "task": 1,
+      "intent": "follow",
+      "start_difference_m": 1.619220800200929e-05,
+      "max_deviation_from_clear_m": 0.6017148978770597,
+      "finish_difference_m": 0.00025255684508642334
+    },
+    {
+      "seed": 1003,
+      "task": 2,
+      "intent": "follow",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6000681285600235,
+      "finish_difference_m": 0.00011430937363145743
+    },
+    {
+      "seed": 1003,
+      "task": 3,
+      "intent": "right",
+      "start_difference_m": 0.00015386906771704256,
+      "max_deviation_from_clear_m": 0.6509355340057569,
+      "finish_difference_m": 0.00045035993705033755
+    },
+    {
+      "seed": 1003,
+      "task": 4,
+      "intent": "follow",
+      "start_difference_m": 0.00015511608556117477,
+      "max_deviation_from_clear_m": 0.6948345394954167,
+      "finish_difference_m": 0.001017063085752461
+    },
+    {
+      "seed": 1003,
+      "task": 5,
+      "intent": "left",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.7509048050199765,
+      "finish_difference_m": 0.00045977384397153964
+    },
+    {
+      "seed": 1003,
+      "task": 6,
+      "intent": "follow",
+      "start_difference_m": 6.303173803809856e-05,
+      "max_deviation_from_clear_m": 0.810859591826514,
+      "finish_difference_m": 3.171999999995734e-05
+    },
+    {
+      "seed": 1003,
+      "task": 7,
+      "intent": "right",
+      "start_difference_m": 4.6642898710253486e-05,
+      "max_deviation_from_clear_m": 0.6068084923101275,
+      "finish_difference_m": 6.491480955772019e-05
+    },
+    {
+      "seed": 1003,
+      "task": 8,
+      "intent": "follow",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6613271983965955,
+      "finish_difference_m": 0.00013378364062922206
+    }
+  ]
+}

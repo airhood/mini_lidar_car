@@ -1,0 +1,414 @@
+[
+  {
+    "seed": 1121,
+    "task": 0,
+    "family": "islands",
+    "room_m": [
+      9.059,
+      8.421
+    ],
+    "inside_corner": true,
+    "heading_deg": 24.39,
+    "box_footprints_m": [
+      [
+        0.621,
+        0.596
+      ],
+      [
+        0.849,
+        0.884
+      ],
+      [
+        0.59,
+        0.901
+      ],
+      [
+        0.522,
+        0.911
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.393
+  },
+  {
+    "seed": 1121,
+    "task": 1,
+    "family": "staggered",
+    "room_m": [
+      7.995,
+      8.673
+    ],
+    "inside_corner": true,
+    "heading_deg": -21.32,
+    "box_footprints_m": [
+      [
+        0.66,
+        0.811
+      ],
+      [
+        1.205,
+        0.813
+      ],
+      [
+        0.725,
+        0.741
+      ],
+      [
+        2.746,
+        0.566
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.384
+  },
+  {
+    "seed": 1121,
+    "task": 2,
+    "family": "furniture",
+    "room_m": [
+      8.317,
+      13.133
+    ],
+    "inside_corner": true,
+    "heading_deg": 9.14,
+    "box_footprints_m": [
+      [
+        2.022,
+        1.016
+      ],
+      [
+        0.602,
+        0.596
+      ],
+      [
+        2.085,
+        0.906
+      ],
+      [
+        1.129,
+        0.744
+      ],
+      [
+        1.409,
+        0.659
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.38
+  },
+  {
+    "seed": 1121,
+    "task": 3,
+    "family": "islands",
+    "room_m": [
+      7.765,
+      12.269
+    ],
+    "inside_corner": true,
+    "heading_deg": -13.81,
+    "box_footprints_m": [
+      [
+        1.103,
+        0.815
+      ],
+      [
+        0.74,
+        0.794
+      ],
+      [
+        0.556,
+        0.604
+      ],
+      [
+        0.704,
+        0.634
+      ],
+      [
+        0.497,
+        1.195
+      ],
+      [
+        0.742,
+        0.931
+      ],
+      [
+        0.947,
+        0.512
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.402
+  },
+  {
+    "seed": 1121,
+    "task": 4,
+    "family": "staggered",
+    "room_m": [
+      7.649,
+      9.192
+    ],
+    "inside_corner": true,
+    "heading_deg": 2.77,
+    "box_footprints_m": [
+      [
+        1.137,
+        0.791
+      ],
+      [
+        1.318,
+        0.54
+      ],
+      [
+        0.868,
+        0.922
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.386
+  },
+  {
+    "seed": 1121,
+    "task": 5,
+    "family": "furniture",
+    "room_m": [
+      7.749,
+      9.365
+    ],
+    "inside_corner": true,
+    "heading_deg": -10.65,
+    "box_footprints_m": [
+      [
+        1.603,
+        0.929
+      ],
+      [
+        0.585,
+        0.776
+      ],
+      [
+        1.467,
+        0.808
+      ],
+      [
+        1.117,
+        0.772
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.393
+  },
+  {
+    "seed": 1122,
+    "task": 0,
+    "family": "islands",
+    "room_m": [
+      7.959,
+      12.242
+    ],
+    "inside_corner": true,
+    "heading_deg": -11.22,
+    "box_footprints_m": [
+      [
+        1.085,
+        0.867
+      ],
+      [
+        1.018,
+        0.895
+      ],
+      [
+        1.222,
+        0.728
+      ],
+      [
+        0.604,
+        0.812
+      ],
+      [
+        0.931,
+        0.892
+      ],
+      [
+        0.561,
+        0.979
+      ],
+      [
+        0.885,
+        1.053
+      ],
+      [
+        0.58,
+        0.986
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.381
+  },
+  {
+    "seed": 1122,
+    "task": 1,
+    "family": "staggered",
+    "room_m": [
+      7.844,
+      9.279
+    ],
+    "inside_corner": true,
+    "heading_deg": 7.54,
+    "box_footprints_m": [
+      [
+        1.343,
+        0.781
+      ],
+      [
+        0.398,
+        0.656
+      ],
+      [
+        1.292,
+        0.628
+      ],
+      [
+        1.311,
+        0.685
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.388
+  },
+  {
+    "seed": 1122,
+    "task": 2,
+    "family": "furniture",
+    "room_m": [
+      8.069,
+      9.452
+    ],
+    "inside_corner": true,
+    "heading_deg": 12.12,
+    "box_footprints_m": [
+      [
+        1.847,
+        0.914
+      ],
+      [
+        1.837,
+        0.892
+      ],
+      [
+        1.768,
+        0.699
+      ],
+      [
+        2.599,
+        0.643
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.393
+  },
+  {
+    "seed": 1122,
+    "task": 3,
+    "family": "islands",
+    "room_m": [
+      7.457,
+      12.59
+    ],
+    "inside_corner": true,
+    "heading_deg": -9.45,
+    "box_footprints_m": [
+      [
+        1.269,
+        0.749
+      ],
+      [
+        0.887,
+        0.81
+      ],
+      [
+        1.326,
+        0.625
+      ],
+      [
+        0.578,
+        0.537
+      ],
+      [
+        0.985,
+        1.148
+      ],
+      [
+        0.593,
+        0.65
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.412
+  },
+  {
+    "seed": 1122,
+    "task": 4,
+    "family": "staggered",
+    "room_m": [
+      7.498,
+      12.984
+    ],
+    "inside_corner": true,
+    "heading_deg": 13.14,
+    "box_footprints_m": [
+      [
+        1.035,
+        0.763
+      ],
+      [
+        1.746,
+        0.512
+      ],
+      [
+        1.127,
+        0.832
+      ],
+      [
+        0.518,
+        0.868
+      ],
+      [
+        0.727,
+        0.688
+      ],
+      [
+        0.441,
+        0.516
+      ]
+    ],
+    "boxes_on_clear_track": 3,
+    "min_center_to_box_m": 0.376
+  },
+  {
+    "seed": 1122,
+    "task": 5,
+    "family": "furniture",
+    "room_m": [
+      7.501,
+      9.972
+    ],
+    "inside_corner": true,
+    "heading_deg": -1.95,
+    "box_footprints_m": [
+      [
+        1.464,
+        0.884
+      ],
+      [
+        1.66,
+        0.607
+      ],
+      [
+        1.642,
+        0.707
+      ]
+    ],
+    "boxes_on_clear_track": 2,
+    "min_center_to_box_m": 0.388
+  }
+]

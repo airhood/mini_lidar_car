@@ -1,0 +1,11 @@
+{
+  "seed": 6400,
+  "task": 0,
+  "playback_speed": 2,
+  "switch_time_in_video_s": 18.15,
+  "frames_captured": {
+    "forward": 1620,
+    "exit": 1340
+  },
+  "pose_and_commands_match_original": true
+}

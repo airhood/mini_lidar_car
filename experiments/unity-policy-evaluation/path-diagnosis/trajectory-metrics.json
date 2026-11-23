@@ -1,0 +1,94 @@
+{
+  "network/01/clear": {
+    "Teacher": {
+      "outcome": "completed",
+      "travelled_m": 9.661,
+      "final_distance_to_teacher_endpoint_m": 0.0,
+      "closest_distance_to_teacher_endpoint_m": 0.0,
+      "mean_forward_command_first_three_seconds": 0.5684
+    },
+    "v8": {
+      "outcome": "timeout",
+      "travelled_m": 10.869,
+      "final_distance_to_teacher_endpoint_m": 12.209,
+      "closest_distance_to_teacher_endpoint_m": 5.207,
+      "mean_forward_command_first_three_seconds": 0.2974
+    },
+    "v8 without previous cmd": {
+      "outcome": "completed",
+      "travelled_m": 9.622,
+      "final_distance_to_teacher_endpoint_m": 0.085,
+      "closest_distance_to_teacher_endpoint_m": 0.085,
+      "mean_forward_command_first_three_seconds": 0.5628
+    }
+  },
+  "network/00/box-approach": {
+    "Teacher": {
+      "outcome": "completed",
+      "travelled_m": 12.067,
+      "final_distance_to_teacher_endpoint_m": 0.0,
+      "closest_distance_to_teacher_endpoint_m": 0.0,
+      "mean_forward_command_first_three_seconds": 0.577
+    },
+    "v8": {
+      "outcome": "timeout",
+      "travelled_m": 5.188,
+      "final_distance_to_teacher_endpoint_m": 12.382,
+      "closest_distance_to_teacher_endpoint_m": 9.846,
+      "mean_forward_command_first_three_seconds": 0.3116
+    },
+    "v8 without previous cmd": {
+      "outcome": "timeout",
+      "travelled_m": 17.188,
+      "final_distance_to_teacher_endpoint_m": 25.527,
+      "closest_distance_to_teacher_endpoint_m": 10.138,
+      "mean_forward_command_first_three_seconds": 0.4796
+    }
+  },
+  "hall-partitions/00/clear": {
+    "Teacher": {
+      "outcome": "completed",
+      "travelled_m": 12.562,
+      "final_distance_to_teacher_endpoint_m": 0.0,
+      "closest_distance_to_teacher_endpoint_m": 0.0,
+      "mean_forward_command_first_three_seconds": 0.5679
+    },
+    "v8": {
+      "outcome": "timeout",
+      "travelled_m": 0.324,
+      "final_distance_to_teacher_endpoint_m": 12.466,
+      "closest_distance_to_teacher_endpoint_m": 12.287,
+      "mean_forward_command_first_three_seconds": 0.0464
+    },
+    "v8 without previous cmd": {
+      "outcome": "timeout",
+      "travelled_m": 11.478,
+      "final_distance_to_teacher_endpoint_m": 4.699,
+      "closest_distance_to_teacher_endpoint_m": 4.205,
+      "mean_forward_command_first_three_seconds": 0.4513
+    }
+  },
+  "hall-chain/02/clutter09": {
+    "Teacher": {
+      "outcome": "completed",
+      "travelled_m": 11.365,
+      "final_distance_to_teacher_endpoint_m": 0.0,
+      "closest_distance_to_teacher_endpoint_m": 0.0,
+      "mean_forward_command_first_three_seconds": 0.3516
+    },
+    "v8": {
+      "outcome": "timeout",
+      "travelled_m": 0.156,
+      "final_distance_to_teacher_endpoint_m": 10.479,
+      "closest_distance_to_teacher_endpoint_m": 10.409,
+      "mean_forward_command_first_three_seconds": -0.0151
+    },
+    "v8 without previous cmd": {
+      "outcome": "timeout",
+      "travelled_m": 10.356,
+      "final_distance_to_teacher_endpoint_m": 3.089,
+      "closest_distance_to_teacher_endpoint_m": 2.908,
+      "mean_forward_command_first_three_seconds": 0.0269
+    }
+  }
+}

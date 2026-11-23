@@ -1,0 +1,250 @@
+{
+  "eligible_pairs": 24,
+  "omitted_pairs": [],
+  "episodes": {
+    "7400/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07400-20261123-062341-0a151dd13f124bd48a527920f8472a14.csv",
+      "windows": 91,
+      "split": "train"
+    },
+    "7400/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07400-20261123-062343-0f326fc7260c4ac4a10d5ed834a6b2f8.csv",
+      "windows": 101,
+      "split": "train"
+    },
+    "7400/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07400-20261123-062336-eae1ad3b43fd4a53b8632d28d3e72de6.csv",
+      "windows": 101,
+      "split": "train"
+    },
+    "7400/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07400-20261123-062338-1211202a540f4dd297a1e032ab2da21b.csv",
+      "windows": 111,
+      "split": "train"
+    },
+    "7401/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07401-20261123-062350-4a6886d0b82047ff955e6f2e372b464c.csv",
+      "windows": 117,
+      "split": "train"
+    },
+    "7401/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07401-20261123-062354-57c2df9fa71d4998baf76476657c20a4.csv",
+      "windows": 97,
+      "split": "train"
+    },
+    "7401/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07401-20261123-062346-dd9a59f74f5143c7b3c297379346e781.csv",
+      "windows": 102,
+      "split": "train"
+    },
+    "7401/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07401-20261123-062348-cf49f014e827416e9cce2d369f6fad9c.csv",
+      "windows": 106,
+      "split": "train"
+    },
+    "7402/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07402-20261123-062401-84f6fa2c41cd4c769a79bcfa0d78982f.csv",
+      "windows": 112,
+      "split": "train"
+    },
+    "7402/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07402-20261123-062404-fa9c77dfa9094a70970f6e8335a7bd80.csv",
+      "windows": 101,
+      "split": "train"
+    },
+    "7402/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07402-20261123-062356-3a689448cd0d4eeb953c832212221b93.csv",
+      "windows": 108,
+      "split": "train"
+    },
+    "7402/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07402-20261123-062359-5d39ca9cf20f43b0933b75e02cc3e5d2.csv",
+      "windows": 97,
+      "split": "train"
+    },
+    "7403/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07403-20261123-062411-9d11279717d54fe7abbef522284734f9.csv",
+      "windows": 101,
+      "split": "train"
+    },
+    "7403/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07403-20261123-062414-968dca1b4e4242c6b3f223bf1797d241.csv",
+      "windows": 102,
+      "split": "train"
+    },
+    "7403/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07403-20261123-062407-7081b681daf9437091deae7fef604469.csv",
+      "windows": 102,
+      "split": "train"
+    },
+    "7403/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07403-20261123-062409-856617e77a3947c29963781f1442d167.csv",
+      "windows": 103,
+      "split": "train"
+    },
+    "7404/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07404-20261123-062421-24a8ee36884941dc891c0bec0ca3d1dc.csv",
+      "windows": 95,
+      "split": "validation"
+    },
+    "7404/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07404-20261123-062424-4c6daab4a8dc4d87b686bfb0bd0815b7.csv",
+      "windows": 104,
+      "split": "validation"
+    },
+    "7404/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07404-20261123-062417-af838c3b23884f26aa2a3e41d980d430.csv",
+      "windows": 99,
+      "split": "validation"
+    },
+    "7404/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07404-20261123-062419-614bc382835d497bab95d1c0c492b14f.csv",
+      "windows": 95,
+      "split": "validation"
+    },
+    "7405/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07405-20261123-062430-72e54c1213d24786a7b7e0db6e7495b4.csv",
+      "windows": 98,
+      "split": "train"
+    },
+    "7405/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07405-20261123-062433-96fea45ed0174d09a4c9811adf9c67ea.csv",
+      "windows": 102,
+      "split": "train"
+    },
+    "7405/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07405-20261123-062426-de1266472161403aad620d91746680fa.csv",
+      "windows": 93,
+      "split": "train"
+    },
+    "7405/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07405-20261123-062428-2b93331cc05f4902bca2b3a94d6f485d.csv",
+      "windows": 97,
+      "split": "train"
+    },
+    "7406/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07406-20261123-062441-1f15dbde1ef54b968e5044856cf38c25.csv",
+      "windows": 94,
+      "split": "train"
+    },
+    "7406/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07406-20261123-062443-9728c538950d44009ba06475396ececa.csv",
+      "windows": 101,
+      "split": "train"
+    },
+    "7406/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07406-20261123-062436-37f93963d9714f2b96048731d1e5602f.csv",
+      "windows": 100,
+      "split": "train"
+    },
+    "7406/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07406-20261123-062438-f08608d04ea943e58b04d34d7ba41447.csv",
+      "windows": 116,
+      "split": "train"
+    },
+    "7407/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07407-20261123-062451-2888ac473c5749578107f2846cca15ab.csv",
+      "windows": 108,
+      "split": "train"
+    },
+    "7407/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07407-20261123-062454-59e30ed739ac4d54ae20dfcfeee3c697.csv",
+      "windows": 109,
+      "split": "train"
+    },
+    "7407/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07407-20261123-062446-37799f58cdd943dfaaac64fbd5bae5a3.csv",
+      "windows": 105,
+      "split": "train"
+    },
+    "7407/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07407-20261123-062449-d0012da7e4664bbbbb52241af4c15240.csv",
+      "windows": 107,
+      "split": "train"
+    },
+    "7408/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07408-20261123-062501-3187c22c882447e780a3dc65051ed4b6.csv",
+      "windows": 107,
+      "split": "train"
+    },
+    "7408/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07408-20261123-062504-b1708f919dd64951aa06c8da8a1a6b0f.csv",
+      "windows": 103,
+      "split": "train"
+    },
+    "7408/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07408-20261123-062457-78b1068a3f0b475fb2c3d62557989d51.csv",
+      "windows": 106,
+      "split": "train"
+    },
+    "7408/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07408-20261123-062459-c18e6f4a43144305a7170782df9ebb7f.csv",
+      "windows": 102,
+      "split": "train"
+    },
+    "7409/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07409-20261123-062511-ae15dbb9e48b4162afb6ce7a8cea9c3a.csv",
+      "windows": 101,
+      "split": "validation"
+    },
+    "7409/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07409-20261123-062514-1ac6adf998ac415c96967c831ab98b12.csv",
+      "windows": 105,
+      "split": "validation"
+    },
+    "7409/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07409-20261123-062506-a9c3d3fbd0054fd1a66b0cd5823f0eff.csv",
+      "windows": 98,
+      "split": "validation"
+    },
+    "7409/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07409-20261123-062509-453545eb0af2449c8cccfc586a9108b8.csv",
+      "windows": 103,
+      "split": "validation"
+    },
+    "7410/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07410-20261123-062521-1739fc1401eb4645a5bfe736c8b698ba.csv",
+      "windows": 104,
+      "split": "train"
+    },
+    "7410/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07410-20261123-062524-0f41845a4514461297a826a3ba233f42.csv",
+      "windows": 98,
+      "split": "train"
+    },
+    "7410/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07410-20261123-062517-48c5abb767364b5fa8d066512dacfeb6.csv",
+      "windows": 90,
+      "split": "train"
+    },
+    "7410/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07410-20261123-062519-3435c1978955430c81ab1387191d418e.csv",
+      "windows": 107,
+      "split": "train"
+    },
+    "7411/fork/left": {
+      "file": "completed-teacher-v12-direction-choice-fork-left-seed07411-20261123-062531-292e55f32c744f0c92ecdc5b22162a90.csv",
+      "windows": 101,
+      "split": "train"
+    },
+    "7411/fork/right": {
+      "file": "completed-teacher-v12-direction-choice-fork-right-seed07411-20261123-062534-a7b627245ba342438c16fcc25e7e8302.csv",
+      "windows": 102,
+      "split": "train"
+    },
+    "7411/island/left": {
+      "file": "completed-teacher-v12-direction-choice-island-left-seed07411-20261123-062527-4331cbbf92774d048fc90efa2ec08870.csv",
+      "windows": 103,
+      "split": "train"
+    },
+    "7411/island/right": {
+      "file": "completed-teacher-v12-direction-choice-island-right-seed07411-20261123-062529-b8257b10d5db476a878b7e8ba9ee3da0.csv",
+      "windows": 91,
+      "split": "train"
+    }
+  },
+  "windows": {
+    "train": 4096,
+    "validation": 800
+  }
+}

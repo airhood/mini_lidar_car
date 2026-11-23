@@ -1,0 +1,112 @@
+{
+  "seed": 6400,
+  "task": 0,
+  "maximum_absolute_turn_error_vs_unity": 1.7886010742276803e-07,
+  "probes": [
+    {
+      "t_s": 35.0,
+      "position_xz_m": [
+        0.259724379,
+        8.945475
+      ],
+      "yaw_deg_from_world_forward_positive_right": 27.3557873,
+      "waypoint_vector_world_xz": [
+        -0.9044,
+        0.4267
+      ],
+      "model_input_forward_right": [
+        -0.0366,
+        -0.9993
+      ],
+      "nominal_turn": 0.2091,
+      "turn_if_world_forward": 0.2301,
+      "turn_if_35s_scan_history": 0.2091,
+      "turn_if_35s_direction": 0.2091,
+      "turn_if_lateral_direction_mirrored": 0.2325
+    },
+    {
+      "t_s": 35.5,
+      "position_xz_m": [
+        0.330209553,
+        9.014169
+      ],
+      "yaw_deg_from_world_forward_positive_right": 38.8248672,
+      "waypoint_vector_world_xz": [
+        -0.9348,
+        0.3552
+      ],
+      "model_input_forward_right": [
+        -0.3093,
+        -0.951
+      ],
+      "nominal_turn": 0.1307,
+      "turn_if_world_forward": 0.1389,
+      "turn_if_35s_scan_history": 0.2068,
+      "turn_if_35s_direction": 0.1312,
+      "turn_if_lateral_direction_mirrored": 0.1621
+    },
+    {
+      "t_s": 36.0,
+      "position_xz_m": [
+        0.4194162,
+        9.082881
+      ],
+      "yaw_deg_from_world_forward_positive_right": 47.6825523,
+      "waypoint_vector_world_xz": [
+        -0.9593,
+        0.2825
+      ],
+      "model_input_forward_right": [
+        -0.5191,
+        -0.8547
+      ],
+      "nominal_turn": 0.1081,
+      "turn_if_world_forward": 0.1142,
+      "turn_if_35s_scan_history": 0.205,
+      "turn_if_35s_direction": 0.1085,
+      "turn_if_lateral_direction_mirrored": 0.1225
+    },
+    {
+      "t_s": 36.2,
+      "position_xz_m": [
+        0.454754919,
+        9.106242
+      ],
+      "yaw_deg_from_world_forward_positive_right": 50.5212059,
+      "waypoint_vector_world_xz": [
+        -0.9661,
+        0.2581
+      ],
+      "model_input_forward_right": [
+        -0.5816,
+        -0.8135
+      ],
+      "nominal_turn": 0.0938,
+      "turn_if_world_forward": 0.0977,
+      "turn_if_35s_scan_history": 0.2046,
+      "turn_if_35s_direction": 0.0935,
+      "turn_if_lateral_direction_mirrored": 0.116
+    },
+    {
+      "t_s": 36.3,
+      "position_xz_m": [
+        0.4721617,
+        9.117001
+      ],
+      "yaw_deg_from_world_forward_positive_right": 51.8261452,
+      "waypoint_vector_world_xz": [
+        0.0,
+        1.0
+      ],
+      "model_input_forward_right": [
+        0.618,
+        -0.7861
+      ],
+      "nominal_turn": 0.1054,
+      "turn_if_world_forward": 0.1054,
+      "turn_if_35s_scan_history": 0.22,
+      "turn_if_35s_direction": 0.1018,
+      "turn_if_lateral_direction_mirrored": 0.1248
+    }
+  ]
+}

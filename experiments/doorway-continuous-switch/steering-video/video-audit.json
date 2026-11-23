@@ -1,0 +1,10 @@
+{
+  "forward": {
+    "outcome": "completed",
+    "matching_scans": 648
+  },
+  "exit": {
+    "outcome": "collision",
+    "matching_scans": 536
+  }
+}

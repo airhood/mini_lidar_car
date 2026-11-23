@@ -1,0 +1,19 @@
+{
+  "generator": "mini_lidar_car-sim/Assets/Scripts/GraphFloorPlan.cs",
+  "version": "teacher-v6",
+  "first_seed": 1000,
+  "last_seed": 1099,
+  "map_count": 100,
+  "door_width_m": [
+    0.98,
+    1.359
+  ],
+  "corridor_width_m": [
+    1.26,
+    1.879
+  ],
+  "room_area_m2": [
+    3.29,
+    12.108
+  ]
+}

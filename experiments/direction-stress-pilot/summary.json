@@ -1,0 +1,263 @@
+{
+  "short-gap": {
+    "requested": 8,
+    "teacher_outcomes": {
+      "completed": 8
+    },
+    "policy_outcomes_on_teacher_completed": {
+      "completed": 6,
+      "collision": 1,
+      "timeout": 1
+    },
+    "first_box_cleared": 8,
+    "collision_after_first_box": 1,
+    "cases": {
+      "4200/0": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 4,
+        "furthest_z_m": 8.014,
+        "last_10s_distance_m": 2.574,
+        "last_10s_mean_forward_command": 0.5665,
+        "start_heading": 0.0
+      },
+      "4200/1": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 4,
+        "furthest_z_m": 8.018,
+        "last_10s_distance_m": 2.458,
+        "last_10s_mean_forward_command": 0.537,
+        "start_heading": 0.0
+      },
+      "4201/0": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 4,
+        "furthest_z_m": 7.656,
+        "last_10s_distance_m": 2.361,
+        "last_10s_mean_forward_command": 0.5163,
+        "start_heading": 0.0
+      },
+      "4201/1": {
+        "teacher": "completed",
+        "outcome": "collision",
+        "boxes_cleared": 1,
+        "furthest_z_m": 2.476,
+        "last_10s_distance_m": 1.543,
+        "last_10s_mean_forward_command": 0.302,
+        "start_heading": 0.0
+      },
+      "4202/0": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 4,
+        "furthest_z_m": 7.862,
+        "last_10s_distance_m": 2.5,
+        "last_10s_mean_forward_command": 0.5462,
+        "start_heading": 0.0
+      },
+      "4202/1": {
+        "teacher": "completed",
+        "outcome": "timeout",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.064,
+        "last_10s_distance_m": 1.672,
+        "last_10s_mean_forward_command": 0.3606,
+        "start_heading": 0.0
+      },
+      "4203/0": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 4,
+        "furthest_z_m": 7.669,
+        "last_10s_distance_m": 1.537,
+        "last_10s_mean_forward_command": 0.317,
+        "start_heading": 0.0
+      },
+      "4203/1": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 4,
+        "furthest_z_m": 7.509,
+        "last_10s_distance_m": 2.732,
+        "last_10s_mean_forward_command": 0.6013,
+        "start_heading": 0.0
+      }
+    }
+  },
+  "angled-entry": {
+    "requested": 8,
+    "teacher_outcomes": {
+      "completed": 8
+    },
+    "policy_outcomes_on_teacher_completed": {
+      "completed": 3,
+      "timeout": 5
+    },
+    "first_box_cleared": 8,
+    "collision_after_first_box": 0,
+    "cases": {
+      "4200/2": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.255,
+        "last_10s_distance_m": 2.506,
+        "last_10s_mean_forward_command": 0.5515,
+        "start_heading": 0.0
+      },
+      "4200/3": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.259,
+        "last_10s_distance_m": 2.445,
+        "last_10s_mean_forward_command": 0.5368,
+        "start_heading": 0.0
+      },
+      "4201/2": {
+        "teacher": "completed",
+        "outcome": "timeout",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.265,
+        "last_10s_distance_m": 1.715,
+        "last_10s_mean_forward_command": 0.3594,
+        "start_heading": 0.0
+      },
+      "4201/3": {
+        "teacher": "completed",
+        "outcome": "timeout",
+        "boxes_cleared": 1,
+        "furthest_z_m": 5.283,
+        "last_10s_distance_m": 1.811,
+        "last_10s_mean_forward_command": 0.3939,
+        "start_heading": 0.0
+      },
+      "4202/2": {
+        "teacher": "completed",
+        "outcome": "timeout",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.441,
+        "last_10s_distance_m": 1.34,
+        "last_10s_mean_forward_command": 0.293,
+        "start_heading": 0.0
+      },
+      "4202/3": {
+        "teacher": "completed",
+        "outcome": "timeout",
+        "boxes_cleared": 1,
+        "furthest_z_m": 5.384,
+        "last_10s_distance_m": 1.174,
+        "last_10s_mean_forward_command": 0.2354,
+        "start_heading": 0.0
+      },
+      "4203/2": {
+        "teacher": "completed",
+        "outcome": "timeout",
+        "boxes_cleared": 2,
+        "furthest_z_m": 5.591,
+        "last_10s_distance_m": 1.563,
+        "last_10s_mean_forward_command": 0.2311,
+        "start_heading": 0.0
+      },
+      "4203/3": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 2,
+        "furthest_z_m": 6.386,
+        "last_10s_distance_m": 2.49,
+        "last_10s_mean_forward_command": 0.5462,
+        "start_heading": 0.0
+      }
+    }
+  },
+  "wall-side": {
+    "requested": 8,
+    "teacher_outcomes": {
+      "completed": 6,
+      "skipped": 2
+    },
+    "policy_outcomes_on_teacher_completed": {
+      "collision": 3,
+      "completed": 2,
+      "timeout": 1
+    },
+    "first_box_cleared": 6,
+    "collision_after_first_box": 3,
+    "cases": {
+      "4200/4": {
+        "teacher": "completed",
+        "outcome": "collision",
+        "boxes_cleared": 2,
+        "furthest_z_m": 4.951,
+        "last_10s_distance_m": 2.245,
+        "last_10s_mean_forward_command": 0.4872,
+        "start_heading": 0.0
+      },
+      "4200/5": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.711,
+        "last_10s_distance_m": 2.502,
+        "last_10s_mean_forward_command": 0.5471,
+        "start_heading": 0.0
+      },
+      "4201/4": {
+        "teacher": "completed",
+        "outcome": "collision",
+        "boxes_cleared": 2,
+        "furthest_z_m": 4.431,
+        "last_10s_distance_m": 1.928,
+        "last_10s_mean_forward_command": 0.417,
+        "start_heading": 0.0
+      },
+      "4201/5": {
+        "teacher": "completed",
+        "outcome": "timeout",
+        "boxes_cleared": 2,
+        "furthest_z_m": 4.51,
+        "last_10s_distance_m": 2.121,
+        "last_10s_mean_forward_command": 0.4692,
+        "start_heading": 0.0
+      },
+      "4202/4": {
+        "teacher": "completed",
+        "outcome": "collision",
+        "boxes_cleared": 2,
+        "furthest_z_m": 5.553,
+        "last_10s_distance_m": 2.108,
+        "last_10s_mean_forward_command": 0.464,
+        "start_heading": 0.0
+      },
+      "4202/5": {
+        "teacher": "completed",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 7.055,
+        "last_10s_distance_m": 1.26,
+        "last_10s_mean_forward_command": 0.2598,
+        "start_heading": 0.0
+      },
+      "4203/4": {
+        "teacher": "skipped",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.771,
+        "last_10s_distance_m": 2.354,
+        "last_10s_mean_forward_command": 0.5154,
+        "start_heading": 0.0
+      },
+      "4203/5": {
+        "teacher": "skipped",
+        "outcome": "completed",
+        "boxes_cleared": 3,
+        "furthest_z_m": 6.778,
+        "last_10s_distance_m": 2.354,
+        "last_10s_mean_forward_command": 0.5179,
+        "start_heading": 0.0
+      }
+    }
+  }
+}

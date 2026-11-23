@@ -1,0 +1,26 @@
+{
+  "forward": {
+    "outcome": "completed",
+    "matching_scans": 648,
+    "all_csv_fields_match": true,
+    "sampled_scans": 643,
+    "samples_per_scan": 32,
+    "percentile_estimate": "P90-P10 using order statistics 29 and 4",
+    "median_p90_p10": 0.0082976818,
+    "max_p90_p10": 0.0496110621,
+    "max_spread_time_s": 49.29998253259637,
+    "median_near_second_door_p90_p10": 0.009633907500000004
+  },
+  "exit": {
+    "outcome": "collision",
+    "matching_scans": 536,
+    "all_csv_fields_match": true,
+    "sampled_scans": 536,
+    "samples_per_scan": 32,
+    "percentile_estimate": "P90-P10 using order statistics 29 and 4",
+    "median_p90_p10": 0.009040563949999997,
+    "max_p90_p10": 0.064314745,
+    "max_spread_time_s": 50.799982001133785,
+    "median_near_second_door_p90_p10": 0.009583733999999997
+  }
+}

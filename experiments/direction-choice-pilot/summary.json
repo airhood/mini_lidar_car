@@ -1,0 +1,632 @@
+{
+  "requested_pairs": 16,
+  "teacher_validated_pairs": 16,
+  "summary": {
+    "all": {
+      "pairs": 16,
+      "outcomes": {
+        "completed": 32
+      },
+      "crossing": {
+        "other_side": 14,
+        "requested_side": 18
+      },
+      "both_requested_sides": 2,
+      "both_completed_as_requested": 2,
+      "same_side": 14,
+      "first_turn_both_correct_signs": 1,
+      "median_first_turn_right_minus_left": 0.005112726275000005,
+      "first_turn_left_lower_than_right": 14
+    },
+    "island": {
+      "pairs": 8,
+      "outcomes": {
+        "completed": 16
+      },
+      "crossing": {
+        "other_side": 6,
+        "requested_side": 10
+      },
+      "both_requested_sides": 2,
+      "both_completed_as_requested": 2,
+      "same_side": 6,
+      "first_turn_both_correct_signs": 1,
+      "median_first_turn_right_minus_left": 0.004638127799999994,
+      "first_turn_left_lower_than_right": 7
+    },
+    "fork": {
+      "pairs": 8,
+      "outcomes": {
+        "completed": 16
+      },
+      "crossing": {
+        "other_side": 8,
+        "requested_side": 8
+      },
+      "both_requested_sides": 0,
+      "both_completed_as_requested": 0,
+      "same_side": 8,
+      "first_turn_both_correct_signs": 0,
+      "median_first_turn_right_minus_left": 0.005847564850000002,
+      "first_turn_left_lower_than_right": 7
+    }
+  },
+  "cases": {
+    "7200/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.3788117057,
+        "seconds": 21.599992346938777
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.016795374999999998,
+        "first_direction_x": -0.3788117057,
+        "seconds": 22.999991850907026
+      }
+    },
+    "7200/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.3545756453,
+        "seconds": 20.99999255952381
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.021963092000000004,
+        "first_direction_x": 0.3545756453,
+        "seconds": 18.59999340986395
+      }
+    },
+    "7200/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.09599995645,
+        "first_direction_x": -0.465486302,
+        "seconds": 17.99999362244898
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.01615678805,
+        "first_direction_x": -0.465486302,
+        "seconds": 16.299994224773243
+      }
+    },
+    "7200/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.45227675,
+        "seconds": 18.09999358701814
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.025164959500000004,
+        "first_direction_x": 0.45227675,
+        "seconds": 15.399994543650791
+      }
+    },
+    "7201/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.312977462,
+        "seconds": 23.79999156746031
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.027565229499999996,
+        "first_direction_x": -0.312977462,
+        "seconds": 34.39998781179139
+      }
+    },
+    "7201/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.349408507,
+        "seconds": 23.999991496598625
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.03262296505,
+        "first_direction_x": 0.349408507,
+        "seconds": 21.99999220521542
+      }
+    },
+    "7201/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.356194742,
+        "seconds": 18.699993374433106
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.0104254023,
+        "first_direction_x": -0.356194742,
+        "seconds": 17.39999383503401
+      }
+    },
+    "7201/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.41325026,
+        "seconds": 19.699993020124722
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "left",
+        "first_turn": -0.005608211500000002,
+        "first_direction_x": 0.41325026,
+        "seconds": 20.29999280753968
+      }
+    },
+    "7202/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.35827728400000003,
+        "seconds": 22.699991957199558
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.013136416949999997,
+        "first_direction_x": -0.35827728400000003,
+        "seconds": 60.39997859977325
+      }
+    },
+    "7202/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.32604555,
+        "seconds": 22.39999206349208
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.024153513999999997,
+        "first_direction_x": 0.32604555,
+        "seconds": 21.299992453231255
+      }
+    },
+    "7202/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.40518666,
+        "seconds": 19.999992913832187
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": 0.0032715565,
+        "first_direction_x": -0.40518666,
+        "seconds": 18.59999340986394
+      }
+    },
+    "7202/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.383039568,
+        "seconds": 19.699993020124737
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.004158826550000001,
+        "first_direction_x": 0.383039568,
+        "seconds": 18.49999344529479
+      }
+    },
+    "7203/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.33863809489999996,
+        "seconds": 20.899992594954654
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": 0.010390641100000002,
+        "first_direction_x": -0.33863809489999996,
+        "seconds": 19.69999302012468
+      }
+    },
+    "7203/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.3699728571,
+        "seconds": 21.699992311507913
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "left",
+        "first_turn": 0.020691835895,
+        "first_direction_x": 0.3699728571,
+        "seconds": 22.69999195719953
+      }
+    },
+    "7203/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.3776521922,
+        "seconds": 18.499993445294763
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.041830853,
+        "first_direction_x": -0.3776521922,
+        "seconds": 17.09999394132649
+      }
+    },
+    "7203/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.42925290779999997,
+        "seconds": 19.1999931972789
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "left",
+        "first_turn": -0.019431967499999994,
+        "first_direction_x": 0.42925290779999997,
+        "seconds": 19.099993232709778
+      }
+    },
+    "7204/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.31268100000000004,
+        "seconds": 20.799992630385475
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.011628464000000019,
+        "first_direction_x": -0.31268100000000004,
+        "seconds": 31.099988981009062
+      }
+    },
+    "7204/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.312739763,
+        "seconds": 20.699992665816353
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.01622712600000001,
+        "first_direction_x": 0.312739763,
+        "seconds": 18.59999340986394
+      }
+    },
+    "7204/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.48280154100000006,
+        "seconds": 18.89999330357142
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.047082687600000006,
+        "first_direction_x": -0.48280154100000006,
+        "seconds": 17.099993941326545
+      }
+    },
+    "7204/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.497200559,
+        "seconds": 18.9999932681406
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.051541752399999995,
+        "first_direction_x": 0.497200559,
+        "seconds": 16.49999415391153
+      }
+    },
+    "7205/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.25043886,
+        "seconds": 23.299991744614545
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.00593943055,
+        "first_direction_x": -0.25043886,
+        "seconds": 29.199989654195008
+      }
+    },
+    "7205/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.311270863,
+        "seconds": 23.999991496598625
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.012967985000000001,
+        "first_direction_x": 0.311270863,
+        "seconds": 23.799991567460324
+      }
+    },
+    "7205/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.475800524,
+        "seconds": 19.499993090986436
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.0368815165,
+        "first_direction_x": -0.475800524,
+        "seconds": 16.499994153911587
+      }
+    },
+    "7205/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.41103110000000004,
+        "seconds": 18.299993516156462
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.034928773,
+        "first_direction_x": 0.41103110000000004,
+        "seconds": 15.69999443735827
+      }
+    },
+    "7206/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.357374383,
+        "seconds": 23.39999170918361
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.0472914437,
+        "first_direction_x": -0.357374383,
+        "seconds": 35.599987386621365
+      }
+    },
+    "7206/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.349579023,
+        "seconds": 23.299991744614545
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.04566525645,
+        "first_direction_x": 0.349579023,
+        "seconds": 21.199992488662133
+      }
+    },
+    "7206/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.40382577880000003,
+        "seconds": 20.59999270124723
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": -0.006355338899999999,
+        "first_direction_x": -0.40382577880000003,
+        "seconds": 19.1999931972789
+      }
+    },
+    "7206/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.4092604032,
+        "seconds": 20.299992807539752
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.00904328655,
+        "first_direction_x": 0.4092604032,
+        "seconds": 18.699993374433006
+      }
+    },
+    "7207/fork/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.3845494761,
+        "seconds": 22.599991992630407
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "right",
+        "first_turn": 0.0169984288,
+        "first_direction_x": -0.3845494761,
+        "seconds": 23.999991496598568
+      }
+    },
+    "7207/fork/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.3465194029,
+        "seconds": 21.699992311508026
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.0235258415,
+        "first_direction_x": 0.3465194029,
+        "seconds": 20.999992559523776
+      }
+    },
+    "7207/island/left": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": -0.07999996849999999,
+        "first_direction_x": -0.4304398854,
+        "seconds": 19.499993090986322
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "left",
+        "actual": "left",
+        "first_turn": 0.007384631650000001,
+        "first_direction_x": -0.4304398854,
+        "seconds": 18.19999355158734
+      }
+    },
+    "7207/island/right": {
+      "teacher": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.07999996849999999,
+        "first_direction_x": 0.4020676796,
+        "seconds": 19.399993126417257
+      },
+      "policy": {
+        "outcome": "completed",
+        "requested": "right",
+        "actual": "right",
+        "first_turn": 0.01108758,
+        "first_direction_x": 0.4020676796,
+        "seconds": 17.299993870464846
+      }
+    }
+  }
+}

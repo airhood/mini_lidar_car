@@ -1,0 +1,16 @@
+{
+  "existing_validation": {
+    "episodes": 27,
+    "scans": 7223,
+    "baseline_mae": 0.021820278838276863,
+    "uniform_50_mae": 0.02117299661040306,
+    "approach_mae": 0.023970283567905426
+  },
+  "paired_validation": {
+    "episodes": 8,
+    "scans": 800,
+    "baseline_mae": 0.12349244207143784,
+    "uniform_50_mae": 0.09148707240819931,
+    "approach_mae": 0.02914806641638279
+  }
+}

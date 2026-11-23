@@ -1,0 +1,199 @@
+{
+  "v8-1129": {
+    "attempted": 31,
+    "unavailable_geometries": 0,
+    "outcomes": {
+      "collision": 6,
+      "completed": 1,
+      "stopped": 1,
+      "timeout": 23
+    },
+    "by_environment": {
+      "hall": {
+        "collision": 5,
+        "timeout": 7
+      },
+      "network": {
+        "collision": 1,
+        "completed": 1,
+        "stopped": 1,
+        "timeout": 16
+      }
+    },
+    "by_condition": {
+      "blocked": {
+        "stopped": 1
+      },
+      "box-approach": {
+        "collision": 1,
+        "completed": 1,
+        "timeout": 7
+      },
+      "clear": {
+        "collision": 3,
+        "timeout": 12
+      },
+      "clutter": {
+        "collision": 2,
+        "timeout": 4
+      }
+    },
+    "cases": {
+      "01129/05/hall-atrium/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 56.0,
+        "distance_m": 12.711
+      },
+      "01129/01/hall-atrium/follow/clutter12": {
+        "outcome": "collision",
+        "recorded_seconds": 50.3,
+        "distance_m": 6.425
+      },
+      "01129/04/hall-partitions/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 42.7,
+        "distance_m": 10.085
+      },
+      "01129/03/hall-wings/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 44.9,
+        "distance_m": 10.756
+      },
+      "01129/03/hall-wings/follow/clutter10": {
+        "outcome": "collision",
+        "recorded_seconds": 59.2,
+        "distance_m": 12.756
+      },
+      "01129/07/network/left/box-approach": {
+        "outcome": "collision",
+        "recorded_seconds": 23.5,
+        "distance_m": 7.88
+      },
+      "01129/08/network/follow/box-approach": {
+        "outcome": "completed",
+        "recorded_seconds": 47.1,
+        "distance_m": 11.079
+      },
+      "01129/09/network/follow/blocked": {
+        "outcome": "stopped",
+        "recorded_seconds": 13.6,
+        "distance_m": 1.913
+      },
+      "01129/01/hall-atrium/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 9.93
+      },
+      "01129/05/hall-atrium/follow/clutter11": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 6.496
+      },
+      "01129/02/hall-chain/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 8.195
+      },
+      "01129/02/hall-chain/follow/clutter09": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 0.156
+      },
+      "01129/00/hall-partitions/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 0.324
+      },
+      "01129/00/hall-partitions/follow/clutter08": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 0.271
+      },
+      "01129/04/hall-partitions/follow/clutter08": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 13.339
+      },
+      "01129/00/network/follow/box-approach": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 5.188
+      },
+      "01129/02/network/follow/box-approach": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 10.181
+      },
+      "01129/04/network/follow/box-approach": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 16.321
+      },
+      "01129/06/network/follow/box-approach": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 11.629
+      },
+      "01129/00/network/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 11.803
+      },
+      "01129/02/network/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 10.02
+      },
+      "01129/04/network/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 11.709
+      },
+      "01129/06/network/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 13.66
+      },
+      "01129/08/network/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 13.27
+      },
+      "01129/03/network/left/box-approach": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 13.73
+      },
+      "01129/03/network/left/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 11.45
+      },
+      "01129/07/network/left/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 11.62
+      },
+      "01129/01/network/right/box-approach": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 8.933
+      },
+      "01129/05/network/right/box-approach": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 8.077
+      },
+      "01129/01/network/right/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 10.869
+      },
+      "01129/05/network/right/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 11.313
+      }
+    }
+  }
+}

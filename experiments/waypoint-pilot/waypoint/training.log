@@ -1,0 +1,22 @@
+train: 36 runs, 14157 samples
+validation: 12 runs, 4508 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [14001, 0, 0, 156]
+validation intent counts [follow, left, right, stop]: [4454, 0, 0, 54]
+repeat-previous-command validation MAE 0.0063
+epoch 01: validation MAE 0.0492, per intent {0: 0.04769303649663925, 3: 0.17653802037239075}
+epoch 02: validation MAE 0.0415, per intent {0: 0.04146340489387512, 3: 0.04566040262579918}
+epoch 03: validation MAE 0.0365, per intent {0: 0.036408431828022, 3: 0.044566601514816284}
+epoch 04: validation MAE 0.0329, per intent {0: 0.03273569047451019, 3: 0.04728468880057335}
+epoch 05: validation MAE 0.0352, per intent {0: 0.03507336974143982, 3: 0.04971228539943695}
+epoch 06: validation MAE 0.0311, per intent {0: 0.030948244035243988, 3: 0.04763448238372803}
+epoch 07: validation MAE 0.0296, per intent {0: 0.029263000935316086, 3: 0.054326001554727554}
+epoch 08: validation MAE 0.0298, per intent {0: 0.029600245878100395, 3: 0.04660768061876297}
+epoch 09: validation MAE 0.0259, per intent {0: 0.02562844567000866, 3: 0.0502847284078598}
+epoch 10: validation MAE 0.0252, per intent {0: 0.024901514872908592, 3: 0.048876408487558365}
+epoch 11: validation MAE 0.0292, per intent {0: 0.02898825705051422, 3: 0.047863077372312546}
+epoch 12: validation MAE 0.0265, per intent {0: 0.02626390941441059, 3: 0.04432547837495804}
+epoch 13: validation MAE 0.0323, per intent {0: 0.0321836993098259, 3: 0.0443803034722805}
+epoch 14: validation MAE 0.0242, per intent {0: 0.02392645552754402, 3: 0.047315292060375214}
+epoch 15: validation MAE 0.0249, per intent {0: 0.024635711684823036, 3: 0.045617539435625076}
+saved ./experiments/waypoint-pilot/waypoint/lower-policy.pt; best teacher-forced validation MAE 0.0242

@@ -1,0 +1,22 @@
+{
+  "seed": 1009,
+  "outcomes": {
+    "collision": 6,
+    "timeout": 12,
+    "completed": 1
+  },
+  "outcomes_by_placement": {
+    "box": {
+      "collision": 5,
+      "timeout": 4
+    },
+    "clear": {
+      "collision": 1,
+      "completed": 1,
+      "timeout": 7
+    },
+    "blocked": {
+      "timeout": 1
+    }
+  }
+}

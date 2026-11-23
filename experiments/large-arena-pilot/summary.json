@@ -1,0 +1,365 @@
+{
+  "requested": 12,
+  "teacher_completed": 12,
+  "development_outcomes": {
+    "completed": 18
+  },
+  "by_arm": {
+    "previous": {
+      "outcomes": {
+        "timeout": 7,
+        "collision": 3,
+        "completed": 2
+      },
+      "by_family": {
+        "offset-partitions": {
+          "collision": 1,
+          "timeout": 3
+        },
+        "open-furniture": {
+          "collision": 1,
+          "completed": 2,
+          "timeout": 1
+        },
+        "scattered-islands": {
+          "timeout": 3,
+          "collision": 1
+        }
+      },
+      "cases": {
+        "6200/0": {
+          "outcome": "collision",
+          "boxes_cleared": 9,
+          "furthest_z_m": 8.275,
+          "last_10s_distance_m": 2.684,
+          "last_10s_mean_forward_command": 0.5839,
+          "start_heading": 0.0
+        },
+        "6200/1": {
+          "outcome": "timeout",
+          "boxes_cleared": 10,
+          "furthest_z_m": 8.156,
+          "last_10s_distance_m": 2.26,
+          "last_10s_mean_forward_command": 0.4808,
+          "start_heading": 0.0
+        },
+        "6200/2": {
+          "outcome": "collision",
+          "boxes_cleared": 3,
+          "furthest_z_m": 5.453,
+          "last_10s_distance_m": 2.416,
+          "last_10s_mean_forward_command": 0.5233,
+          "start_heading": 0.0
+        },
+        "6201/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 12.879,
+          "last_10s_distance_m": 2.627,
+          "last_10s_mean_forward_command": 0.5777,
+          "start_heading": 0.0
+        },
+        "6201/1": {
+          "outcome": "timeout",
+          "boxes_cleared": 12,
+          "furthest_z_m": 7.501,
+          "last_10s_distance_m": 1.517,
+          "last_10s_mean_forward_command": 0.31,
+          "start_heading": 0.0
+        },
+        "6201/2": {
+          "outcome": "timeout",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.001,
+          "last_10s_distance_m": 3.136,
+          "last_10s_mean_forward_command": 0.6958,
+          "start_heading": 0.0
+        },
+        "6202/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 15.15,
+          "last_10s_distance_m": 2.832,
+          "last_10s_mean_forward_command": 0.6177,
+          "start_heading": 0.0
+        },
+        "6202/1": {
+          "outcome": "timeout",
+          "boxes_cleared": 11,
+          "furthest_z_m": 8.754,
+          "last_10s_distance_m": 2.045,
+          "last_10s_mean_forward_command": 0.4052,
+          "start_heading": 0.0
+        },
+        "6202/2": {
+          "outcome": "timeout",
+          "boxes_cleared": 3,
+          "furthest_z_m": 5.851,
+          "last_10s_distance_m": 2.482,
+          "last_10s_mean_forward_command": 0.5313,
+          "start_heading": 0.0
+        },
+        "6203/0": {
+          "outcome": "timeout",
+          "boxes_cleared": 17,
+          "furthest_z_m": 13.784,
+          "last_10s_distance_m": 3.295,
+          "last_10s_mean_forward_command": 0.7326,
+          "start_heading": 0.0
+        },
+        "6203/1": {
+          "outcome": "collision",
+          "boxes_cleared": 4,
+          "furthest_z_m": 4.354,
+          "last_10s_distance_m": 2.367,
+          "last_10s_mean_forward_command": 0.5068,
+          "start_heading": 0.0
+        },
+        "6203/2": {
+          "outcome": "timeout",
+          "boxes_cleared": 17,
+          "furthest_z_m": 14.658,
+          "last_10s_distance_m": 2.72,
+          "last_10s_mean_forward_command": 0.6001,
+          "start_heading": 0.0
+        }
+      }
+    },
+    "cnn": {
+      "outcomes": {
+        "completed": 9,
+        "collision": 3
+      },
+      "by_family": {
+        "offset-partitions": {
+          "collision": 2,
+          "completed": 2
+        },
+        "open-furniture": {
+          "completed": 4
+        },
+        "scattered-islands": {
+          "completed": 3,
+          "collision": 1
+        }
+      },
+      "cases": {
+        "6200/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 14.099,
+          "last_10s_distance_m": 2.867,
+          "last_10s_mean_forward_command": 0.628,
+          "start_heading": 0.0
+        },
+        "6200/1": {
+          "outcome": "completed",
+          "boxes_cleared": 25,
+          "furthest_z_m": 14.524,
+          "last_10s_distance_m": 2.875,
+          "last_10s_mean_forward_command": 0.6334,
+          "start_heading": 0.0
+        },
+        "6200/2": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.715,
+          "last_10s_distance_m": 2.418,
+          "last_10s_mean_forward_command": 0.5318,
+          "start_heading": 0.0
+        },
+        "6201/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 12.878,
+          "last_10s_distance_m": 2.437,
+          "last_10s_mean_forward_command": 0.5323,
+          "start_heading": 0.0
+        },
+        "6201/1": {
+          "outcome": "completed",
+          "boxes_cleared": 25,
+          "furthest_z_m": 13.294,
+          "last_10s_distance_m": 2.797,
+          "last_10s_mean_forward_command": 0.615,
+          "start_heading": 0.0
+        },
+        "6201/2": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 13.715,
+          "last_10s_distance_m": 2.85,
+          "last_10s_mean_forward_command": 0.6266,
+          "start_heading": 0.0
+        },
+        "6202/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 15.154,
+          "last_10s_distance_m": 2.877,
+          "last_10s_mean_forward_command": 0.6352,
+          "start_heading": 0.0
+        },
+        "6202/1": {
+          "outcome": "completed",
+          "boxes_cleared": 25,
+          "furthest_z_m": 15.572,
+          "last_10s_distance_m": 2.737,
+          "last_10s_mean_forward_command": 0.6005,
+          "start_heading": 0.0
+        },
+        "6202/2": {
+          "outcome": "collision",
+          "boxes_cleared": 7,
+          "furthest_z_m": 8.483,
+          "last_10s_distance_m": 2.162,
+          "last_10s_mean_forward_command": 0.4714,
+          "start_heading": 0.0
+        },
+        "6203/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 13.929,
+          "last_10s_distance_m": 2.843,
+          "last_10s_mean_forward_command": 0.6234,
+          "start_heading": 0.0
+        },
+        "6203/1": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 3.719,
+          "last_10s_distance_m": 2.627,
+          "last_10s_mean_forward_command": 0.5809,
+          "start_heading": 0.0
+        },
+        "6203/2": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 14.765,
+          "last_10s_distance_m": 2.795,
+          "last_10s_mean_forward_command": 0.6141,
+          "start_heading": 0.0
+        }
+      }
+    },
+    "temporal": {
+      "outcomes": {
+        "completed": 8,
+        "collision": 3,
+        "timeout": 1
+      },
+      "by_family": {
+        "offset-partitions": {
+          "timeout": 1,
+          "completed": 1,
+          "collision": 2
+        },
+        "open-furniture": {
+          "completed": 4
+        },
+        "scattered-islands": {
+          "completed": 3,
+          "collision": 1
+        }
+      },
+      "cases": {
+        "6200/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 14.1,
+          "last_10s_distance_m": 2.754,
+          "last_10s_mean_forward_command": 0.6068,
+          "start_heading": 0.0
+        },
+        "6200/1": {
+          "outcome": "completed",
+          "boxes_cleared": 25,
+          "furthest_z_m": 14.517,
+          "last_10s_distance_m": 2.729,
+          "last_10s_mean_forward_command": 0.5993,
+          "start_heading": 0.0
+        },
+        "6200/2": {
+          "outcome": "timeout",
+          "boxes_cleared": 6,
+          "furthest_z_m": 8.902,
+          "last_10s_distance_m": 2.801,
+          "last_10s_mean_forward_command": 0.6223,
+          "start_heading": 0.0
+        },
+        "6201/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 12.87,
+          "last_10s_distance_m": 2.659,
+          "last_10s_mean_forward_command": 0.5846,
+          "start_heading": 0.0
+        },
+        "6201/1": {
+          "outcome": "completed",
+          "boxes_cleared": 25,
+          "furthest_z_m": 13.295,
+          "last_10s_distance_m": 2.65,
+          "last_10s_mean_forward_command": 0.5836,
+          "start_heading": 0.0
+        },
+        "6201/2": {
+          "outcome": "collision",
+          "boxes_cleared": 1,
+          "furthest_z_m": 4.234,
+          "last_10s_distance_m": 1.847,
+          "last_10s_mean_forward_command": 0.3967,
+          "start_heading": 0.0
+        },
+        "6202/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 15.155,
+          "last_10s_distance_m": 2.781,
+          "last_10s_mean_forward_command": 0.6141,
+          "start_heading": 0.0
+        },
+        "6202/1": {
+          "outcome": "completed",
+          "boxes_cleared": 25,
+          "furthest_z_m": 15.572,
+          "last_10s_distance_m": 2.693,
+          "last_10s_mean_forward_command": 0.5894,
+          "start_heading": 0.0
+        },
+        "6202/2": {
+          "outcome": "collision",
+          "boxes_cleared": 7,
+          "furthest_z_m": 8.48,
+          "last_10s_distance_m": 1.686,
+          "last_10s_mean_forward_command": 0.3498,
+          "start_heading": 0.0
+        },
+        "6203/0": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 13.918,
+          "last_10s_distance_m": 2.637,
+          "last_10s_mean_forward_command": 0.5778,
+          "start_heading": 0.0
+        },
+        "6203/1": {
+          "outcome": "collision",
+          "boxes_cleared": 5,
+          "furthest_z_m": 5.552,
+          "last_10s_distance_m": 2.161,
+          "last_10s_mean_forward_command": 0.4739,
+          "start_heading": 0.0
+        },
+        "6203/2": {
+          "outcome": "completed",
+          "boxes_cleared": 17,
+          "furthest_z_m": 14.764,
+          "last_10s_distance_m": 2.787,
+          "last_10s_mean_forward_command": 0.6139,
+          "start_heading": 0.0
+        }
+      }
+    }
+  }
+}

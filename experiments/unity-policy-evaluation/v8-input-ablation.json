@@ -1,0 +1,87 @@
+{
+  "rows": 12798,
+  "active_turn_transition_rows": 138,
+  "cases": {
+    "repeat_previous_teacher_command": {
+      "mae_to_teacher": 0.00771,
+      "mae_to_teacher_during_turn_transition": 0.074236,
+      "mean_abs_change_from_normal_output": 0.008753
+    },
+    "normal": {
+      "mae_to_teacher": 0.00503,
+      "mae_to_teacher_during_turn_transition": 0.025831,
+      "mean_abs_change_from_normal_output": 0.0
+    },
+    "same_intent_shuffled_scans": {
+      "mae_to_teacher": 0.013396,
+      "mae_to_teacher_during_turn_transition": 0.066263,
+      "mean_abs_change_from_normal_output": 0.0121
+    },
+    "previous_command_set_to_zero": {
+      "mae_to_teacher": 0.561801,
+      "mae_to_teacher_during_turn_transition": 0.398201,
+      "mean_abs_change_from_normal_output": 0.559714
+    },
+    "previous_turn_shifted_by_0_04": {
+      "mae_to_teacher": 0.03767,
+      "mae_to_teacher_during_turn_transition": 0.044857,
+      "mean_abs_change_from_normal_output": 0.037411
+    },
+    "recursive_command_replay_with_recorded_scans": {
+      "mae_to_teacher": 0.230051,
+      "mae_to_teacher_during_turn_transition": 0.224541,
+      "mean_abs_change_from_normal_output": 0.227675
+    }
+  },
+  "trainable_parameters": 52914,
+  "recordings": [
+    "stopped-teacher-v8-network-follow-task09-seed01089-20261119-050523-97c139cb38ac447f9d45e9494bba6c2e.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01094-20261119-050837-c97c7444455a4f6993dbd8c89913b9b7.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01014-20261119-041631-d3c31a2b893949d9958aeba062592c63.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01059-20261119-044612-18953ae45ffa468e9a66f3ec8c624c54.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01114-20261119-052145-7a77ae02818442ff84269ff56abde29c.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01109-20261119-051827-4c1f6e0b3f49401c96e44cd2f455beff.csv",
+    "stopped-teacher-v8-rooms-follow-task09-seed01104-20261119-051507-19dd8eccf0e240c0bf7e0f952059215d.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01069-20261119-045233-3b8b735aeb804df18ed811fbc6ebcd9b.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01054-20261119-044259-1bdbe40c45b54d139c0bbdfbdd407afd.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01039-20261119-043320-defc20a044ac4c7ba86bfcbf54aa3b45.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01119-20261119-052457-4ea6483b312447aa9b7c783d558c43bc.csv",
+    "stopped-teacher-v8-network-follow-task09-seed01029-20261119-042610-588511326ebc4cc3a8ea0a56567d1811.csv",
+    "completed-teacher-v8-network-follow-task08-seed01034-20261119-043002-3872ae6ee8bb4ccca5a95305c2610023.csv",
+    "completed-teacher-v8-network-follow-task02-seed01014-20261119-041558-c7ef86e21c844c9d8c157c90298fe01b.csv",
+    "completed-teacher-v8-network-follow-task04-seed01059-20261119-044548-03563d48b30b402094b49915b3f4afda.csv",
+    "completed-teacher-v8-rooms-follow-task08-seed01104-20261119-051504-2aa14457a2b94bfeb066bc7117e3be92.csv",
+    "completed-teacher-v8-network-follow-task01-seed01069-20261119-045153-3f07a9421b7b4abcad0b414d99c9f540.csv",
+    "completed-teacher-v8-rooms-follow-task02-seed01104-20261119-051448-33393cef5e984879a3dcd1144d46fc4c.csv",
+    "completed-teacher-v8-network-follow-task04-seed01019-20261119-041931-e18819b941cd485a8cce4cbf36c33866.csv",
+    "completed-teacher-v8-network-follow-task08-seed01094-20261119-050833-ca8c394d9c0b42e6a9e956d9d45e52ee.csv",
+    "completed-teacher-v8-rooms-follow-task06-seed01084-20261119-050156-bb1956245b504ae9929f8c34b3b5e901.csv",
+    "completed-teacher-v8-rooms-follow-task02-seed01044-20261119-043605-462b9fa265de4d3b9588a09fccefa888.csv",
+    "completed-teacher-v8-network-follow-task02-seed01019-20261119-041923-f8aafde4af034fb5989abeb685f58fcc.csv",
+    "completed-teacher-v8-network-follow-task04-seed01109-20261119-051801-b306f0b8e69e4df9a179d0f4ebc5fb0c.csv",
+    "completed-teacher-v8-network-left-task01-seed01054-20261119-044221-db3dff66a0154e30b75f0c8d87561472.csv",
+    "completed-teacher-v8-rooms-left-task05-seed01004-20261119-040935-e2ce01390fb3484eb65e712c0754f9fe.csv",
+    "completed-teacher-v8-network-left-task00-seed01119-20261119-052417-5ce678f93e6842008796ce9fe3ce49d9.csv",
+    "completed-teacher-v8-rooms-left-task03-seed01044-20261119-043608-710b85d0f4ea49c8aaabd32cb659475d.csv",
+    "completed-teacher-v8-network-left-task05-seed01059-20261119-044553-d8f0db01ddfb46279b9b272ce3743e23.csv",
+    "completed-teacher-v8-network-left-task07-seed01034-20261119-042957-8d55476a2fa14fbcb9c6821a0b2838ae.csv",
+    "completed-teacher-v8-network-left-task08-seed01059-20261119-044607-14f8cdacaa724f87a9b33d5593053398.csv",
+    "completed-teacher-v8-rooms-left-task07-seed01084-20261119-050159-8d44013cd9d04f4e946ddc107358db50.csv",
+    "completed-teacher-v8-network-left-task05-seed01094-20261119-050820-578e21602ba74b1485ee15210eb18a1d.csv",
+    "completed-teacher-v8-network-left-task06-seed01109-20261119-051810-affd8a42685e4f8b96d6000c988f343e.csv",
+    "completed-teacher-v8-network-left-task05-seed01039-20261119-043303-0b0ad0671ba44576a925bce76357b09e.csv",
+    "completed-teacher-v8-rooms-left-task00-seed01064-20261119-044848-026fada9bf7444a68712f7b287518fbc.csv",
+    "completed-teacher-v8-network-right-task04-seed01034-20261119-042937-75ef6fa9a46d4516afa3fadb80f5b3ae.csv",
+    "completed-teacher-v8-rooms-right-task05-seed01104-20261119-051456-bc8ab8cae0754210b501e257e4b1fe79.csv",
+    "completed-teacher-v8-rooms-right-task01-seed01104-20261119-051445-d7a90c60c77a4266ae529b97df8b64aa.csv",
+    "completed-teacher-v8-rooms-right-task01-seed01084-20261119-050140-d0d0d2b8190d4d34a83b1cc3388ac9b9.csv",
+    "completed-teacher-v8-network-right-task05-seed01054-20261119-044240-e2912a447ca149e2abdf848808aa92be.csv",
+    "completed-teacher-v8-network-right-task03-seed01014-20261119-041603-589037820a224b15984d245ad36f0057.csv",
+    "completed-teacher-v8-network-right-task00-seed01099-20261119-051116-3e8aa05a17a943869ca78dd49cc66fac.csv",
+    "completed-teacher-v8-network-right-task08-seed01074-20261119-045545-99bb3652c029426687aa6196abdf6c47.csv",
+    "completed-teacher-v8-network-right-task05-seed01074-20261119-045531-9b77710358c846e6b4b20e26dfc0487d.csv",
+    "completed-teacher-v8-network-right-task00-seed01034-20261119-042918-f9615ba968d14191a667f1c422b1100c.csv",
+    "completed-teacher-v8-network-right-task01-seed01009-20261119-041228-b0d1bb5b68f3424295a0e2086fbfe320.csv",
+    "completed-teacher-v8-network-right-task07-seed01109-20261119-051816-72215ee157174638809ffb55345c3c77.csv"
+  ]
+}

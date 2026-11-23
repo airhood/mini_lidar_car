@@ -1,0 +1,399 @@
+{
+  "outcomes": {
+    "completed": 74,
+    "stopped": 3
+  },
+  "placements": {
+    "clear": 37,
+    "clutter10": 3,
+    "clutter11": 1,
+    "clutter12": 6,
+    "clutter07": 3,
+    "clutter08": 2,
+    "clutter13": 1,
+    "clutter09": 2,
+    "box-approach": 12,
+    "box-exit": 7,
+    "blocked": 3
+  },
+  "scans": 28675,
+  "usable_placements_by_family": {
+    "hall-atrium": {
+      "clear": 5,
+      "clutter10": 2,
+      "clutter11": 1,
+      "clutter12": 2
+    },
+    "hall-chain": {
+      "clear": 5,
+      "clutter07": 1,
+      "clutter08": 1,
+      "clutter10": 1,
+      "clutter12": 1,
+      "clutter13": 1
+    },
+    "hall-partitions": {
+      "clear": 4,
+      "clutter07": 2,
+      "clutter08": 1,
+      "clutter09": 1
+    },
+    "hall-wings": {
+      "clear": 4,
+      "clutter09": 1,
+      "clutter12": 3
+    },
+    "network": {
+      "box-approach": 12,
+      "box-exit": 7,
+      "clear": 19,
+      "blocked": 3
+    }
+  },
+  "usable_seed_count": 3,
+  "irregular_intervals": 0,
+  "contact_runs": 0,
+  "invalid_files": [],
+  "complete_pairs": 37,
+  "unmatched_complete_runs": 0,
+  "max_deviation_from_clear_m": {
+    "min": 0.5799,
+    "median": 0.779,
+    "max": 4.3848
+  },
+  "pairs": [
+    {
+      "seed": 1121,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.0001544946604254265,
+      "max_deviation_from_clear_m": 1.960828361163786,
+      "finish_difference_m": 0.009168254654536814
+    },
+    {
+      "seed": 1121,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 6.369462771729724e-05,
+      "max_deviation_from_clear_m": 1.432997577325812,
+      "finish_difference_m": 0.007796108080443501
+    },
+    {
+      "seed": 1121,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 1.641215171762175e-05,
+      "max_deviation_from_clear_m": 1.9862831135568457,
+      "finish_difference_m": 0.03751453212511812
+    },
+    {
+      "seed": 1121,
+      "task": 2,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.7337875533573801,
+      "finish_difference_m": 0.017593606045392153
+    },
+    {
+      "seed": 1121,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 1.603121954234931e-05,
+      "max_deviation_from_clear_m": 2.458399858434664,
+      "finish_difference_m": 0.004176599854666409
+    },
+    {
+      "seed": 1121,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00015417976095787367,
+      "max_deviation_from_clear_m": 1.5303807236700346,
+      "finish_difference_m": 0.007294476209797548
+    },
+    {
+      "seed": 1121,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 9.170013873450859e-05,
+      "max_deviation_from_clear_m": 2.129773067350437,
+      "finish_difference_m": 0.005822512379806375
+    },
+    {
+      "seed": 1121,
+      "task": 6,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.7938104465239597,
+      "finish_difference_m": 0.0006525064444118996
+    },
+    {
+      "seed": 1121,
+      "task": 7,
+      "intent": "left",
+      "family": "network",
+      "start_difference_m": 6.324441353993395e-05,
+      "max_deviation_from_clear_m": 0.5886984744309587,
+      "finish_difference_m": 0.0002203262353861627
+    },
+    {
+      "seed": 1122,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.978406017611644,
+      "finish_difference_m": 0.0011130138774356388
+    },
+    {
+      "seed": 1122,
+      "task": 0,
+      "intent": "left",
+      "family": "network",
+      "start_difference_m": 6.318825523783123e-05,
+      "max_deviation_from_clear_m": 0.6529043813864944,
+      "finish_difference_m": 0.0012281316491328078
+    },
+    {
+      "seed": 1122,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 6.365230553512604e-05,
+      "max_deviation_from_clear_m": 0.6801523035854425,
+      "finish_difference_m": 0.01639792624721194
+    },
+    {
+      "seed": 1122,
+      "task": 1,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6337220029451719,
+      "finish_difference_m": 0.000624875186656299
+    },
+    {
+      "seed": 1122,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 1.6222668738599352e-05,
+      "max_deviation_from_clear_m": 2.3703832914100977,
+      "finish_difference_m": 0.018754478238057235
+    },
+    {
+      "seed": 1122,
+      "task": 2,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 9.113725911990322e-05,
+      "max_deviation_from_clear_m": 0.6070986725506908,
+      "finish_difference_m": 0.0009265633923272947
+    },
+    {
+      "seed": 1122,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6754907035845156,
+      "finish_difference_m": 0.005227531914004372
+    },
+    {
+      "seed": 1122,
+      "task": 3,
+      "intent": "left",
+      "family": "network",
+      "start_difference_m": 9.113725911990322e-05,
+      "max_deviation_from_clear_m": 0.8322683281186967,
+      "finish_difference_m": 0.0007147074244048952
+    },
+    {
+      "seed": 1122,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 6.367006360885246e-05,
+      "max_deviation_from_clear_m": 0.7991965116811165,
+      "finish_difference_m": 0.01139696896591806
+    },
+    {
+      "seed": 1122,
+      "task": 4,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.6171397271985576,
+      "finish_difference_m": 0.002422259589082053
+    },
+    {
+      "seed": 1122,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 1.313218043445,
+      "finish_difference_m": 0.03213497099622778
+    },
+    {
+      "seed": 1122,
+      "task": 5,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.611092101683203,
+      "finish_difference_m": 0.001419521519561941
+    },
+    {
+      "seed": 1122,
+      "task": 6,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.7217076468387252,
+      "finish_difference_m": 0.0008821005668290825
+    },
+    {
+      "seed": 1122,
+      "task": 7,
+      "intent": "left",
+      "family": "network",
+      "start_difference_m": 6.413267498040776e-05,
+      "max_deviation_from_clear_m": 0.7789770000208553,
+      "finish_difference_m": 3.057599712215005e-05
+    },
+    {
+      "seed": 1122,
+      "task": 8,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.5798770646483155,
+      "finish_difference_m": 0.00030049140436980246
+    },
+    {
+      "seed": 1123,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 6.297771748811581e-05,
+      "max_deviation_from_clear_m": 0.9594868284016095,
+      "finish_difference_m": 0.04533722074451945
+    },
+    {
+      "seed": 1123,
+      "task": 0,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 4.740054957554125e-05,
+      "max_deviation_from_clear_m": 0.5813709047484321,
+      "finish_difference_m": 0.00012884705080055533
+    },
+    {
+      "seed": 1123,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 1.6375258043937422e-05,
+      "max_deviation_from_clear_m": 1.2182181789421136,
+      "finish_difference_m": 0.0031730802553991562
+    },
+    {
+      "seed": 1123,
+      "task": 1,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 6.361000000065786e-05,
+      "max_deviation_from_clear_m": 0.6489462002644386,
+      "finish_difference_m": 0.00015943384513945807
+    },
+    {
+      "seed": 1123,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00015475038232244282,
+      "max_deviation_from_clear_m": 1.3755094357582,
+      "finish_difference_m": 0.013325828026458299
+    },
+    {
+      "seed": 1123,
+      "task": 2,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 0.5801136775577944,
+      "finish_difference_m": 0.00110935646732724
+    },
+    {
+      "seed": 1123,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 0.00015498396935160078,
+      "max_deviation_from_clear_m": 1.5276807157982086,
+      "finish_difference_m": 0.0057906012161172945
+    },
+    {
+      "seed": 1123,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 6.0818287545704796e-05,
+      "max_deviation_from_clear_m": 2.4638947277240644,
+      "finish_difference_m": 0.014002979831512127
+    },
+    {
+      "seed": 1123,
+      "task": 4,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 1.601749356131306e-05,
+      "max_deviation_from_clear_m": 0.6509269449134992,
+      "finish_difference_m": 9.668068886768989e-05
+    },
+    {
+      "seed": 1123,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.0,
+      "max_deviation_from_clear_m": 4.3847949781257105,
+      "finish_difference_m": 0.015493290247854985
+    },
+    {
+      "seed": 1123,
+      "task": 5,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 0.00015439744039266306,
+      "max_deviation_from_clear_m": 0.6088125477201874,
+      "finish_difference_m": 0.00015227877447725782
+    },
+    {
+      "seed": 1123,
+      "task": 6,
+      "intent": "right",
+      "family": "network",
+      "start_difference_m": 6.256409197027706e-05,
+      "max_deviation_from_clear_m": 0.6606895696480999,
+      "finish_difference_m": 0.0008151664411643084
+    },
+    {
+      "seed": 1123,
+      "task": 8,
+      "intent": "follow",
+      "family": "network",
+      "start_difference_m": 4.709916178661752e-05,
+      "max_deviation_from_clear_m": 0.7726627880239092,
+      "finish_difference_m": 0.00023369999999900415
+    }
+  ]
+}

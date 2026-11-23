@@ -1,0 +1,140 @@
+{
+  "outcomes": {
+    "completed": 19,
+    "timeout": 1
+  },
+  "passed_box": 20,
+  "correct_side_at_box": 20,
+  "both_runs_completed": 9,
+  "per_side": {
+    "left": {
+      "completed": 9,
+      "timeout": 1
+    },
+    "right": {
+      "completed": 10
+    }
+  },
+  "cases": {
+    "2550/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.758626461
+    },
+    "2550/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.6413071
+    },
+    "2551/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.5276637
+    },
+    "2551/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.5505336
+    },
+    "2552/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.6572655
+    },
+    "2552/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.6375151
+    },
+    "2553/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.565348446
+    },
+    "2553/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.614296138
+    },
+    "2554/left": {
+      "outcome": "timeout",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.6074349
+    },
+    "2554/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.574392855
+    },
+    "2555/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.658495545
+    },
+    "2555/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.6613908
+    },
+    "2556/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.5445634
+    },
+    "2556/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.5510733
+    },
+    "2557/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.605154
+    },
+    "2557/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.550239444
+    },
+    "2558/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.595885634
+    },
+    "2558/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.569167
+    },
+    "2559/left": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": 0.6431058
+    },
+    "2559/right": {
+      "outcome": "completed",
+      "passed_box": true,
+      "correct_side_at_box": true,
+      "x_at_box_m": -0.6407656
+    }
+  }
+}

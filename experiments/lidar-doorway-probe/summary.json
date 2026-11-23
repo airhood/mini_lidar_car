@@ -1,0 +1,875 @@
+{
+  "totals": {
+    "episodes": 24,
+    "approach_scans": 11084,
+    "tracked_ahead_correct": 4300,
+    "tracked_ahead_wrong": 2737,
+    "next_door_in_candidates": 4930,
+    "no_opening_ahead": 5187,
+    "candidates": 18201,
+    "candidates_matching_a_door": 9625,
+    "nearest_ahead_wrong": 1534,
+    "nearest_ahead_correct": 4363,
+    "near_plane_scans": 1607,
+    "tracked_near_plane_correct": 1146,
+    "near_plane_next_door_found": 422,
+    "passing_events": 40,
+    "matched_door_reobserved_within_1s": 36,
+    "matched_door_reobserved_at_any_later_time": 38,
+    "tracker_reported_events": 28,
+    "tracker_matched_pass_within_1s": 25,
+    "tracker_false_or_late_events": 3
+  },
+  "cases": {
+    "06400/01": {
+      "outcome": "collision",
+      "family": "offset-doors",
+      "counts": {
+        "approach_scans": 240,
+        "tracked_ahead_correct": 97,
+        "tracked_ahead_wrong": 116,
+        "next_door_in_candidates": 99,
+        "no_opening_ahead": 47,
+        "candidates": 389,
+        "candidates_matching_a_door": 157,
+        "nearest_ahead_wrong": 94,
+        "nearest_ahead_correct": 99,
+        "near_plane_scans": 103,
+        "tracked_near_plane_correct": 103,
+        "near_plane_next_door_found": 58
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        },
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        }
+      ],
+      "reported": []
+    },
+    "06403/01": {
+      "outcome": "collision",
+      "family": "offset-doors",
+      "counts": {
+        "candidates": 521,
+        "candidates_matching_a_door": 288,
+        "approach_scans": 514,
+        "tracked_ahead_correct": 110,
+        "tracked_ahead_wrong": 242,
+        "next_door_in_candidates": 124,
+        "nearest_ahead_correct": 124,
+        "no_opening_ahead": 266,
+        "near_plane_scans": 50,
+        "tracked_near_plane_correct": 29,
+        "near_plane_next_door_found": 9,
+        "nearest_ahead_wrong": 124
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 715.599746456916,
+          "first_rear_observation_s": 715.6997464214852
+        },
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 715.7997463860544,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.1999999291383574
+        }
+      ]
+    },
+    "06401/02": {
+      "outcome": "collision",
+      "family": "post-door-clutter",
+      "counts": {
+        "candidates": 1314,
+        "candidates_matching_a_door": 682,
+        "approach_scans": 631,
+        "tracked_ahead_correct": 249,
+        "tracked_ahead_wrong": 255,
+        "next_door_in_candidates": 427,
+        "nearest_ahead_correct": 313,
+        "near_plane_scans": 115,
+        "tracked_near_plane_correct": 94,
+        "near_plane_next_door_found": 57,
+        "nearest_ahead_wrong": 130,
+        "no_opening_ahead": 188
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 333.6198817956349,
+          "first_rear_observation_s": 333.6198817956349
+        },
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 333.9198816893424,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.29999989370747926
+        }
+      ]
+    },
+    "06403/00": {
+      "outcome": "collision",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 697,
+        "candidates_matching_a_door": 439,
+        "approach_scans": 650,
+        "tracked_ahead_correct": 212,
+        "tracked_ahead_wrong": 241,
+        "next_door_in_candidates": 218,
+        "nearest_ahead_wrong": 94,
+        "nearest_ahead_correct": 209,
+        "no_opening_ahead": 347,
+        "near_plane_scans": 98,
+        "tracked_near_plane_correct": 61,
+        "near_plane_next_door_found": 23
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 638.5197737670068,
+          "first_rear_observation_s": 639.0197735898525
+        },
+        {
+          "ground_truth_time_s": 688.0197562287415,
+          "first_rear_observation_s": 688.0197562287415
+        }
+      ],
+      "reported": []
+    },
+    "06401/01": {
+      "outcome": "completed",
+      "family": "offset-doors",
+      "counts": {
+        "candidates": 589,
+        "candidates_matching_a_door": 251,
+        "approach_scans": 329,
+        "tracked_ahead_correct": 125,
+        "tracked_ahead_wrong": 82,
+        "next_door_in_candidates": 125,
+        "nearest_ahead_correct": 125,
+        "nearest_ahead_wrong": 59,
+        "near_plane_scans": 71,
+        "tracked_near_plane_correct": 30,
+        "near_plane_next_door_found": 9,
+        "no_opening_ahead": 145
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 269.5599044926304,
+          "first_rear_observation_s": 269.5599044926304
+        },
+        {
+          "ground_truth_time_s": 293.8598958829365,
+          "first_rear_observation_s": 309.85989021400223
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 269.95990435090704,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.39999985827665796
+        }
+      ]
+    },
+    "06402/01": {
+      "outcome": "completed",
+      "family": "offset-doors",
+      "counts": {
+        "candidates": 782,
+        "candidates_matching_a_door": 493,
+        "approach_scans": 291,
+        "tracked_ahead_correct": 154,
+        "tracked_ahead_wrong": 89,
+        "next_door_in_candidates": 178,
+        "nearest_ahead_wrong": 42,
+        "nearest_ahead_correct": 152,
+        "no_opening_ahead": 97,
+        "near_plane_scans": 61,
+        "tracked_near_plane_correct": 54,
+        "near_plane_next_door_found": 12
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 468.8398338860544,
+          "first_rear_observation_s": 468.8398338860544
+        },
+        {
+          "ground_truth_time_s": 487.13982740221087,
+          "first_rear_observation_s": 487.13982740221087
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 468.13983413407027,
+          "matched_door": 0,
+          "delta_from_pass_s": -0.6999997519841372
+        },
+        {
+          "time_s": 487.43982729591835,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.29999989370747926
+        }
+      ]
+    },
+    "06400/02": {
+      "outcome": "completed",
+      "family": "post-door-clutter",
+      "counts": {
+        "candidates": 998,
+        "candidates_matching_a_door": 400,
+        "approach_scans": 494,
+        "tracked_ahead_correct": 186,
+        "tracked_ahead_wrong": 91,
+        "next_door_in_candidates": 249,
+        "nearest_ahead_correct": 249,
+        "near_plane_scans": 65,
+        "tracked_near_plane_correct": 38,
+        "near_plane_next_door_found": 22,
+        "nearest_ahead_wrong": 55,
+        "no_opening_ahead": 190
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 117.53995835459183,
+          "first_rear_observation_s": 117.53995835459183
+        },
+        {
+          "ground_truth_time_s": 154.93994510345803,
+          "first_rear_observation_s": 154.93994510345803
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 121.23995704365079,
+          "matched_door": null,
+          "delta_from_pass_s": null
+        },
+        {
+          "time_s": 155.3399449617347,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.39999985827665796
+        }
+      ]
+    },
+    "06402/02": {
+      "outcome": "completed",
+      "family": "post-door-clutter",
+      "counts": {
+        "candidates": 896,
+        "candidates_matching_a_door": 614,
+        "approach_scans": 771,
+        "tracked_ahead_correct": 305,
+        "tracked_ahead_wrong": 163,
+        "next_door_in_candidates": 308,
+        "nearest_ahead_correct": 303,
+        "nearest_ahead_wrong": 95,
+        "near_plane_scans": 67,
+        "tracked_near_plane_correct": 67,
+        "near_plane_next_door_found": 26,
+        "no_opening_ahead": 373
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 522.879814739229,
+          "first_rear_observation_s": 522.879814739229
+        },
+        {
+          "ground_truth_time_s": 589.979790965136,
+          "first_rear_observation_s": 589.979790965136
+        }
+      ],
+      "reported": []
+    },
+    "06403/02": {
+      "outcome": "completed",
+      "family": "post-door-clutter",
+      "counts": {
+        "candidates": 578,
+        "candidates_matching_a_door": 304,
+        "approach_scans": 406,
+        "tracked_ahead_correct": 112,
+        "tracked_ahead_wrong": 90,
+        "next_door_in_candidates": 166,
+        "nearest_ahead_wrong": 34,
+        "nearest_ahead_correct": 159,
+        "near_plane_scans": 70,
+        "tracked_near_plane_correct": 49,
+        "near_plane_next_door_found": 22,
+        "no_opening_ahead": 213
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 771.9197265022675,
+          "first_rear_observation_s": 771.9197265022675
+        },
+        {
+          "ground_truth_time_s": 804.1197150935374,
+          "first_rear_observation_s": 804.1197150935374
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 771.5197266439909,
+          "matched_door": 0,
+          "delta_from_pass_s": -0.3999998582766011
+        },
+        {
+          "time_s": 804.4197149872449,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.2999998937075361
+        }
+      ]
+    },
+    "06400/00": {
+      "outcome": "completed",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 779,
+        "candidates_matching_a_door": 433,
+        "approach_scans": 290,
+        "tracked_ahead_correct": 162,
+        "tracked_ahead_wrong": 105,
+        "next_door_in_candidates": 270,
+        "nearest_ahead_correct": 241,
+        "nearest_ahead_wrong": 34,
+        "no_opening_ahead": 15,
+        "near_plane_scans": 73,
+        "tracked_near_plane_correct": 50,
+        "near_plane_next_door_found": 15
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 17.299993870464853,
+          "first_rear_observation_s": 17.299993870464853
+        },
+        {
+          "ground_truth_time_s": 36.29998713860544,
+          "first_rear_observation_s": 36.3999871031746
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 17.599993764172336,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.2999998937074828
+        }
+      ]
+    },
+    "06401/00": {
+      "outcome": "completed",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 998,
+        "candidates_matching_a_door": 512,
+        "approach_scans": 251,
+        "tracked_ahead_correct": 193,
+        "tracked_ahead_wrong": 56,
+        "next_door_in_candidates": 230,
+        "nearest_ahead_correct": 214,
+        "nearest_ahead_wrong": 30,
+        "near_plane_scans": 61,
+        "tracked_near_plane_correct": 61,
+        "near_plane_next_door_found": 13,
+        "no_opening_ahead": 7
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 214.2199241000567,
+          "first_rear_observation_s": 214.2199241000567
+        },
+        {
+          "ground_truth_time_s": 229.21991878543082,
+          "first_rear_observation_s": 229.21991878543082
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 214.51992399376417,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.29999989370747926
+        },
+        {
+          "time_s": 229.5199186791383,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.29999989370747926
+        }
+      ]
+    },
+    "06402/00": {
+      "outcome": "completed",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 734,
+        "candidates_matching_a_door": 504,
+        "approach_scans": 306,
+        "tracked_ahead_correct": 205,
+        "tracked_ahead_wrong": 21,
+        "next_door_in_candidates": 197,
+        "nearest_ahead_correct": 196,
+        "no_opening_ahead": 104,
+        "near_plane_scans": 62,
+        "tracked_near_plane_correct": 62,
+        "near_plane_next_door_found": 15,
+        "nearest_ahead_wrong": 6
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 410.93985440051017,
+          "first_rear_observation_s": 410.93985440051017
+        },
+        {
+          "ground_truth_time_s": 431.23984720804987,
+          "first_rear_observation_s": 431.23984720804987
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 411.13985432964853,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.1999999291383574
+        },
+        {
+          "time_s": 431.6398470663265,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.39999985827665796
+        }
+      ]
+    },
+    "06500/00": {
+      "outcome": "collision",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 555,
+        "candidates_matching_a_door": 106,
+        "approach_scans": 376,
+        "tracked_ahead_correct": 36,
+        "tracked_ahead_wrong": 242,
+        "next_door_in_candidates": 74,
+        "nearest_ahead_wrong": 199,
+        "no_opening_ahead": 137,
+        "nearest_ahead_correct": 40,
+        "near_plane_scans": 32,
+        "tracked_near_plane_correct": 0,
+        "near_plane_next_door_found": 0
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 19.599993055555554,
+          "first_rear_observation_s": 22.799991921768708
+        },
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        }
+      ],
+      "reported": []
+    },
+    "06501/01": {
+      "outcome": "completed",
+      "family": "offset-doors",
+      "counts": {
+        "approach_scans": 322,
+        "tracked_ahead_correct": 95,
+        "tracked_ahead_wrong": 87,
+        "next_door_in_candidates": 127,
+        "no_opening_ahead": 151,
+        "near_plane_scans": 85,
+        "tracked_near_plane_correct": 35,
+        "near_plane_next_door_found": 17,
+        "candidates": 478,
+        "candidates_matching_a_door": 273,
+        "nearest_ahead_correct": 115,
+        "nearest_ahead_wrong": 56
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 304.89989197137186,
+          "first_rear_observation_s": null
+        },
+        {
+          "ground_truth_time_s": 328.2998836805555,
+          "first_rear_observation_s": 328.3998836451247
+        }
+      ],
+      "reported": []
+    },
+    "06502/01": {
+      "outcome": "completed",
+      "family": "offset-doors",
+      "counts": {
+        "candidates": 912,
+        "candidates_matching_a_door": 546,
+        "approach_scans": 577,
+        "tracked_ahead_correct": 275,
+        "tracked_ahead_wrong": 83,
+        "next_door_in_candidates": 281,
+        "nearest_ahead_correct": 262,
+        "near_plane_scans": 71,
+        "tracked_near_plane_correct": 71,
+        "near_plane_next_door_found": 25,
+        "no_opening_ahead": 275,
+        "nearest_ahead_wrong": 40
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 507.4598202026644,
+          "first_rear_observation_s": 507.4598202026644
+        },
+        {
+          "ground_truth_time_s": 556.3598028769841,
+          "first_rear_observation_s": 556.3598028769841
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 507.75982009637187,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.29999989370747926
+        },
+        {
+          "time_s": 556.8598026998299,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.4999998228457798
+        }
+      ]
+    },
+    "06503/01": {
+      "outcome": "completed",
+      "family": "offset-doors",
+      "counts": {
+        "candidates": 644,
+        "candidates_matching_a_door": 426,
+        "approach_scans": 367,
+        "tracked_ahead_correct": 193,
+        "tracked_ahead_wrong": 66,
+        "next_door_in_candidates": 196,
+        "nearest_ahead_correct": 179,
+        "nearest_ahead_wrong": 34,
+        "near_plane_scans": 64,
+        "tracked_near_plane_correct": 19,
+        "near_plane_next_door_found": 12,
+        "no_opening_ahead": 154
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 770.6797269416099,
+          "first_rear_observation_s": 770.6797269416099
+        },
+        {
+          "ground_truth_time_s": 795.0797182964852,
+          "first_rear_observation_s": null
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 770.9797268353175,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.2999998937075361
+        }
+      ]
+    },
+    "06500/02": {
+      "outcome": "completed",
+      "family": "post-door-clutter",
+      "counts": {
+        "approach_scans": 391,
+        "tracked_ahead_correct": 157,
+        "tracked_ahead_wrong": 43,
+        "next_door_in_candidates": 157,
+        "no_opening_ahead": 218,
+        "candidates": 919,
+        "candidates_matching_a_door": 457,
+        "nearest_ahead_correct": 123,
+        "nearest_ahead_wrong": 50,
+        "near_plane_scans": 80,
+        "tracked_near_plane_correct": 61,
+        "near_plane_next_door_found": 15
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 176.13993759212016,
+          "first_rear_observation_s": 176.13993759212016
+        },
+        {
+          "ground_truth_time_s": 202.83992813208616,
+          "first_rear_observation_s": 202.83992813208616
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 203.13992802579364,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.29999989370747926
+        }
+      ]
+    },
+    "06501/02": {
+      "outcome": "completed",
+      "family": "post-door-clutter",
+      "counts": {
+        "candidates": 485,
+        "candidates_matching_a_door": 263,
+        "approach_scans": 402,
+        "tracked_ahead_correct": 32,
+        "tracked_ahead_wrong": 223,
+        "next_door_in_candidates": 147,
+        "nearest_ahead_correct": 100,
+        "nearest_ahead_wrong": 58,
+        "no_opening_ahead": 244,
+        "near_plane_scans": 64,
+        "tracked_near_plane_correct": 42,
+        "near_plane_next_door_found": 13
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 371.0798685232426,
+          "first_rear_observation_s": 371.0798685232426
+        },
+        {
+          "ground_truth_time_s": 401.5798577168367,
+          "first_rear_observation_s": 401.5798577168367
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 371.2798684523809,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.19999992913830056
+        },
+        {
+          "time_s": 401.8798576105442,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.29999989370747926
+        }
+      ]
+    },
+    "06502/02": {
+      "outcome": "completed",
+      "family": "post-door-clutter",
+      "counts": {
+        "candidates": 1008,
+        "candidates_matching_a_door": 404,
+        "approach_scans": 346,
+        "tracked_ahead_correct": 238,
+        "tracked_ahead_wrong": 106,
+        "next_door_in_candidates": 277,
+        "nearest_ahead_correct": 272,
+        "nearest_ahead_wrong": 38,
+        "near_plane_scans": 77,
+        "tracked_near_plane_correct": 43,
+        "near_plane_next_door_found": 23,
+        "no_opening_ahead": 36
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 608.5597843820861,
+          "first_rear_observation_s": 608.6597843466553
+        },
+        {
+          "ground_truth_time_s": 631.459776268424,
+          "first_rear_observation_s": 631.459776268424
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 631.8597761267007,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.3999998582767148
+        },
+        {
+          "time_s": 632.1597760204081,
+          "matched_door": null,
+          "delta_from_pass_s": null
+        }
+      ]
+    },
+    "06501/00": {
+      "outcome": "completed",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 1130,
+        "candidates_matching_a_door": 626,
+        "approach_scans": 229,
+        "tracked_ahead_correct": 225,
+        "tracked_ahead_wrong": 2,
+        "next_door_in_candidates": 223,
+        "nearest_ahead_correct": 219,
+        "nearest_ahead_wrong": 9,
+        "near_plane_scans": 57,
+        "tracked_near_plane_correct": 57,
+        "near_plane_next_door_found": 11,
+        "no_opening_ahead": 1
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 245.05991317318592,
+          "first_rear_observation_s": 245.05991317318592
+        },
+        {
+          "ground_truth_time_s": 257.8599086380385,
+          "first_rear_observation_s": 257.9599086026077
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 245.25991310232425,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.19999992913832898
+        },
+        {
+          "time_s": 258.159908531746,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.29999989370747926
+        },
+        {
+          "time_s": 280.5599005952381,
+          "matched_door": null,
+          "delta_from_pass_s": null
+        }
+      ]
+    },
+    "06502/00": {
+      "outcome": "completed",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 905,
+        "candidates_matching_a_door": 348,
+        "approach_scans": 393,
+        "tracked_ahead_correct": 104,
+        "tracked_ahead_wrong": 70,
+        "next_door_in_candidates": 89,
+        "nearest_ahead_correct": 89,
+        "no_opening_ahead": 265,
+        "nearest_ahead_wrong": 39,
+        "near_plane_scans": 76,
+        "tracked_near_plane_correct": 37,
+        "near_plane_next_door_found": 6
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 442.2398433106576,
+          "first_rear_observation_s": 442.3398432752267
+        },
+        {
+          "ground_truth_time_s": 472.4398326105442,
+          "first_rear_observation_s": 472.4398326105442
+        }
+      ],
+      "reported": []
+    },
+    "06503/00": {
+      "outcome": "completed",
+      "family": "variable-width-doors",
+      "counts": {
+        "candidates": 670,
+        "candidates_matching_a_door": 431,
+        "approach_scans": 520,
+        "tracked_ahead_correct": 342,
+        "tracked_ahead_wrong": 3,
+        "next_door_in_candidates": 320,
+        "nearest_ahead_correct": 319,
+        "nearest_ahead_wrong": 2,
+        "near_plane_scans": 71,
+        "tracked_near_plane_correct": 69,
+        "near_plane_next_door_found": 10,
+        "no_opening_ahead": 199
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 668.5597631235827,
+          "first_rear_observation_s": 668.759763052721
+        },
+        {
+          "ground_truth_time_s": 712.7597474631519,
+          "first_rear_observation_s": 712.7597474631519
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 668.3597631944444,
+          "matched_door": 0,
+          "delta_from_pass_s": -0.19999992913824371
+        },
+        {
+          "time_s": 713.5597471797051,
+          "matched_door": 1,
+          "delta_from_pass_s": 0.7999997165532022
+        }
+      ]
+    },
+    "06500/01": {
+      "outcome": "timeout",
+      "family": "offset-doors",
+      "counts": {
+        "candidates": 531,
+        "candidates_matching_a_door": 328,
+        "approach_scans": 871,
+        "tracked_ahead_correct": 348,
+        "tracked_ahead_wrong": 98,
+        "next_door_in_candidates": 294,
+        "nearest_ahead_wrong": 99,
+        "no_opening_ahead": 655,
+        "nearest_ahead_correct": 117
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        },
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        }
+      ],
+      "reported": []
+    },
+    "06503/02": {
+      "outcome": "timeout",
+      "family": "post-door-clutter",
+      "counts": {
+        "candidates": 689,
+        "candidates_matching_a_door": 340,
+        "approach_scans": 1117,
+        "tracked_ahead_correct": 145,
+        "tracked_ahead_wrong": 163,
+        "next_door_in_candidates": 154,
+        "nearest_ahead_wrong": 113,
+        "nearest_ahead_correct": 144,
+        "no_opening_ahead": 860,
+        "near_plane_scans": 34,
+        "tracked_near_plane_correct": 14,
+        "near_plane_next_door_found": 9
+      },
+      "passes": [
+        {
+          "ground_truth_time_s": 830.499705746882,
+          "first_rear_observation_s": 830.499705746882
+        },
+        {
+          "ground_truth_time_s": null,
+          "first_rear_observation_s": null
+        }
+      ],
+      "reported": [
+        {
+          "time_s": 830.7997056405895,
+          "matched_door": 0,
+          "delta_from_pass_s": 0.2999998937075361
+        }
+      ]
+    }
+  }
+}

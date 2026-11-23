@@ -1,0 +1,11 @@
+2026-11-19T23:29:35+00:00
+train: 953 runs, 296106 samples
+validation: 238 runs, 73409 samples
+train intent counts [follow, left, right, stop]: [114657, 93353, 84291, 3805]
+validation intent counts [follow, left, right, stop]: [31891, 17620, 22957, 941]
+repeat-previous-command validation MAE 0.0067
+epoch 01: validation MAE 0.0284, per intent {0: 0.02767169661819935, 1: 0.028599156066775322, 2: 0.028339866548776627, 3: 0.04859565570950508}
+epoch 02: validation MAE 0.0272, per intent {0: 0.027021201327443123, 1: 0.02699858695268631, 2: 0.02681562677025795, 3: 0.04643074795603752}
+epoch 03: validation MAE 0.0239, per intent {0: 0.022252580150961876, 1: 0.024532334879040718, 2: 0.024879617616534233, 3: 0.04572993889451027}
+    PID     ELAPSED S %CPU
+2732186       02:39 R  109

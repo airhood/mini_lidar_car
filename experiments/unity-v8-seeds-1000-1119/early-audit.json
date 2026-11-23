@@ -1,0 +1,43 @@
+{
+  "outcomes": {
+    "completed": 134,
+    "stopped": 13
+  },
+  "episodes_by_family": {
+    "network": 110,
+    "rooms": 37
+  },
+  "scans": 45669,
+  "scans_by_intent": {
+    "0": 18601,
+    "3": 594,
+    "1": 12948,
+    "2": 13526
+  },
+  "invalid_files": [],
+  "irregular_intervals": 0,
+  "contact_episodes": 0,
+  "last_front_clearance_m": {
+    "min": 0.3664,
+    "median": 0.3795,
+    "max": 0.3927
+  },
+  "last_interval_speed_m_s": {
+    "min": 0.0026,
+    "median": 0.0054,
+    "max": 0.0113
+  },
+  "stopped_episodes_with_front_clearance_below_0_15_m": [],
+  "paired_different_intents_same_pose": 59,
+  "paired_different_intents_pose_mismatch": 0,
+  "paired_initial_scan_mae_m": {
+    "min": 0.0,
+    "median": 0.0001,
+    "max": 0.0095
+  },
+  "paired_command_divergence_time_s": {
+    "min": 0.0,
+    "median": 15.9,
+    "max": 28.7
+  }
+}

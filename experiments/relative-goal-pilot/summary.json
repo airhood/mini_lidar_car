@@ -1,0 +1,179 @@
+{
+  "no-goal-1129": {
+    "attempted": 12,
+    "unavailable_geometries": 0,
+    "outcomes": {
+      "collision": 10,
+      "completed": 1,
+      "timeout": 1
+    },
+    "by_environment": {
+      "hall": {
+        "collision": 10,
+        "completed": 1,
+        "timeout": 1
+      }
+    },
+    "by_condition": {
+      "clear": {
+        "collision": 6
+      },
+      "clutter": {
+        "collision": 4,
+        "completed": 1,
+        "timeout": 1
+      }
+    },
+    "cases": {
+      "01129/01/hall-atrium/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 49.0,
+        "distance_m": 10.064
+      },
+      "01129/05/hall-atrium/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 55.8,
+        "distance_m": 11.822
+      },
+      "01129/05/hall-atrium/follow/clutter11": {
+        "outcome": "collision",
+        "recorded_seconds": 11.4,
+        "distance_m": 2.615
+      },
+      "01129/02/hall-chain/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 51.3,
+        "distance_m": 11.64
+      },
+      "01129/02/hall-chain/follow/clutter09": {
+        "outcome": "collision",
+        "recorded_seconds": 5.4,
+        "distance_m": 0.323
+      },
+      "01129/00/hall-partitions/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 62.8,
+        "distance_m": 13.515
+      },
+      "01129/04/hall-partitions/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 52.3,
+        "distance_m": 10.61
+      },
+      "01129/00/hall-partitions/follow/clutter08": {
+        "outcome": "collision",
+        "recorded_seconds": 41.9,
+        "distance_m": 10.571
+      },
+      "01129/04/hall-partitions/follow/clutter08": {
+        "outcome": "collision",
+        "recorded_seconds": 44.4,
+        "distance_m": 9.389
+      },
+      "01129/03/hall-wings/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 58.1,
+        "distance_m": 13.015
+      },
+      "01129/01/hall-atrium/follow/clutter12": {
+        "outcome": "completed",
+        "recorded_seconds": 33.7,
+        "distance_m": 8.864
+      },
+      "01129/03/hall-wings/follow/clutter10": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 14.603
+      }
+    }
+  },
+  "relative-goal-1129": {
+    "attempted": 12,
+    "unavailable_geometries": 0,
+    "outcomes": {
+      "collision": 9,
+      "completed": 1,
+      "timeout": 2
+    },
+    "by_environment": {
+      "hall": {
+        "collision": 9,
+        "completed": 1,
+        "timeout": 2
+      }
+    },
+    "by_condition": {
+      "clear": {
+        "collision": 4,
+        "completed": 1,
+        "timeout": 1
+      },
+      "clutter": {
+        "collision": 5,
+        "timeout": 1
+      }
+    },
+    "cases": {
+      "01129/01/hall-atrium/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 48.8,
+        "distance_m": 12.155
+      },
+      "01129/05/hall-atrium/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 47.0,
+        "distance_m": 11.942
+      },
+      "01129/05/hall-atrium/follow/clutter11": {
+        "outcome": "collision",
+        "recorded_seconds": 54.7,
+        "distance_m": 12.416
+      },
+      "01129/02/hall-chain/follow/clutter09": {
+        "outcome": "collision",
+        "recorded_seconds": 5.0,
+        "distance_m": 0.408
+      },
+      "01129/04/hall-partitions/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 42.8,
+        "distance_m": 10.419
+      },
+      "01129/00/hall-partitions/follow/clutter08": {
+        "outcome": "collision",
+        "recorded_seconds": 36.9,
+        "distance_m": 9.266
+      },
+      "01129/04/hall-partitions/follow/clutter08": {
+        "outcome": "collision",
+        "recorded_seconds": 51.8,
+        "distance_m": 12.293
+      },
+      "01129/03/hall-wings/follow/clear": {
+        "outcome": "collision",
+        "recorded_seconds": 43.9,
+        "distance_m": 11.663
+      },
+      "01129/03/hall-wings/follow/clutter10": {
+        "outcome": "collision",
+        "recorded_seconds": 16.3,
+        "distance_m": 3.611
+      },
+      "01129/02/hall-chain/follow/clear": {
+        "outcome": "completed",
+        "recorded_seconds": 36.7,
+        "distance_m": 10.586
+      },
+      "01129/01/hall-atrium/follow/clutter12": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 16.672
+      },
+      "01129/00/hall-partitions/follow/clear": {
+        "outcome": "timeout",
+        "recorded_seconds": 64.9,
+        "distance_m": 15.404
+      }
+    }
+  }
+}

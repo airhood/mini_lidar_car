@@ -1,0 +1,257 @@
+{
+  "0": {
+    "direction_choice": {
+      "all": {
+        "pairs": 16,
+        "outcomes": {
+          "completed": 32
+        },
+        "crossing": {
+          "other_side": 14,
+          "requested_side": 18
+        },
+        "both_requested_sides": 2,
+        "both_completed_as_requested": 2,
+        "same_side": 14,
+        "first_turn_both_correct_signs": 1,
+        "median_first_turn_right_minus_left": 0.005112726275000005,
+        "first_turn_left_lower_than_right": 14
+      },
+      "island": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 16
+        },
+        "crossing": {
+          "other_side": 6,
+          "requested_side": 10
+        },
+        "both_requested_sides": 2,
+        "both_completed_as_requested": 2,
+        "same_side": 6,
+        "first_turn_both_correct_signs": 1,
+        "median_first_turn_right_minus_left": 0.004638127799999994,
+        "first_turn_left_lower_than_right": 7
+      },
+      "fork": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 16
+        },
+        "crossing": {
+          "other_side": 8,
+          "requested_side": 8
+        },
+        "both_requested_sides": 0,
+        "both_completed_as_requested": 0,
+        "same_side": 8,
+        "first_turn_both_correct_signs": 0,
+        "median_first_turn_right_minus_left": 0.005847564850000002,
+        "first_turn_left_lower_than_right": 7
+      }
+    },
+    "doorway": {
+      "outcomes": {
+        "collision": 3,
+        "completed": 7
+      },
+      "doors_cleared": [
+        9,
+        8
+      ]
+    }
+  },
+  "25": {
+    "direction_choice": {
+      "all": {
+        "pairs": 16,
+        "outcomes": {
+          "completed": 31,
+          "timeout": 1
+        },
+        "crossing": {
+          "other_side": 16,
+          "requested_side": 16
+        },
+        "both_requested_sides": 0,
+        "both_completed_as_requested": 0,
+        "same_side": 16,
+        "first_turn_both_correct_signs": 1,
+        "median_first_turn_right_minus_left": -0.0025581542749999967,
+        "first_turn_left_lower_than_right": 6
+      },
+      "island": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 16
+        },
+        "crossing": {
+          "other_side": 8,
+          "requested_side": 8
+        },
+        "both_requested_sides": 0,
+        "both_completed_as_requested": 0,
+        "same_side": 8,
+        "first_turn_both_correct_signs": 0,
+        "median_first_turn_right_minus_left": -0.0065512386849999995,
+        "first_turn_left_lower_than_right": 1
+      },
+      "fork": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 15,
+          "timeout": 1
+        },
+        "crossing": {
+          "other_side": 8,
+          "requested_side": 8
+        },
+        "both_requested_sides": 0,
+        "both_completed_as_requested": 0,
+        "same_side": 8,
+        "first_turn_both_correct_signs": 1,
+        "median_first_turn_right_minus_left": 0.0094860789,
+        "first_turn_left_lower_than_right": 5
+      }
+    },
+    "doorway": {
+      "outcomes": {
+        "timeout": 5,
+        "completed": 4,
+        "collision": 1
+      },
+      "doors_cleared": [
+        10,
+        7
+      ]
+    }
+  },
+  "50": {
+    "direction_choice": {
+      "all": {
+        "pairs": 16,
+        "outcomes": {
+          "completed": 31,
+          "timeout": 1
+        },
+        "crossing": {
+          "other_side": 12,
+          "requested_side": 20
+        },
+        "both_requested_sides": 4,
+        "both_completed_as_requested": 4,
+        "same_side": 12,
+        "first_turn_both_correct_signs": 3,
+        "median_first_turn_right_minus_left": 0.041770035824999996,
+        "first_turn_left_lower_than_right": 16
+      },
+      "island": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 16
+        },
+        "crossing": {
+          "requested_side": 11,
+          "other_side": 5
+        },
+        "both_requested_sides": 3,
+        "both_completed_as_requested": 3,
+        "same_side": 5,
+        "first_turn_both_correct_signs": 2,
+        "median_first_turn_right_minus_left": 0.057920159325,
+        "first_turn_left_lower_than_right": 8
+      },
+      "fork": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 15,
+          "timeout": 1
+        },
+        "crossing": {
+          "other_side": 7,
+          "requested_side": 9
+        },
+        "both_requested_sides": 1,
+        "both_completed_as_requested": 1,
+        "same_side": 7,
+        "first_turn_both_correct_signs": 1,
+        "median_first_turn_right_minus_left": 0.0315672714585,
+        "first_turn_left_lower_than_right": 8
+      }
+    },
+    "doorway": {
+      "outcomes": {
+        "completed": 3,
+        "collision": 4,
+        "timeout": 3
+      },
+      "doors_cleared": [
+        9,
+        4
+      ]
+    }
+  },
+  "100": {
+    "direction_choice": {
+      "all": {
+        "pairs": 16,
+        "outcomes": {
+          "completed": 32
+        },
+        "crossing": {
+          "requested_side": 28,
+          "other_side": 4
+        },
+        "both_requested_sides": 12,
+        "both_completed_as_requested": 12,
+        "same_side": 4,
+        "first_turn_both_correct_signs": 12,
+        "median_first_turn_right_minus_left": 0.08256995475250001,
+        "first_turn_left_lower_than_right": 16
+      },
+      "island": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 16
+        },
+        "crossing": {
+          "requested_side": 14,
+          "other_side": 2
+        },
+        "both_requested_sides": 6,
+        "both_completed_as_requested": 6,
+        "same_side": 2,
+        "first_turn_both_correct_signs": 6,
+        "median_first_turn_right_minus_left": 0.089475501175,
+        "first_turn_left_lower_than_right": 8
+      },
+      "fork": {
+        "pairs": 8,
+        "outcomes": {
+          "completed": 16
+        },
+        "crossing": {
+          "requested_side": 14,
+          "other_side": 2
+        },
+        "both_requested_sides": 6,
+        "both_completed_as_requested": 6,
+        "same_side": 2,
+        "first_turn_both_correct_signs": 6,
+        "median_first_turn_right_minus_left": 0.07246862655,
+        "first_turn_left_lower_than_right": 8
+      }
+    },
+    "doorway": {
+      "outcomes": {
+        "completed": 3,
+        "collision": 4,
+        "timeout": 3
+      },
+      "doors_cleared": [
+        10,
+        5
+      ]
+    }
+  }
+}

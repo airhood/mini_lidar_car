@@ -1,0 +1,21 @@
+train: 36 runs, 14158 samples
+validation: 12 runs, 4507 samples
+train intent counts [follow, left, right, stop]: [14000, 0, 0, 158]
+validation intent counts [follow, left, right, stop]: [4455, 0, 0, 52]
+repeat-previous-command validation MAE 0.0063
+epoch 01: validation MAE 0.0509, per intent {0: 0.0498681515455246, 3: 0.1401900053024292}
+epoch 02: validation MAE 0.0420, per intent {0: 0.04163902997970581, 3: 0.07439348101615906}
+epoch 03: validation MAE 0.0421, per intent {0: 0.041820526123046875, 3: 0.06377717852592468}
+epoch 04: validation MAE 0.0405, per intent {0: 0.040274135768413544, 3: 0.05962507054209709}
+epoch 05: validation MAE 0.0379, per intent {0: 0.03765442222356796, 3: 0.057107601314783096}
+epoch 06: validation MAE 0.0361, per intent {0: 0.03592520207166672, 3: 0.05441540107131004}
+epoch 07: validation MAE 0.0347, per intent {0: 0.03444957733154297, 3: 0.0523466095328331}
+epoch 08: validation MAE 0.0321, per intent {0: 0.03184685483574867, 3: 0.051061417907476425}
+epoch 09: validation MAE 0.0333, per intent {0: 0.033062465488910675, 3: 0.04983735457062721}
+epoch 10: validation MAE 0.0319, per intent {0: 0.03166791796684265, 3: 0.04905156046152115}
+epoch 11: validation MAE 0.0319, per intent {0: 0.03166545182466507, 3: 0.04847940057516098}
+epoch 12: validation MAE 0.0350, per intent {0: 0.03486843407154083, 3: 0.04793481528759003}
+epoch 13: validation MAE 0.0307, per intent {0: 0.030459078028798103, 3: 0.0477474182844162}
+epoch 14: validation MAE 0.0316, per intent {0: 0.031434524804353714, 3: 0.04733145982027054}
+epoch 15: validation MAE 0.0309, per intent {0: 0.030713777989149094, 3: 0.046693556010723114}
+saved ./experiments/relative-goal-pilot/no-goal-1129/lower-policy.pt; best teacher-forced validation MAE 0.0307

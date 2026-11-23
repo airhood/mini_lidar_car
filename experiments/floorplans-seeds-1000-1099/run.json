@@ -1,0 +1,11 @@
+{
+  "generator": "mini_lidar_car-sim/Assets/Scripts/GraphFloorPlan.cs",
+  "first_seed": 1000,
+  "last_seed": 1099,
+  "map_count": 100,
+  "geometry_only": true,
+  "room_count_range": [6, 16],
+  "junction_count_range": [0, 9],
+  "independent_cycle_count_range": [0, 6],
+  "maps_with_cycles": 72
+}

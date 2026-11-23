@@ -1,0 +1,64 @@
+{
+  "layouts": 140,
+  "distinct_wall_geometries": 140,
+  "skipped_cases": [],
+  "families": {
+    "hall-partitions": 30,
+    "hall-atrium": 30,
+    "hall-chain": 30,
+    "hall-wings": 30,
+    "network": 15,
+    "rooms": 5
+  },
+  "doors": {
+    "2": 60,
+    "3": 30,
+    "4": 30
+  },
+  "initial_detour_heading": {
+    "east": 35,
+    "west": 39,
+    "south": 26,
+    "north": 35
+  },
+  "boxes_per_layout": {
+    "min": 0.0,
+    "median": 9.0,
+    "max": 13.0
+  },
+  "nearest_box_gap_m": {
+    "min": 0.182,
+    "median": 0.531,
+    "max": 2.889
+  },
+  "extra_detour_length_m": {
+    "min": 0.351,
+    "median": 1.053,
+    "max": 6.118
+  },
+  "detour_turns_over_35_deg": {
+    "0": 10,
+    "1": 22,
+    "2": 26,
+    "3": 19,
+    "4": 18,
+    "5": 27,
+    "6": 11,
+    "7": 1,
+    "8": 1
+  },
+  "graph_detour_checks": {
+    "network": {
+      "maps": 15,
+      "feasible_pairs": 113,
+      "attempted_pairs": 135,
+      "maps_without_a_feasible_pair": 0
+    },
+    "rooms": {
+      "maps": 5,
+      "feasible_pairs": 0,
+      "attempted_pairs": 45,
+      "maps_without_a_feasible_pair": 5
+    }
+  }
+}

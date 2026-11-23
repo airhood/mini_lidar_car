@@ -1,0 +1,10 @@
+No path seed 1000 task 6: Follow
+No path seed 1004 task 9: Follow
+No path seed 1006 task 1: Left
+No path seed 1009 task 8: Follow
+No path seed 1011 task 8: Left
+Map size/wall-count signatures: 12/12
+Clearance-valid tasks by follow,left,right,blocked: 37,32,35,11
+Failed paths: 5/120
+Pairs without an alternative intent: 0/48
+Planar rollouts: 115, contacts: 0, timeouts: 0, min clearance: 0.366

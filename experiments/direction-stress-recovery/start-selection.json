@@ -1,0 +1,373 @@
+{
+  "pairs": {
+    "4300/2": {
+      "family": "angled-entry",
+      "normal": [
+        -0.3012911,
+        5.54932,
+        -0.312788129,
+        22.09999216978458
+      ],
+      "policy": [
+        0.962452,
+        5.55049467,
+        -131.9793,
+        30.399989229024943
+      ],
+      "lateral_offset_m": 1.264,
+      "heading_difference_deg": 131.67,
+      "rollout_outcome": "timeout"
+    },
+    "4300/3": {
+      "family": "angled-entry",
+      "normal": [
+        0.1881391,
+        6.23728132,
+        17.85821,
+        50.93998195153061
+      ],
+      "policy": [
+        0.369344056,
+        6.24727058,
+        -3.44934654,
+        89.97996811933106
+      ],
+      "lateral_offset_m": 0.181,
+      "heading_difference_deg": 21.31,
+      "rollout_outcome": "completed"
+    },
+    "4300/4": {
+      "family": "wall-side",
+      "normal": [
+        0.06879154,
+        4.42689466,
+        -61.19055,
+        74.77997350481859
+      ],
+      "policy": [
+        -0.937828243,
+        4.43150234,
+        34.391983,
+        113.39995982142857
+      ],
+      "lateral_offset_m": 1.007,
+      "heading_difference_deg": 95.58,
+      "rollout_outcome": "collision"
+    },
+    "4300/5": {
+      "family": "wall-side",
+      "normal": [
+        0.09766281,
+        4.33719,
+        51.4460144,
+        106.67996220238095
+      ],
+      "policy": [
+        0.00930674,
+        4.34309769,
+        61.2398262,
+        141.239949957483
+      ],
+      "lateral_offset_m": 0.088,
+      "heading_difference_deg": 9.79,
+      "rollout_outcome": "completed"
+    },
+    "4301/2": {
+      "family": "angled-entry",
+      "normal": [
+        -0.124262109,
+        5.9541707,
+        -6.124261,
+        140.57995019132653
+      ],
+      "policy": [
+        -0.334978759,
+        5.941929,
+        -0.132672623,
+        175.55993779761903
+      ],
+      "lateral_offset_m": 0.211,
+      "heading_difference_deg": 5.99,
+      "rollout_outcome": "completed"
+    },
+    "4302/2": {
+      "family": "angled-entry",
+      "normal": [
+        -0.457099527,
+        5.92821026,
+        -20.2537079,
+        256.93990896400226
+      ],
+      "policy": [
+        0.8231365,
+        5.936218,
+        -142.165237,
+        361.5798718891723
+      ],
+      "lateral_offset_m": 1.28,
+      "heading_difference_deg": 121.91,
+      "rollout_outcome": "timeout"
+    },
+    "4302/3": {
+      "family": "angled-entry",
+      "normal": [
+        0.047634095,
+        4.33244228,
+        -35.12086,
+        278.05990148100904
+      ],
+      "policy": [
+        0.147968382,
+        4.337076,
+        144.314056,
+        438.37984467828795
+      ],
+      "lateral_offset_m": 0.1,
+      "heading_difference_deg": 179.43,
+      "rollout_outcome": "timeout"
+    },
+    "4302/4": {
+      "family": "wall-side",
+      "normal": [
+        -0.00411447044,
+        4.4164505,
+        -63.51287,
+        310.719889909297
+      ],
+      "policy": [
+        -0.9777271,
+        4.412399,
+        31.004158,
+        482.77982894699545
+      ],
+      "lateral_offset_m": 0.974,
+      "heading_difference_deg": 94.52,
+      "rollout_outcome": "collision"
+    },
+    "4302/5": {
+      "family": "wall-side",
+      "normal": [
+        -0.432365179,
+        5.36670256,
+        0.317606151,
+        348.3398765802154
+      ],
+      "policy": [
+        -1.00393033,
+        5.368447,
+        38.9336929,
+        518.3998163265306
+      ],
+      "lateral_offset_m": 0.572,
+      "heading_difference_deg": 38.62,
+      "rollout_outcome": "completed"
+    },
+    "4303/2": {
+      "family": "angled-entry",
+      "normal": [
+        -0.0514240637,
+        3.90329266,
+        1.94173229,
+        369.05986923894557
+      ],
+      "policy": [
+        0.0318357348,
+        3.91346025,
+        30.0582352,
+        550.4998049532313
+      ],
+      "lateral_offset_m": 0.083,
+      "heading_difference_deg": 28.12,
+      "rollout_outcome": "completed"
+    },
+    "4303/3": {
+      "family": "angled-entry",
+      "normal": [
+        0.133622929,
+        4.14677429,
+        -21.8433418,
+        397.67985909863944
+      ],
+      "policy": [
+        0.119857714,
+        4.139293,
+        159.293884,
+        601.4197869118481
+      ],
+      "lateral_offset_m": 0.014,
+      "heading_difference_deg": 178.86,
+      "rollout_outcome": "timeout"
+    },
+    "4303/4": {
+      "family": "wall-side",
+      "normal": [
+        -1.19282544,
+        4.37970972,
+        25.5243969,
+        427.99984835600907
+      ],
+      "policy": [
+        1.26390183,
+        4.38171673,
+        169.886917,
+        682.3197582482993
+      ],
+      "lateral_offset_m": 2.457,
+      "heading_difference_deg": 144.36,
+      "rollout_outcome": "collision"
+    },
+    "4303/5": {
+      "family": "wall-side",
+      "normal": [
+        1.17460072,
+        4.341378,
+        -25.7321262,
+        458.35983759920634
+      ],
+      "policy": [
+        -1.124209,
+        4.332432,
+        104.710213,
+        725.4597429634354
+      ],
+      "lateral_offset_m": 2.299,
+      "heading_difference_deg": 130.44,
+      "rollout_outcome": "timeout"
+    },
+    "4304/2": {
+      "family": "angled-entry",
+      "normal": [
+        -0.206012934,
+        4.26420355,
+        33.5806427,
+        486.57982760062356
+      ],
+      "policy": [
+        -1.61572778,
+        4.26571369,
+        1.16100633,
+        774.1597257086167
+      ],
+      "lateral_offset_m": 1.41,
+      "heading_difference_deg": 32.42,
+      "rollout_outcome": "collision"
+    },
+    "4304/3": {
+      "family": "angled-entry",
+      "normal": [
+        0.111048564,
+        4.132127,
+        -24.7109051,
+        512.9598182539683
+      ],
+      "policy": [
+        0.0819710642,
+        4.136081,
+        155.7565,
+        825.259707603458
+      ],
+      "lateral_offset_m": 0.029,
+      "heading_difference_deg": 179.53,
+      "rollout_outcome": "timeout"
+    },
+    "4304/4": {
+      "family": "wall-side",
+      "normal": [
+        0.022039704,
+        4.40709639,
+        -72.56768,
+        545.9198065759637
+      ],
+      "policy": [
+        -1.05091453,
+        4.42091274,
+        26.6552486,
+        872.9596907029478
+      ],
+      "lateral_offset_m": 1.073,
+      "heading_difference_deg": 99.22,
+      "rollout_outcome": "completed"
+    },
+    "4304/5": {
+      "family": "wall-side",
+      "normal": [
+        -0.0168863945,
+        4.405934,
+        72.35393,
+        579.1797947916666
+      ],
+      "policy": [
+        0.8326681,
+        4.40456963,
+        -14.4460258,
+        912.6396766439909
+      ],
+      "lateral_offset_m": 0.85,
+      "heading_difference_deg": 86.8,
+      "rollout_outcome": "completed"
+    },
+    "4305/2": {
+      "family": "angled-entry",
+      "normal": [
+        -0.384099543,
+        5.94282627,
+        -5.84802532,
+        615.0597820790816
+      ],
+      "policy": [
+        0.758303344,
+        5.944314,
+        -155.22403,
+        956.3996611394557
+      ],
+      "lateral_offset_m": 1.142,
+      "heading_difference_deg": 149.38,
+      "rollout_outcome": "collision"
+    },
+    "4305/3": {
+      "family": "angled-entry",
+      "normal": [
+        -0.125018924,
+        4.06647825,
+        -21.1227455,
+        635.159774957483
+      ],
+      "policy": [
+        -0.0607881062,
+        4.064809,
+        159.268585,
+        996.0396470946712
+      ],
+      "lateral_offset_m": 0.064,
+      "heading_difference_deg": 179.61,
+      "rollout_outcome": "timeout"
+    }
+  },
+  "rejected": [
+    {
+      "seed": 4301,
+      "task": 3,
+      "reason": "no matched displaced pose"
+    },
+    {
+      "seed": 4301,
+      "task": 4,
+      "reason": "no matched displaced pose"
+    },
+    {
+      "seed": 4301,
+      "task": 5,
+      "reason": "no matched displaced pose"
+    },
+    {
+      "seed": 4305,
+      "task": 4,
+      "reason": "teacher did not complete"
+    },
+    {
+      "seed": 4305,
+      "task": 5,
+      "reason": "teacher did not complete"
+    }
+  ]
+}

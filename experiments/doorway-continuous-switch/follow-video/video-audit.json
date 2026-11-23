@@ -1,0 +1,11 @@
+{
+  "seed": 6400,
+  "task": 0,
+  "recorded_frames": {
+    "forward": 1620,
+    "exit": 1340
+  },
+  "trajectory_and_commands_match_evaluation": true,
+  "success_playback_speed": 1,
+  "comparison_playback_speed": 2
+}

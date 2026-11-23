@@ -1,0 +1,11 @@
+{
+  "generator": "mini_lidar_car-sim/Assets/Scripts/GraphFloorPlan.cs",
+  "version": "teacher-v7",
+  "seed_start": 1000,
+  "seed_end": 1011,
+  "maps": 12,
+  "geometry_types": ["curved corridor network", "rooms and doors"],
+  "clearance_m": 0.4,
+  "check": {"missions": 120, "routes_found": 115, "planar_contacts": 0, "planar_timeouts": 0},
+  "unity_rollouts_verified": false
+}

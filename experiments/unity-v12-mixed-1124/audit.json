@@ -1,0 +1,106 @@
+{
+  "outcomes": {
+    "completed": 12,
+    "stopped": 1
+  },
+  "placements": {
+    "clear": 6,
+    "clutter12": 1,
+    "clutter07": 1,
+    "clutter11": 1,
+    "clutter13": 2,
+    "clutter08": 1,
+    "blocked": 1
+  },
+  "scans": 4543,
+  "usable_placements_by_family": {
+    "hall-atrium": {
+      "clear": 1,
+      "clutter12": 1
+    },
+    "hall-chain": {
+      "clear": 1,
+      "clutter07": 1
+    },
+    "hall-partitions": {
+      "clear": 2,
+      "clutter11": 1,
+      "clutter13": 1
+    },
+    "hall-wings": {
+      "clear": 2,
+      "clutter08": 1,
+      "clutter13": 1
+    },
+    "rooms": {
+      "blocked": 1
+    }
+  },
+  "usable_seed_count": 1,
+  "irregular_intervals": 0,
+  "contact_runs": 0,
+  "invalid_files": [],
+  "complete_pairs": 6,
+  "unmatched_complete_runs": 0,
+  "max_deviation_from_clear_m": {
+    "min": 0.6191,
+    "median": 1.2119,
+    "max": 3.4517
+  },
+  "pairs": [
+    {
+      "seed": 1124,
+      "task": 0,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 0.00015441537484669983,
+      "max_deviation_from_clear_m": 3.451736827324063,
+      "finish_difference_m": 0.011355924462698055
+    },
+    {
+      "seed": 1124,
+      "task": 1,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 1.6061911468006977e-05,
+      "max_deviation_from_clear_m": 0.6190775446642602,
+      "finish_difference_m": 0.0034622399018551207
+    },
+    {
+      "seed": 1124,
+      "task": 2,
+      "intent": "follow",
+      "family": "hall-atrium",
+      "start_difference_m": 1.6178998732495766e-05,
+      "max_deviation_from_clear_m": 0.8262531251065768,
+      "finish_difference_m": 0.0007259665844266031
+    },
+    {
+      "seed": 1124,
+      "task": 3,
+      "intent": "follow",
+      "family": "hall-chain",
+      "start_difference_m": 9.09433340053159e-05,
+      "max_deviation_from_clear_m": 0.8403017069586176,
+      "finish_difference_m": 0.01617180894365621
+    },
+    {
+      "seed": 1124,
+      "task": 4,
+      "intent": "follow",
+      "family": "hall-wings",
+      "start_difference_m": 6.296301215771075e-05,
+      "max_deviation_from_clear_m": 1.685718761526138,
+      "finish_difference_m": 0.03550020905701823
+    },
+    {
+      "seed": 1124,
+      "task": 5,
+      "intent": "follow",
+      "family": "hall-partitions",
+      "start_difference_m": 0.00015471728115809246,
+      "max_deviation_from_clear_m": 1.583442542442046,
+      "finish_difference_m": 0.0017268162538615853
+    }
+  ]
+}

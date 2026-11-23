@@ -1,0 +1,7 @@
+{
+  "synthetic_scans": 30,
+  "max_abs_motor_command_difference": {
+    "cnn": 6.287271499261227e-08,
+    "temporal": 4.9739589697006537e-08
+  }
+}

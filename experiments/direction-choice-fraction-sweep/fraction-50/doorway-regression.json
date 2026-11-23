@@ -1,0 +1,70 @@
+{
+  "evaluation_pairs": 10,
+  "guidance_audit": {
+    "scans": 8756,
+    "max_world_vector_difference": 0.0013405005060562682
+  },
+  "previous": {
+    "outcomes": {
+      "completed": 7,
+      "collision": 3
+    },
+    "doors_cleared": [
+      9,
+      8
+    ]
+  },
+  "candidate": {
+    "outcomes": {
+      "completed": 3,
+      "collision": 4,
+      "timeout": 3
+    },
+    "doors_cleared": [
+      9,
+      4
+    ]
+  },
+  "cases": {
+    "6400/0": {
+      "previous": "completed",
+      "candidate": "completed"
+    },
+    "6400/1": {
+      "previous": "collision",
+      "candidate": "collision"
+    },
+    "6401/0": {
+      "previous": "completed",
+      "candidate": "collision"
+    },
+    "6401/1": {
+      "previous": "completed",
+      "candidate": "timeout"
+    },
+    "6401/2": {
+      "previous": "collision",
+      "candidate": "timeout"
+    },
+    "6402/0": {
+      "previous": "completed",
+      "candidate": "completed"
+    },
+    "6402/1": {
+      "previous": "completed",
+      "candidate": "collision"
+    },
+    "6402/2": {
+      "previous": "completed",
+      "candidate": "completed"
+    },
+    "6403/0": {
+      "previous": "collision",
+      "candidate": "timeout"
+    },
+    "6403/2": {
+      "previous": "completed",
+      "candidate": "collision"
+    }
+  }
+}

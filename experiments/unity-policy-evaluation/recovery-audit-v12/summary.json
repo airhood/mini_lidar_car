@@ -1,0 +1,19 @@
+{
+  "episodes_total": 77,
+  "scans_total": 28675,
+  "open_graph_runs_considered": 38,
+  "scheduled_graph_impulses": 18,
+  "scheduled_by_condition": {
+    "box-approach": 8,
+    "clear": 9,
+    "box-exit": 1
+  },
+  "scheduled_by_seed": {
+    "1123": 10,
+    "1122": 8
+  },
+  "with_frames_after_scheduled_time": 18,
+  "recorded_frames_in_approximate_two_seconds_after_scheduled_impulse": 360,
+  "approximate_scan_share_pct": 1.26,
+  "method": "Unity System.Random replay of actual collection seed and mission; measured from first CSV scan (phase error <0.10s). The window labels are temporal candidates, not recognized successful recoveries."
+}

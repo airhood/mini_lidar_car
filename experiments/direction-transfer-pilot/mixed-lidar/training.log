@@ -1,0 +1,22 @@
+train: 104 runs, 20716 samples
+validation: 22 runs, 4464 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [20150, 0, 0, 566]
+validation intent counts [follow, left, right, stop]: [4340, 0, 0, 124]
+repeat-previous-command validation MAE 0.0095
+epoch 01: validation MAE 0.0514, per intent {0: 0.049688149243593216, 3: 0.11036182194948196}
+epoch 02: validation MAE 0.0441, per intent {0: 0.042887721210718155, 3: 0.08804985135793686}
+epoch 03: validation MAE 0.0377, per intent {0: 0.03665010631084442, 3: 0.07610145211219788}
+epoch 04: validation MAE 0.0363, per intent {0: 0.034889280796051025, 3: 0.08712901175022125}
+epoch 05: validation MAE 0.0348, per intent {0: 0.034049663692712784, 3: 0.0619492307305336}
+epoch 06: validation MAE 0.0324, per intent {0: 0.03144701197743416, 3: 0.06584468483924866}
+epoch 07: validation MAE 0.0299, per intent {0: 0.029088715091347694, 3: 0.05897819995880127}
+epoch 08: validation MAE 0.0296, per intent {0: 0.02869812399148941, 3: 0.059510596096515656}
+epoch 09: validation MAE 0.0317, per intent {0: 0.030463209375739098, 3: 0.07390154898166656}
+epoch 10: validation MAE 0.0265, per intent {0: 0.02564655803143978, 3: 0.056886736303567886}
+epoch 11: validation MAE 0.0281, per intent {0: 0.027233513072133064, 3: 0.057517725974321365}
+epoch 12: validation MAE 0.0295, per intent {0: 0.028955865651369095, 3: 0.048818204551935196}
+epoch 13: validation MAE 0.0329, per intent {0: 0.03197961673140526, 3: 0.06482449173927307}
+epoch 14: validation MAE 0.0267, per intent {0: 0.025945419445633888, 3: 0.0533602312207222}
+epoch 15: validation MAE 0.0325, per intent {0: 0.032029565423727036, 3: 0.04914823919534683}
+saved ./experiments/direction-transfer-pilot/mixed-lidar/lower-policy.pt; best teacher-forced validation MAE 0.0265

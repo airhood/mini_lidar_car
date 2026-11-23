@@ -1,0 +1,25 @@
+added 11 paired policy restarts
+large-arena data: 15 training and 3 validation runs
+matched 15 normal restarts: 1258 windows, per-run counts [46, 22, 114, 118, 21, 40, 110, 110, 60, 119, 110, 113, 115, 40, 120]
+train: 145 runs, 31840 samples
+validation: 25 runs, 6145 samples
+yaw-disturbed training runs: 0
+train intent counts [follow, left, right, stop]: [31043, 0, 0, 797]
+validation intent counts [follow, left, right, stop]: [6002, 0, 0, 143]
+repeat-previous-command validation MAE 0.0079
+epoch 01: validation MAE 0.0421, per intent {0: 0.04069226607680321, 3: 0.10318467020988464}
+epoch 02: validation MAE 0.0375, per intent {0: 0.036449432373046875, 3: 0.08229555189609528}
+epoch 03: validation MAE 0.0388, per intent {0: 0.037673577666282654, 3: 0.08804680407047272}
+epoch 04: validation MAE 0.0287, per intent {0: 0.027607386931777, 3: 0.07341070473194122}
+epoch 05: validation MAE 0.0278, per intent {0: 0.026817036792635918, 3: 0.07062076032161713}
+epoch 06: validation MAE 0.0258, per intent {0: 0.024839237332344055, 3: 0.06494693458080292}
+epoch 07: validation MAE 0.0312, per intent {0: 0.029641905799508095, 3: 0.09854756295681}
+epoch 08: validation MAE 0.0288, per intent {0: 0.027756784111261368, 3: 0.07353764027357101}
+epoch 09: validation MAE 0.0244, per intent {0: 0.023527756333351135, 3: 0.06041869521141052}
+epoch 10: validation MAE 0.0243, per intent {0: 0.023576291278004646, 3: 0.05336913466453552}
+epoch 11: validation MAE 0.0229, per intent {0: 0.022197004407644272, 3: 0.0522988997399807}
+epoch 12: validation MAE 0.0227, per intent {0: 0.021988745778799057, 3: 0.053659588098526}
+epoch 13: validation MAE 0.0219, per intent {0: 0.021215341985225677, 3: 0.04977535083889961}
+epoch 14: validation MAE 0.0224, per intent {0: 0.02116522192955017, 3: 0.07580151408910751}
+epoch 15: validation MAE 0.0216, per intent {0: 0.020836446434259415, 3: 0.05389618128538132}
+saved ./experiments/large-arena-pilot/temporal-model/lower-policy.pt; best teacher-forced validation MAE 0.0216
