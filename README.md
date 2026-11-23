@@ -12,3 +12,5 @@
 - [실험 결과와 로그](experiments)
 
 Unity 프로젝트는 `mini_lidar_car-sim` 폴더에 있다.
+
+[원본 LiDAR CSV 및 렌더링 프레임](https://github.com/airhood/mini_lidar_car/releases/tag/research-data-v1)은 저장소 루트에서 `tar --zstd -xf 파일명.tar.zst`로 풀면 원래 경로로 복원된다. Release의 `SHA256SUMS.txt`에 압축 파일의 체크섬을 기록했다.
